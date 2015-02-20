@@ -30,9 +30,9 @@ $(document).ready(function () {
 
     $('.no-touch .sliderTabs-slide').rollover({});
 
-    tooltips();
+    //tooltips();
 
-    require(['essentials'], function () {
+    //require(['essentials'], function () {
 
         //Variables
         FFAPI.variables.detail.slider = document.getElementsByClassName('sliderProductModule')[0];
@@ -69,7 +69,7 @@ $(document).ready(function () {
 
         //adds click event to all slides
         $('.sliderProductModule').on('click', '.sliderProduct-slide', FFAPI.methods.detail.slideClick);
-    });
+    //});
 });
 
 $('.js-input-text-clear').on("click", function () {
@@ -150,72 +150,4 @@ $(document).ready(function() {
             $(".sizedropdown").trigger("mouseup");
         }
     }
-
-    // Follow buttons
-    FFAPI.follow = {
-        events: {
-            'click': { 'c': 'follow', 'n': 'following' },
-            'mouseenter': { 'c': 'following', 'n': 'unfollow' },
-            'mouseleave': { 'c': 'unfollow', 'n': 'following' },
-            'unfollowclick': { 'c': 'unfollow', 'n': 'follow' }
-        },
-
-        start: function() {
-            var buttons = document.querySelectorAll('.global-button-a.js-follow');
-            for (var i = 0; i < buttons.length; i++) {
-                this.bind(buttons[i]);
-                $(buttons[i]).on('click', this.handler);
-            }
-        },
-
-        bind: function(el) {
-            if(FFAPI.methods.hasClass(el, 'follow')) {
-                $(el).off('mouseenter', this.handler).off('mouseleave', this.handler).tipsy('enable');
-            } 
-
-            if(FFAPI.methods.hasClass(el, 'following')) {
-                $(el).on('mouseenter', this.handler).on('mouseleave', this.handler).tipsy('disable');
-            }
-        },
-
-        handler: function(e) {
-            var evt = e ? e:window.event;
-            var evttype = evt.type;
-            var issue;
-
-            if(evttype === 'click' && !FFAPI.methods.hasClass(this, 'follow')) {
-                evttype = 'unfollowclick';
-                issue = FFAPI.follow.events[evttype]['c'];
-            } else {
-                issue = FFAPI.follow.events[evttype]['n'];
-            }
-
-            var span = this.querySelectorAll('span')[0];
-            var text = this.getAttribute('data-' + FFAPI.follow.events[evttype]['n']);
-
-            if(text) { span.textContent = text; }
-
-            FFAPI.methods.removeClass(this, FFAPI.follow.events[evttype]['c']);
-            FFAPI.methods.addClass(this, FFAPI.follow.events[evttype]['n']);
-
-            FFAPI.follow[evt.type](this, issue);
-
-            // Prevents default action
-            if (evt.preventDefault) evt.preventDefault();
-            evt.returnValue = false;
-            return false;
-        },
-
-        click: function(tip, issue) {
-            this.bind(tip);
-        },
-
-        mouseenter: function(tip, issue) {
-        },
-
-        mouseleave: function(tip, issue) {
-        }
-    };
-
-    FFAPI.follow.start();
 });
