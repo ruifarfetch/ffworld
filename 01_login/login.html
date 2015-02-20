@@ -59,6 +59,10 @@
 	<!-- CSS global_pos-->
 	<link rel="stylesheet" type="text/css" href="../static/css/global_pos.css"/>
 
+	<link rel="import" href="http://www.polymer-project.org/components/paper-ripple/paper-ripple.html">
+	<link rel="import" href="http://www.polymer-project.org/components/core-icons/core-icons.html">
+	<link rel="import" href="http://www.polymer-project.org/components/font-roboto/roboto.html">
+
 	<!-- Add your scripts here -->
 	<script type="text/javascript" src="../static/js/login.js"></script>
 </head>
@@ -80,12 +84,14 @@
 		</header>-->
 		<main class="login">
 			<section>
-				<video class="intro-video" no-controls autoplay muted loop>
+				<!--<video class="intro-video" no-controls autoplay muted loop>
 						<source src="../static/video/video.mp4" type="video/mp4">
-				</video>
+				</video>-->
+				<div class="inatro-video">
+				</div>
 				<div class="overlay-mask-video"></div>
 
-				<div class="baseline col12 alpha omega">
+				<div class="baseline col12 alpha omega main-content">
 					<div class="forms-wrapper">
 						<div class="logo-white"></div>
 						<div class="form-login mt60">
@@ -138,6 +144,12 @@
 						</div>
 					</div>
 				</div>
+				<!-- Boutique button -->
+				<div class="material-btn bgcolor-beige">
+			      	<span class="store-icon-white"></span>
+			      	<!-- <core-icon icon="add"></core-icon> -->
+			      	<paper-ripple class="circle recenteringTouch" fit></paper-ripple>
+			   	</div>
 			</section>
 		</main>
 					
