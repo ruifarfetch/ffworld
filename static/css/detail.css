@@ -184,8 +184,7 @@
   font-size: 2em;
   height: 35px;
   padding-left: 10px;
-  display: table;
-  border-top: 1px solid #ccc; }
+  display: table; }
 
 .productDetailModule-socialIcons-title {
   margin-top: 4px; }
@@ -462,7 +461,7 @@
   line-height: 0px; }
   @media (min-width: 768px) and (max-width: 1024px) {
     .productDetail-boutique-image img {
-      margin-top: -130px; } }
+       } }
 
 .productDetail-boutique-description {
   margin: 0 auto;
