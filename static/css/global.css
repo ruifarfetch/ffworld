@@ -1706,19 +1706,3 @@ figcaption{
 	color: #b3b4b6;
 
 }
-
-.sub-bg{
-	background-color: #eeeeee;
-	z-index: 1;
-}
-
-.close-footer{
-	position: fixed;
-	left: 0;
-	right: 0;
-	top: 100%;
-	margin-top:-50px;
-	background-color: #bfbfbf;
-	height: 50px;
-	z-index: 0
-}
