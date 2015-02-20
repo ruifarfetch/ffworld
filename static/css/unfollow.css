@@ -57,6 +57,10 @@ top: 11px;
   background-size: cover;
 }
 
+.news img {
+  height: 20px;
+}
+
 .FF-circle-choices {
   padding-top: 48px;
   margin-top: 42px;
