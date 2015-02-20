@@ -1443,6 +1443,8 @@ Logo
 
 .pb30 {
   padding-bottom: 30px; }
+.pb50 {
+padding-bottom: 50px; }
 
 .pl10 {
   padding-left: 10px; }
@@ -1673,4 +1675,46 @@ main.login {
 .FF-card-copy .button-style-two-app,
 .FF-card-copy .button-style-three-app {
 	width: auto;
+}
+
+
+.text-wrap{
+	max-width: 555px;
+	margin: 0 auto;
+}
+.text-wrap blockquote{
+	font-family: "Polaris-Bold", sans-serif;
+	font-style: italic;
+	margin: 30px 0;
+	border-left: 3px solid #7db1b1;
+	padding: 0;
+	padding-left: 20px;
+	font-size: 16px;
+	line-height: 23px;
+}
+
+figure{
+	max-width: 90%;
+	margin: 30px auto;
+}
+figcaption{
+	font-size: 11px;
+	font-style: italic;
+	color: #b3b4b6;
+
+}
+
+.sub-bg{
+	background-color: #eeeeee;
+	z-index: 1;
+}
+
+.close-footer{
+	position: fixed;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #bfbfbf;
+	height: 50px;
+	z-index: 0
 }
