@@ -96,9 +96,6 @@ top: 11px;
   .recommend-you{
     width: 100%;
     padding: 10px 10px 0;
-    font-family: "Polaris-Bold", sans-serif;
-    font-size: 9px;
-    text-transform: uppercase;
   }
 
   .social-header{
@@ -130,4 +127,14 @@ top: 11px;
     padding:0 50px;  
     display:table-cell;
     vertical-align: middle;
+  }
+
+  .app-bg{
+    background-image: url(../images/_home/large_01.jpg);
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height:239px;
   }
