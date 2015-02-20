@@ -59,36 +59,192 @@
 	<!-- CSS global_pos-->
 	<link rel="stylesheet" type="text/css" href="../static/css/global_pos.css"/>
 
+	<!-- Pag css-->
+	<link rel="stylesheet" type="text/css" href="../static/css/unfollow.css"/>
+
 	<!-- Add your scripts here -->
 	<script type="text/javascript"></script>
 </head>
 <body>
 	<header>
 	</header>
+	
+	<style>
+	.big-shop{
+		background-image: url(../static/images/_home/shop_1.jpg);
+		background-position: center center;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		height: 275px;
 
+		text-align: center;
+		color: #fff;
+		display: table;
+	}
+	.big-shop span{
+		max-width: 300px;
+		padding:0 50px;  
+		display:table-cell;
+		vertical-align: middle;
+	}
+	.big-shop p{
+		color: #B3B3B3;
+	}
+
+	.button-style-one-app,
+	.button-style-one-app:active
+	.button-style-one-app:hover {
+		display: inline-block;
+		background-color: white;
+		font-family: "Polaris-Book", sans-serif;
+		color: #fff !important;
+		background-color: transparent;
+		padding: 8px 12px 8px 20px;
+		-webkit-border-radius: 20px;
+		-moz-border-radius: 20px;
+		-ms-border-radius: 20px;
+		-o-border-radius: 20px;
+		border-radius: 20px;
+		border: 0;
+		outline: 0;
+		-webkit-transition: all 0.3s ease-in-out;
+		-moz-transition: all 0.3s ease-in-out;
+		-o-transition: all 0.3s ease-in-out;
+		-ms-transition: all 0.3s ease-in-out;
+		transition: all 0.3s ease-in-out;
+		border: 1px solid #fff;
+	}
+
+	.button-style-two-app,
+	.button-style-two-app:active
+	.button-style-two-app:hover {
+		display: inline-block;
+		background-color: white;
+		font-family: "Polaris-Book", sans-serif;
+		color: #222 !important;
+		background-color:  #fff;
+		padding: 8px 12px 8px 20px;
+		-webkit-border-radius: 20px;
+		-moz-border-radius: 20px;
+		-ms-border-radius: 20px;
+		-o-border-radius: 20px;
+		border-radius: 20px;
+		border: 0;
+		outline: 0;
+		-webkit-transition: all 0.3s ease-in-out;
+		-moz-transition: all 0.3s ease-in-out;
+		-o-transition: all 0.3s ease-in-out;
+		-ms-transition: all 0.3s ease-in-out;
+		transition: all 0.3s ease-in-out;
+		border: 1px solid #fff;
+	}
+
+	.button-style-three-app,
+	.button-style-three-app:active
+	.button-style-three-app:hover {
+		display: inline-block;
+		background-color: white;
+		font-family: "Polaris-Book", sans-serif;
+		color: #84878b !important;
+		background-color: transparent;
+		padding: 8px 12px 8px 20px;
+		-webkit-border-radius: 20px;
+		-moz-border-radius: 20px;
+		-ms-border-radius: 20px;
+		-o-border-radius: 20px;
+		border-radius: 20px;
+		border: 0;
+		outline: 0;
+		-webkit-transition: all 0.3s ease-in-out;
+		-moz-transition: all 0.3s ease-in-out;
+		-o-transition: all 0.3s ease-in-out;
+		-ms-transition: all 0.3s ease-in-out;
+		transition: all 0.3s ease-in-out;
+		border: 1px solid #e3e2e1;
+	}
+
+
+	.recommend-you{
+		width: 100%;
+		padding: 10px 10px 0;
+		font-family: "Polaris-Bold", sans-serif;
+		font-size: 9px;
+		text-transform: uppercase;
+	}
+
+	.social-header{
+		
+	}
+	.social-header .glyphs{
+		font-size:25px; 
+	}
+	.social-header .icon-twitter{
+		color: #5ba8df;
+	}
+
+	</style>
 
 	<main>
 		<section>
-			<div class="field container">
+			<div class="field container alpha omega">
 
 				<div class="baseline col12 alpha omega pb10" style="background-color:green; min-height:300px;">					
 					<!-- parallax -->
 				</div>
 
-				<div class="col12 pl20 pr20">
+				<div class="col12 pl10 pr10">
 					<div class="field">				
-						<div class="baseline col4 alpha  pr20" style="background-color:green; min-height:300px;">					
-							<!-- col 1 -->
+						<div class="baseline col4 alpha  pr10">					
+							<!-- card product -->
+							<div class="cards pa0 mb10">
+								<div class="recommend-you">
+									RECOMMENDED FOR YOU
+								</div>
+								<a href="#prod"><img class="pa10" src="../static/images/pro_1.jpg"></a>
+								<div class="pl10 pr10 pt10 pb20 FF-card-copy">
+									<h3><a href="#prod">Mary Katrantzou</a></h3>
+									<p>Melina shopper tote</p>
+								</div>
+							</div>
+							<!-- card product -->
+
+							<!-- card product -->
+							<div class="cards pa0 mb10">
+								<div class="social-header">
+									<span class="icon-twitter glyphs pa10 float-left"></span>
+									<div class="social-header-copy">
+										Farfetch
+										<span>@Fareftch  ·  Feb 5</span>
+									</div>
+
+								</div>
+								<a href="#prod"><img class="pa10" src="../static/images/pro_1.jpg"></a>
+								<div class="pl10 pr10 pt10 pb20 FF-card-copy">
+									<h3><a href="#prod">Mary Katrantzou</a></h3>
+									<p>Melina shopper tote</p>
+								</div>
+							</div>
+							<!-- card product -->
+
 						</div>
-						<div class="baseline col8 alpha omega" style="background-color:blue; min-height:300px;">					
-
-							
-							<div class=""></div>
-
-
+						<div class="cards baseline col8 mb10 alpha omega big-shop">
+							<span>
+								<h2>Wrong Weather</h2>
+								<p class="mb20">
+								Valentine’s day is just around the corner.
+								Get inspired by this season’s best pieces from feathers. 
+								</p>
+								<a href="" class="button-style-one-app" title="Follow to receive updates from your favourite boutiques.">Visit the store</a>
+								<a href="" class="button-style-two-app" title="Follow to receive updates from your favourite boutiques.">Visit the store</a>
+								<a href="" class="button-style-three-app" title="Follow to receive updates from your favourite boutiques.">Visit the store</a>
+							</span>
 						</div>
-						<div class="baseline col4 alpha pr20" style="background-color:red; min-height:300px;">					
-							<!-- col 2 -->
+						<div class="baseline col4 alpha pr10" style="background-color:red; min-height:300px;">					
+							<div class="cards card-twitter pa0">
+								
+							</div>
 						</div>
 						<div class="baseline col4 alpha omega" style="background-color:yellow; min-height:300px;">					
 							<!-- col 3 -->
