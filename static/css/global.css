@@ -27,7 +27,9 @@ body {
   line-height: 1.58em;
   position: relative;
   padding-top: 75px;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  background-color: #eeeeee; 
+   }
 
 .wrapper {
   background-color: whitesmoke;
@@ -55,24 +57,10 @@ header {
   position: absolute; }
 
 main {
-  width: 100%;
-  display: inline-block;
-  padding-bottom: 316px; }
-  @media (max-width: 1024px) {
-    main {
-      padding-bottom: 320px; } }
-  @media (max-width: 767px) {
-    main {
-      padding-bottom: 340px; } }
+}
 
 footer {
-  background-color: #222222;
-  width: 100%;
-  margin-top: 20px;
-  padding: 10px 0;
-  position: relative;
-  min-height: 296px;
-  clear: both; }
+ }
 
 /* ==========================================================================
    Grid
