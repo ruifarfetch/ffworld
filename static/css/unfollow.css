@@ -130,6 +130,7 @@ top: 11px;
   }
 
   .app-bg{
+    color: #fff;
     background-image: url(../images/_home/large_01.jpg);
     background-position: center center;
     -webkit-background-size: cover;
@@ -137,4 +138,15 @@ top: 11px;
     -o-background-size: cover;
     background-size: cover;
     height:239px;
+  }
+  .center-info.app-bg{
+    width: 100%;
+  }
+  .center-info.app-bg span{
+    padding:0 30px;  
+
+  }
+
+  .app-bg h4{
+    color:#222;
   }
