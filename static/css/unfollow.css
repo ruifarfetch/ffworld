@@ -87,13 +87,7 @@ top: 11px;
 
     text-align: center;
     color: #fff;
-    display: table;
-  }
-  .big-shop span{
-    max-width: 300px;
-    padding:0 50px;  
-    display:table-cell;
-    vertical-align: middle;
+    
   }
   .big-shop p{
     color: #B3B3B3;
@@ -125,4 +119,15 @@ top: 11px;
   .social-header-copy span{
     font-family: "Polaris-Book", sans-serif;
     color:#4a4f55;
+  }
+
+
+  .center-info{
+    display: table;
+  }
+
+   .center-info span{
+    padding:0 50px;  
+    display:table-cell;
+    vertical-align: middle;
   }

@@ -1615,9 +1615,9 @@ main.login {
     -o-transition: all 0.3s ease-in-out;
     -ms-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-    border: 1px solid #fff;
     width: 100%;
     text-align: center;
+    border: 1px solid #fff!important;
 }
 
 .button-style-one-app:hover,
@@ -1646,6 +1646,16 @@ main.login {
   .button-style-three-app,
   .button-style-three-app:active
   .button-style-three-app:hover {
-    background-color: transparent;
-    color: #84878b !important;
+  	background-color: transparent;
+  	color: #84878b !important;
+  	border-color:#84878b !important;
   }
+
+.big-shop .button-style-one-app,
+.big-shop .button-style-two-app,
+.big-shop .button-style-three-app,
+.FF-card-copy .button-style-one-app,
+.FF-card-copy .button-style-two-app,
+.FF-card-copy .button-style-three-app {
+	width: auto;
+}
