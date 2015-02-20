@@ -597,13 +597,13 @@ label {
     -ms-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out; }
     .input_white:focus::-webkit-input-placeholder {
-      color: #222222; }
+      color: white; }
     .input_white:focus:-moz-placeholder {
-      color: #222222; }
+      color: white; }
     .input_white:focus::-moz-placeholder {
-      color: #222222; }
+      color: white; }
     .input_white:focus:-ms-input-placeholder {
-      color: #222222; }
+      color: white; }
 
 .input-text-clear-container .input_black {
   padding-right: 39px; }
@@ -620,7 +620,7 @@ label {
   .form-search.form-search_focus.form-search_white .glyphs, .form-search.form-search_focus .form-search_black .glyphs {
     color: #222222 !important; }
   .form-search .input_black, .form-search .input_white {
-    padding: 9px 25px 9px 30px; }
+    padding: 9px 25px 9px 20px; }
   .form-search .input-text-clear {
     position: absolute;
     cursor: pointer;
@@ -644,13 +644,13 @@ label {
   .input-suggest .input_white {
     text-overflow: ellipsis; }
     .input-suggest .input_white::-webkit-input-placeholder {
-      color: #222222; }
+      color: white; }
     .input-suggest .input_white:-moz-placeholder {
-      color: #222222; }
+      color: white; }
     .input-suggest .input_white::-moz-placeholder {
-      color: #222222; }
+      color: white; }
     .input-suggest .input_white:-ms-input-placeholder {
-      color: #222222; }
+      color: white; }
   .input-suggest .input_black {
     border-bottom: 1px solid white; }
   .input-suggest span {
@@ -1530,8 +1530,8 @@ background-repeat: no-repeat;
   position: fixed; right: -63%; bottom: 0;
   min-width: 100%; min-height: 100%;
   width: auto; height: auto; z-index: -100;
-  background: url(polina.jpg) no-repeat;
   background-size: cover;
+  z-index: 9;
 }
 
 
@@ -1541,9 +1541,51 @@ background-repeat: no-repeat;
   position: absolute;
   background-color: #222222;
   opacity: 0.75;
+  z-index: 10;
 }
 
 
 main.login {
   margin-top: 0 !important;
 }
+
+
+
+.forms-wrapper {
+  height:300px;
+  width:350px;
+  margin:0 auto;
+  z-index: 99;
+  position: relative;
+  margin-top: 35%;
+}
+
+
+.logo-white {
+  background-image: url('../images/logo-white.svg');
+  background-size: 334px 40px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  text-align: center;
+  margin: 0 auto !important;
+  width: 299px;
+  height: 44px;
+}
+
+
+
+.mt60 {
+  margin-top: 60px;
+}
+
+.mt50 {
+  margin-top: 50px;
+}
+
+
+.input_white:focus {
+  background-color: rgba(255, 255, 255, .4) !important;
+  color: white !important;
+}
+
+
