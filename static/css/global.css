@@ -67,6 +67,13 @@
 input {
     -webkit-appearance: none;
     border-radius: 0;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+  	-webkit-tap-highlight-color: transparent;
+
+  	-webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
+    -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+    -webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
+    -webkit-user-select: none;
 }
 
 body {
