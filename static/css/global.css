@@ -61,7 +61,14 @@
   font-weight: normal;
   font-style: normal; 
 
-} 
+}
+
+
+input {
+    -webkit-appearance: none;
+    border-radius: 0;
+}
+
 body {
   font-family: "Polaris-Book", sans-serif;
   line-height: 1.58em;
