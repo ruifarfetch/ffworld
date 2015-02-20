@@ -39,10 +39,26 @@ top: 11px;
   width: 125px;
 }
 
+.bou-ambassador {
+  height:239px;
+  background-image: url(../images/nick_wooster.jpg); 
+  background-size: cover;
+}
+
+.bou-ambassador-title {
+  position: absolute;
+  top: 215px;
+
+}
+
 .choices {
   height:239px;
   background-image: url(../images/choices.jpg); 
   background-size: cover;
+}
+
+.news img {
+  height: 20px;
 }
 
 .FF-circle-choices {
@@ -75,13 +91,7 @@ top: 11px;
 
     text-align: center;
     color: #fff;
-    display: table;
-  }
-  .big-shop span{
-    max-width: 300px;
-    padding:0 50px;  
-    display:table-cell;
-    vertical-align: middle;
+    
   }
   .big-shop p{
     color: #B3B3B3;
@@ -90,9 +100,6 @@ top: 11px;
   .recommend-you{
     width: 100%;
     padding: 10px 10px 0;
-    font-family: "Polaris-Bold", sans-serif;
-    font-size: 9px;
-    text-transform: uppercase;
   }
 
   .social-header{
@@ -113,4 +120,54 @@ top: 11px;
   .social-header-copy span{
     font-family: "Polaris-Book", sans-serif;
     color:#4a4f55;
+  }
+
+
+  .center-info{
+    display: table;
+  }
+
+   .center-info span{
+    padding:0 50px;  
+    display:table-cell;
+    vertical-align: middle;
+  }
+
+  .app-bg{
+    color: #fff;
+    background-image: url(../images/_home/large_01.jpg);
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height:239px;
+  }
+  .center-info.app-bg{
+    width: 100%;
+  }
+  .center-info.app-bg span{
+    padding:0 30px;  
+
+  }
+
+  .app-bg h4{
+    color:#222;
+  }
+
+  .bg-home{
+    background-image: url(../images/_home/bg.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
+  .bg-home-info{
+    min-height: 400px;
+  }
+  .bg-home-info span{
+    color: #fff;
+  }
+  .bg-home-info p{
+    font-size: 1.1rem;
   }
