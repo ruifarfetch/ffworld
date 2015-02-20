@@ -1548,19 +1548,30 @@ background-repeat: no-repeat;
 }
 
 
+.fworld-icon {
+    background-image: url('../images/fworld-black.svg');
+    height:30px;
+    background-size: 25px 28px;
+    width: 30px;
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.fworld-icon-white {
+    background-image: url('../images/fworld-white.svg');
+    height:30px;
+    background-size: 25px 28px;
+    width: 30px;
+    background-repeat: no-repeat;
+    display: block;
+}
+
+
 .back-button span {
   font-size: 26px;
 }
 
 .intro-video {
-  /*position: fixed; 
-  right: 0; 
-  bottom: 0;
-  min-width: 100%; 
-  min-height: 100%;
-  width: auto; 
-  height: auto; 
-  z-index: -100;*/
   background: url('../images/video.gif') no-repeat center center fixed;
   position: absolute;
   background-size: cover;
