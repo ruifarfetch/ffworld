@@ -1,0 +1,55 @@
+/*Color*/
+/*Typography*/
+/*Grid*/
+/*Media Queries*/
+/*line-height*/
+/*Animation time*/
+/*Color*/
+/*Typography*/
+/*Grid*/
+/*Media Queries*/
+/*line-height*/
+/*Animation time*/
+/*Font face*/
+/*Icons Placeholder*/
+/*Border-radius*/
+/*Box-shadow*/
+/*Buttons*/
+/*Sprite*/
+/*Calculate rems*/
+/*Effects and animations*/
+.sliderDoubleModule {
+  background-color: white;
+  float: left;
+  position: relative; }
+
+.sliderDoubleModule a:hover {
+  border: none; }
+
+.sliderDoubleModule.gutter {
+  margin-bottom: 2px; }
+
+.sliderDoubleModule-content-container {
+  padding: 10px;
+  min-height: 110px; }
+
+.sliderDoubleModule-image-container {
+  line-height: 0; }
+
+.sliderDoubleModule-image-container img {
+  width: 100%; }
+
+.sliderDoubleModule-content-MainTitle {
+  color: #c2a67d; }
+
+.sliderDoubleModule .arrow_right {
+  position: absolute;
+  right: -8px;
+  top: calc((88%) - 5px); }
+
+.sliderDoubleModule .arrow_left {
+  position: absolute;
+  left: -8px;
+  top: calc((10%) - 5px); }
+
+/***********/

@@ -1,0 +1,122 @@
+/*Color*/
+/*Typography*/
+/*Grid*/
+/*Media Queries*/
+/*line-height*/
+/*Animation time*/
+/*Color*/
+/*Typography*/
+/*Grid*/
+/*Media Queries*/
+/*line-height*/
+/*Animation time*/
+/*Font face*/
+/*Icons Placeholder*/
+/*Border-radius*/
+/*Box-shadow*/
+/*Buttons*/
+/*Sprite*/
+/*Calculate rems*/
+/*Effects and animations*/
+/*sliderSingle static version*/
+.sliderSingleModule {
+  overflow: hidden; }
+
+.sliderSingleModule img {
+  display: block;
+  width: 100%; }
+
+.sliderSingle-content {
+  position: relative;
+  padding: 10px;
+  background-color: #fff;
+  float: left;
+  width: 100%;
+  z-index: 9;
+  min-height: 115px; }
+
+.sliderSingle-content .arrow_top {
+  top: -7px;
+  left: calc((50%) - 8px); }
+
+.sliderSingle-content-topArrow {
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -7px;
+  margin-left: auto;
+  margin-right: auto;
+  transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  background: #fff; }
+
+.sliderSingle-content h3, h4 {
+  margin: 0; }
+
+.sliderSingle-content-secondaryTitle {
+  width: 80%; }
+
+.sliderSingle-content-CTA {
+  margin-top: 0.5em; }
+  .sliderSingle-content-CTA a:link, .sliderSingle-content-CTA a:visited {
+    color: #222; }
+
+.sliderSingleModule .bx-controls-direction {
+  position: relative; }
+
+.sliderSingleModule .bx-controls-direction .bx-prev {
+  position: absolute;
+  top: 50%;
+  right: 40px;
+  border: none;
+  bottom: 17rem;
+  margin-top: auto;
+  margin-bottom: auto;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  border-radius: 20px; }
+
+.sliderSingleModule .bx-controls-direction .bx-next {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  border: none;
+  bottom: 17rem;
+  margin-top: auto;
+  margin-bottom: auto;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  border-radius: 20px; }
+
+.sliderSingleModule .bx-pager {
+  position: absolute;
+  bottom: 5px;
+  /*IE8 Fallback*/
+  bottom: 12.5rem;
+  left: 43%;
+  z-index: 1000;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto; }
+
+/*Double edit slider*/
+.sliderDouble {
+  position: relative;
+  background-color: #fff; }
+  .sliderDouble .sliderDouble-image {
+    line-height: 0; }
+    .sliderDouble .sliderDouble-image img {
+      max-width: 100%; }
+  .sliderDouble .sliderDouble-content {
+    text-align: center;
+    padding: 10px 0; }
+  .sliderDouble.gutter {
+    margin-bottom: 2px; }

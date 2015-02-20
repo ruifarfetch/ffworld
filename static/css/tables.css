@@ -1,0 +1,54 @@
+/*Color*/
+/*Typography*/
+/*Grid*/
+/*Media Queries*/
+/*line-height*/
+/*Animation time*/
+/*Color*/
+/*Typography*/
+/*Grid*/
+/*Media Queries*/
+/*line-height*/
+/*Animation time*/
+/*Font face*/
+/*Icons Placeholder*/
+/*Border-radius*/
+/*Box-shadow*/
+/*Buttons*/
+/*Sprite*/
+/*Calculate rems*/
+/*Effects and animations*/
+/* ==========================================================================
+   Tables
+   ========================================================================== */
+.table, .rwd-table {
+  font-size: 13px;
+  font-size: 1.3rem;
+  line-height: 2.184rem; }
+  .table th, .rwd-table th {
+    font-size: 13px;
+    font-size: 1.3rem;
+    line-height: 2.184rem;
+    font-family: "Polaris-Bold", sans-serif;
+    font-weight: normal; }
+  .table th, .table td, .rwd-table th, .rwd-table td {
+    height: 45px;
+    padding-right: 13px; }
+
+@media (max-width: 767px) {
+  /*RWD tables*/
+  .rwd-table th, .rwd-table td {
+    height: 30px; }
+  .rwd-table th {
+    display: none; }
+  .rwd-table td {
+    float: left;
+    clear: left;
+    margin-bottom: 10px;
+    padding: 2px 0;
+    width: 100%; }
+    .rwd-table td:before {
+      content: attr(data-th);
+      font-family: "Polaris-Bold", sans-serif;
+      float: left;
+      width: 50%; } }

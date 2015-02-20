@@ -1,0 +1,30 @@
+/*Color*/
+/*Typography*/
+/*Grid*/
+/*Media Queries*/
+/*line-height*/
+/*Animation time*/
+/*Color*/
+/*Typography*/
+/*Grid*/
+/*Media Queries*/
+/*line-height*/
+/*Animation time*/
+/*Font face*/
+/*Icons Placeholder*/
+/*Border-radius*/
+/*Box-shadow*/
+/*Buttons*/
+/*Sprite*/
+/*Calculate rems*/
+/*Effects and animations*/
+.sitemap-header {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #aaa; }
+
+@media (max-width: 767px) {
+  .sidekick-wrapper {
+    background: none;
+    margin: 0; }
+    .sidekick-wrapper h1 {
+      color: #222; } }

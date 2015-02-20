@@ -1,0 +1,61 @@
+/*Color*/
+/*Typography*/
+/*Grid*/
+/*Media Queries*/
+/*line-height*/
+/*Animation time*/
+/*Color*/
+/*Typography*/
+/*Grid*/
+/*Media Queries*/
+/*line-height*/
+/*Animation time*/
+/*Font face*/
+/*Icons Placeholder*/
+/*Border-radius*/
+/*Box-shadow*/
+/*Buttons*/
+/*Sprite*/
+/*Calculate rems*/
+/*Effects and animations*/
+.sliderArticleModule {
+  -webkit-box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.05) ;
+  -moz-box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.05) ;
+  box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.05) ; }
+
+.sliderArticle-content {
+  position: relative;
+  padding: 10px 20px 30px 20px;
+  background-color: #fff;
+  text-align: center; }
+
+.sliderArticle-content-topArrow {
+  background-image: url("../images/arrowupcaroussel.png");
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 30px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -10px;
+  margin-left: auto;
+  margin-right: auto; }
+
+.sliderArticle-content h3, h4 {
+  margin: 0; }
+
+.sliderArticle-content-MainTitle {
+  color: #c2a67d; }
+
+.sliderArticleModule .bx-controls-direction {
+  display: none; }
+
+.sliderArticleModule .bx-pager {
+  position: absolute;
+  bottom: 3px;
+  left: 43%;
+  z-index: 1000;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto; }

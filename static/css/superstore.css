@@ -1,0 +1,158 @@
+/*Color*/
+/*Typography*/
+/*Grid*/
+/*Media Queries*/
+/*line-height*/
+/*Animation time*/
+/*Color*/
+/*Typography*/
+/*Grid*/
+/*Media Queries*/
+/*line-height*/
+/*Animation time*/
+/*Font face*/
+/*Icons Placeholder*/
+/*Border-radius*/
+/*Box-shadow*/
+/*Buttons*/
+/*Sprite*/
+/*Calculate rems*/
+/*Effects and animations*/
+/* ==========================================================================
+   superstore
+   ========================================================================== */
+.input_file {
+  font-size: .8em;
+  color: #aaa;
+  cursor: pointer;
+  border: none;
+  border-color: transparent; }
+
+.superstore img {
+  width: 100%; }
+@media (max-width: 767px) {
+  .superstore .superstore-leftmenu-wrapper {
+    padding-right: 0; } }
+.superstore .superstore-leftmenu ul {
+  width: 100%; }
+  .superstore .superstore-leftmenu ul li {
+    padding: 10px 0;
+    cursor: pointer; }
+.superstore .superstore-leftmenu-active {
+  font-family: "Polaris-Bold", sans-serif; }
+.superstore .superstore-content img {
+  border: 1px solid #fff;
+  padding: 0 !important; }
+.superstore .superstore-content .helpContact-field-title {
+  margin: 0 10px; }
+.superstore .superstore-content .superstore-selector {
+  margin-bottom: 2px; }
+  .superstore .superstore-content .superstore-selector .superstore-selector-title {
+    padding: 10px 10px;
+    -webkit-box-shadow: 0px 1px 2px rgba(34, 34, 34, 0.05) ;
+    -moz-box-shadow: 0px 1px 2px rgba(34, 34, 34, 0.05) ;
+    box-shadow: 0px 1px 2px rgba(34, 34, 34, 0.05) ; }
+.superstore .superstore-content .superstore-selector-content {
+  padding: 20px 10px 0px 10px; }
+  @media (max-width: 767px) {
+    .superstore .superstore-content .superstore-selector-content {
+      padding-left: 0px;
+      padding-right: 0px; } }
+  .superstore .superstore-content .superstore-selector-content .icon-phone, .superstore .superstore-content .superstore-selector-content .icon-chat, .superstore .superstore-content .superstore-selector-content .icon-contact {
+    margin: 4px 10px 0 0; }
+@media (max-width: 767px) {
+  .superstore .helpContact-title {
+    margin: 30px 0 20px 0; }
+  .superstore .superstore-leftmenu {
+    padding: 10px 40px 1px 20px;
+    margin-bottom: 20px;
+    background: #fff;
+    -webkit-box-shadow: 0px 1px 2px rgba(34, 34, 34, 0.05) ;
+    -moz-box-shadow: 0px 1px 2px rgba(34, 34, 34, 0.05) ;
+    box-shadow: 0px 1px 2px rgba(34, 34, 34, 0.05) ; }
+  .superstore .helpContact-contctForm-inputFile {
+    display: none; }
+  .superstore .superstore-selector-title {
+    margin-left: -10px;
+    margin-right: -10px; } }
+
+@media (max-width: 767px) {
+  .office-box-wrapper {
+    margin-top: 20px; } }
+.office-box-wrapper .hero-content {
+  width: 80%; }
+
+.office-box {
+  height: 220px;
+  -webkit-box-shadow: 0px 1px 2px rgba(34, 34, 34, 0.05) ;
+  -moz-box-shadow: 0px 1px 2px rgba(34, 34, 34, 0.05) ;
+  box-shadow: 0px 1px 2px rgba(34, 34, 34, 0.05) ; }
+  @media (max-width: 480px) {
+    .office-box {
+      height: 148px; } }
+  .office-box .office-box-counter {
+    font-family: "Polaris-Condensed-Bold", "Polaris-Bold", sans-serif;
+    color: #aaa;
+    letter-spacing: 0.2em;
+    margin-top: 77px; }
+    @media (max-width: 480px) {
+      .office-box .office-box-counter {
+        text-align: right;
+        margin-top: 14px;
+        padding-right: 10px; } }
+    .office-box .office-box-counter .office-box-counter-number {
+      font-size: 100px; }
+    .office-box .office-box-counter .office-box-counter-alt {
+      font-size: 13px;
+      font-size: 1.3rem;
+      line-height: 2.184rem;
+      text-transform: uppercase;
+      margin-top: 40px; }
+
+.sidekick-wrapper {
+  margin-bottom: 0; }
+
+.mt50 {
+  margin-top: 50px; }
+
+.back-to-top {
+  position: relative; }
+
+.follow-instagram span {
+  font-size: 24px;
+  font-size: 2.4rem;
+  line-height: 3.48rem; }
+.follow-instagram:hover {
+  border: 0; }
+
+.module-container {
+  background-color: white;
+  padding-top: 20px; }
+
+.background-static {
+  background: url(../images/grid.jpg) 50% 50%/cover no-repeat;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 1; }
+
+.wrapper-subheader {
+  position: fixed;
+  width: 100%;
+  z-index: 99;
+  display: block; }
+
+.lt-ie9 .wrapper-subheader {
+  position: relative; }
+
+.toGoDown {
+  z-index: 10;
+  background-color: #f5f5f5;
+  position: relative;
+  top: 100%;
+  z-index: 10;
+  width: 100%; }
+
+footer {
+  z-index: 99;
+  height: 316px; }

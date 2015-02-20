@@ -1,0 +1,101 @@
+/*Color*/
+/*Typography*/
+/*Grid*/
+/*Media Queries*/
+/*line-height*/
+/*Animation time*/
+/*Color*/
+/*Typography*/
+/*Grid*/
+/*Media Queries*/
+/*line-height*/
+/*Animation time*/
+/*Font face*/
+/*Icons Placeholder*/
+/*Border-radius*/
+/*Box-shadow*/
+/*Buttons*/
+/*Sprite*/
+/*Calculate rems*/
+/*Effects and animations*/
+.sliderRecommendationsModule .bx-wrapper {
+  margin: 0; }
+
+.sliderRecommendations-content {
+  position: relative;
+  background-color: #fff;
+  text-align: center; }
+
+.sliderRecommendations-content {
+  margin: 0;
+  font-family: "Polaris-Bold", sans-serif;
+  letter-spacing: 0.2em;
+  padding: 20px; }
+
+.sliderRecommendations-content h3 {
+  font-size: 16px;
+  font-size: 1.6rem;
+  line-height: 2.32rem; }
+
+.sliderRecommendations-content span {
+  font-family: "Polaris-Book", sans-serif;
+  font-size: 11px;
+  font-size: 1.1rem;
+  line-height: 1.87rem;
+  line-height: 1.82rem !important; }
+
+.sliderRecommendationsModule .bx-controls-direction .bx-prev {
+  top: 40%;
+  left: -14px;
+  top: calc((50%) - 32px);
+  border: none;
+  margin-top: auto;
+  margin-bottom: auto;
+  background-color: #fff;
+  border-radius: 20px; }
+
+.sliderRecommendationsModule .bx-controls-direction .bx-prev:hover {
+  -webkit-box-shadow: 1px 1px 1px #cccccc inset;
+  -moz-box-shadow: 1px 1px 1px #cccccc inset;
+  box-shadow: 1px 1px 1px #cccccc inset; }
+
+.sliderRecommendationsModule .bx-controls-direction .bx-next {
+  top: 40%;
+  right: -14px;
+  top: calc((50%) - 32px);
+  border: none;
+  margin-top: auto;
+  margin-bottom: auto;
+  background-color: #fff;
+  border-radius: 20px; }
+
+.sliderRecommendationsModule .bx-controls-direction .bx-next:hover {
+  -webkit-box-shadow: 1px 1px 1px #cccccc inset;
+  -moz-box-shadow: 1px 1px 1px #cccccc inset;
+  box-shadow: 1px 1px 1px #cccccc inset; }
+
+/*hover behaviour*/
+.sliderRecommendations-content h3 {
+  display: inline; }
+
+.sliderRecommendations-content:hover h3 {
+  display: none; }
+
+.sliderRecommendations-content span {
+  display: none; }
+
+.sliderRecommendations-content:hover span {
+  display: inline; }
+
+/*hide controls*/
+.sliderRecommendationsModule .bx-wrapper .bx-pager {
+  display: none; }
+
+@media (max-width: 480px) {
+  .sliderRecommendationsModule .bx-controls-direction .bx-prev {
+    left: 5px; }
+
+  .sliderRecommendationsModule .bx-controls-direction .bx-next {
+    right: 5px; } }
+
+/*# sourceMappingURL=sliderRecommendations.css.map */

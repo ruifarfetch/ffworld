@@ -1,0 +1,81 @@
+/*Color*/
+/*Typography*/
+/*Grid*/
+/*Media Queries*/
+/*line-height*/
+/*Animation time*/
+/*Color*/
+/*Typography*/
+/*Grid*/
+/*Media Queries*/
+/*line-height*/
+/*Animation time*/
+/*Font face*/
+/*Icons Placeholder*/
+/*Border-radius*/
+/*Box-shadow*/
+/*Buttons*/
+/*Sprite*/
+/*Calculate rems*/
+/*Effects and animations*/
+.sliderProductModule {
+  height: 100%; }
+
+.sliderProductModule .bx-wrapper {
+  margin: 0;
+  width: 100% !important;
+  max-width: 100% !important; }
+
+.slider5Module .bx-wrapper {
+  margin: 0;
+  width: 100% !important;
+  max-width: 100% !important; }
+
+/*
+.slide{
+	height:490px;
+}
+
+@media (max-width: 1300px) {
+	.slide{
+	height:285px;
+	}
+}
+@media (max-width: 1024px) {
+	.slide{
+	height:290px;
+	}
+}
+@media (max-width:500px) {
+	.slide{
+		height:100%;
+	}
+}
+*/
+.sliderProductModule .bx-controls-direction .bx-prev {
+  top: calc((50%) - 32px);
+  left: 19%;
+  border: none;
+  margin-top: auto;
+  margin-bottom: auto;
+  background-color: #fff;
+  border-radius: 20px; }
+
+.sliderProductModule .bx-controls-direction .bx-prev:hover {
+  -webkit-box-shadow: 1px 1px 1px #cccccc inset;
+  -moz-box-shadow: 1px 1px 1px #cccccc inset;
+  box-shadow: 1px 1px 1px #cccccc inset; }
+
+.sliderProductModule .bx-controls-direction .bx-next {
+  top: calc((50%) - 32px);
+  right: 19%;
+  border: none;
+  margin-top: auto;
+  margin-bottom: auto;
+  background-color: #fff;
+  border-radius: 20px; }
+
+.sliderProductModule .bx-controls-direction .bx-next:hover {
+  -webkit-box-shadow: 1px 1px 1px #cccccc inset;
+  -moz-box-shadow: 1px 1px 1px #cccccc inset;
+  box-shadow: 1px 1px 1px #cccccc inset; }

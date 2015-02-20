@@ -1,0 +1,41 @@
+﻿{{#Filter}}
+    {{#HasParentChanged}}
+        {{^IsParentDisabled}}
+        </ul>
+            <ul
+                id="clone_{{FilterIDIdentifier}}{{ParentID}}{{FilterIDDeep}}{{ParentDeep}}{{FilterValIdentifier}}{{ParentVal}}"
+                class="list-regular dropdown-list-transparent filter_hasParent filter_hasParent{{PropID}}_{{PropDeep}}" 
+                data-parent-filter='{"{{FilterIDIdentifier}}":"{{ParentID}}","{{FilterValIdentifier}}":"{{ParentVal}}","{{FilterIDDeep}}":"{{ParentDeep}}"}'
+            >
+        {{/IsParentDisabled}}
+    {{/HasParentChanged}}
+
+
+<li class="FilterListItem {{FilterIDIdentifier}}{{PropID}}{{FilterIDDeep}}{{PropDeep}}{{#GroupID}} {{FilterIDIdentifier}}{{PropID}}{{FilterIDDeep}}{{PropDeep}}{{GroupSep}}{{GroupID}}{{/GroupID}}" >
+	<label class="label-check">		
+        <a  id="{{FilterIDIdentifier}}{{PropID}}{{FilterIDDeep}}{{PropDeep}}{{FilterValIdentifier}}{{PropVal}}{{#GroupID}}{{GroupSep}}{{GroupID}}{{/GroupID}}"
+            class="FilterListItemLink {{#HasTopLevelClass}}toplevel_filter{{/HasTopLevelClass}} {{FilterIDIdentifier}}{{PropID}}{{FilterIDDeep}}{{PropDeep}} {{FilterValIdentifier}}{{PropVal}}{{#GroupID}}{{GroupSep}}{{GroupID}}{{/GroupID}}"
+            data-ignore="true"
+            data-filter='{"{{FilterIDIdentifier}}":"{{PropID}}","{{FilterIDDeep}}":"{{PropDeep}}","{{FilterValIdentifier}}":"{{PropVal}}{{#GroupID}}{{GroupSep}}{{GroupID}}{{/GroupID}}"}'
+            data-filter-relative-deep='{{FilterRelativeDeep}}'
+            data-parent-filter='{"{{FilterIDIdentifier}}":"{{ParentID}}","{{FilterIDDeep}}":"{{ParentDeep}}","{{FilterValIdentifier}}":"{{ParentVal}}"}'
+            data-parent-top-filter='{"{{FilterIDIdentifier}}":"{{ParentTopID}}","{{FilterIDDeep}}":"{{ParentTopDeep}}","{{FilterValIdentifier}}":"{{ParentTopVal}}"}'
+            order='{{FilterItemIndex}}'
+            href="{{SEO}}"
+            trk="{&quot;tid&quot;:&quot;42&quot;,&quot;val&quot;:&quot;{{FilterIDIdentifier}}{{PropID}}{{FilterIDDeep}}{{PropDeep}}{{FilterValIdentifier}}{{PropVal}}{{#GroupID}}{{GroupSep}}{{GroupID}}{{/GroupID}}&quot;}"
+            {{#NoFollow}} 
+                rel="nofollow"
+            {{/NoFollow}}>
+            <div class="float-left"><input type="checkbox" /></div>
+            <p class="dropdown-label-option"><em>{{{Description}}}</em></p>
+        </a>		
+	</label>    
+</li>
+    {{#IsLastItem}}
+        {{#HasParentChanged}}
+            {{^IsParentDisabled}}
+                </ul>
+            {{/IsParentDisabled}}
+        {{/HasParentChanged}}
+    {{/IsLastItem}}
+{{/Filter}}

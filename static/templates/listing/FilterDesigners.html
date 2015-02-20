@@ -1,0 +1,16 @@
+﻿{{#Filter}}
+<option id="{{FilterIDIdentifier}}{{PropID}}{{FilterIDDeep}}{{PropDeep}}{{FilterValIdentifier}}{{PropVal}}{{#GroupID}}{{GroupSep}}{{GroupID}}{{/GroupID}}"
+        class="FilterListItemLink {{#HasTopLevelClass}}toplevel_filter{{/HasTopLevelClass}} {{FilterIDIdentifier}}{{PropID}}{{FilterIDDeep}}{{PropDeep}} {{FilterValIdentifier}}{{PropVal}}{{#GroupID}}{{GroupSep}}{{GroupID}}{{/GroupID}}"
+        data-ignore="true"
+        data-li-class="FilterListItem {{FilterIDIdentifier}}{{PropID}}{{FilterIDDeep}}{{PropDeep}}{{#GroupID}} {{FilterIDIdentifier}}{{PropID}}{{FilterIDDeep}}{{PropDeep}}{{GroupSep}}{{GroupID}}{{/GroupID}}"
+        data-filter='{"{{FilterIDIdentifier}}":"{{PropID}}","{{FilterIDDeep}}":"{{PropDeep}}","{{FilterValIdentifier}}":"{{PropVal}}{{#GroupID}}{{GroupSep}}{{GroupID}}{{/GroupID}}"}'
+        data-filter-relative-deep='{{FilterRelativeDeep}}'
+        data-parent-filter='{"{{FilterIDIdentifier}}":"{{ParentID}}","{{FilterIDDeep}}":"{{ParentDeep}}","{{FilterValIdentifier}}":"{{ParentVal}}"}'
+        data-parent-top-filter='{"{{FilterIDIdentifier}}":"{{ParentTopID}}","{{FilterIDDeep}}":"{{ParentTopDeep}}","{{FilterValIdentifier}}":"{{ParentTopVal}}"}'
+        order='{{FilterItemIndex}}'
+        href="{{SEO}}"
+        trk="{&quot;tid&quot;:&quot;42&quot;,&quot;val&quot;:&quot;{{FilterIDIdentifier}}{{PropID}}{{FilterIDDeep}}{{PropDeep}}{{FilterValIdentifier}}{{PropVal}}{{#GroupID}}{{GroupSep}}{{GroupID}}{{/GroupID}}&quot;}"
+        {{#NoFollow}} 
+            rel="nofollow"
+        {{/NoFollow}}>{{{Description}}}</option>
+{{/Filter}}

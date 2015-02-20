@@ -1,0 +1,72 @@
+/*Color*/
+/*Typography*/
+/*Grid*/
+/*Media Queries*/
+/*line-height*/
+/*Animation time*/
+/*Color*/
+/*Typography*/
+/*Grid*/
+/*Media Queries*/
+/*line-height*/
+/*Animation time*/
+/*Font face*/
+/*Icons Placeholder*/
+/*Border-radius*/
+/*Box-shadow*/
+/*Buttons*/
+/*Sprite*/
+/*Calculate rems*/
+/*Effects and animations*/
+.sidekick-wrapper {
+  height: auto;
+  width: 100%;
+  background-color: #222;
+  display: inline-block;
+  margin-bottom: 30px;
+  min-height: 170px; }
+  @media (max-width: 767px) {
+    .sidekick-wrapper {
+      background-color: transparent;
+      margin: 0; } }
+
+.sidekick-filter-wrapper p {
+  padding-bottom: 5%; }
+
+.sidekick-seo {
+  width: 100%;
+  color: white;
+  z-index: 2;
+  display: inline-block;
+  padding: 30px 0px; }
+  .sidekick-seo p {
+    color: white; }
+  .sidekick-seo a:link {
+    color: #aaaaaa; }
+
+@media (max-width: 767px) {
+  .sidekick-seo, .sidekick-seo p {
+    color: #222222; } }
+
+.sidekick-filter {
+  width: 100%;
+  position: relative;
+  top: 0px;
+  z-index: 2;
+  line-height: 1; }
+
+.sidekick-footer {
+  background-color: #222222;
+  min-height: 240px;
+  padding: 2.4rem 0; }
+
+@media (max-width: 767px) {
+  .sidekick-wrapper {
+    min-height: inherit; }
+
+  .sidekick-seo {
+    padding: 20px 0; }
+
+  .sidekick-filter-wrapper .sidekick-mask {
+    display: none; } }
+/* Media Querie for medium and small devices */

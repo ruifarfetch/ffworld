@@ -1,0 +1,46 @@
+{{#CategoryName}}
+<li class="listing-seo hidden-xl hidden-md visible-sm visible-xs pl10 pr10 pb10">
+    <div class="field">
+        <div class="baseline col5 alpha"><h2 class="h3">{{CategoryName}}</h2></div>
+        <div class="baseline col7 align-right float-right omega">
+            <span class="listing-itemsFound">{{TotalItems}} {{ItemsFoundStr}}</span>
+        </div>
+    </div>
+    {{#SearchResultsOnOtherWearType}}
+   <!-- <div class="field mt10 sidekick-relatedSearch-info">
+        <div class="sidekick-relatedSearch-details">{{SearchResultsForCurrentWearType}}</div>
+        <div class="sidekick-relatedSearch-other-details">{{SearchResultsOnOtherWearType}}</div>
+    </div>-->
+    {{/SearchResultsOnOtherWearType}}
+</li>
+{{/CategoryName}}
+
+{{#products}}
+{{#Department}}
+{{{DepartmentUI}}}
+{{/Department}}
+<li itemscope="" itemtype="http://data-vocabulary.org/Product" id="listingItemWrap{{Id}}" data-index="{{Index}}"
+         class="listingItemWrap listingItemWrap{{Index}}" data-img="{{ImageURL}}" data-img-alt="{{ImageURLAlt}}"
+    data-item-id="{{Id}}" data-store-id="{{StoreID}}" data-unit-price="{{PriceInformation.FinalPrice}}">
+	<div class="listing-image">
+        <a data-ignore href="{{ItemURL}}" class="blankLink">
+            <img itemprop="image" src="{{ImageURL}}" data-img="{{ImageURL}}" data-img-alt="{{ImageURLAlt}}" class="imageRollover" />
+		    <button class="button-white-circle listingSave" trk="{&quot;tid&quot;:&quot;35&quot;,&quot;val&quot;:&quot;{{Id}}&quot;}"><span class="glyphs icon-favourites"></span></button>
+        </a>
+	</div>
+	<div class="listing-item-content">
+		<div class="listing-item-content-box">
+            {{#ComingSoon}}<div class="slug slug-beige">{{ComingSoonUI}}</div>{{/ComingSoon}}
+            {{#NewSeason}}<div class="slug slug-beige">{{NewSeasonUI}}</div>{{/NewSeason}}
+            {{#OutOfStock}}<div class="slug slug-beige">{{OutOfStockUI}}</div>{{/OutOfStock}}
+            {{#Exclusive}}<div class="slug slug-beige">{{ExclusiveUI}}</div>{{/Exclusive}}
+			<a data-ignore href="{{ItemURL}}"><h6 itemprop="brand">{{DesignerName}}</h6></a>
+			<p itemprop="name">{{Description}}</p>
+            {{{PriceUI}}}
+            {{{BRInstallments}}}
+            {{{PriceUIFlatTaxLabel}}}
+            {{{RankingUI}}}
+		</div>
+	</div>
+</li>
+{{/products}}

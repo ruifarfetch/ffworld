@@ -1,0 +1,52 @@
+{{#Prev}}
+<a id="PagingSelectorItemPrev" class="PagingSelectorItem no-underline"
+   trk="{&quot;tid&quot;:&quot;40&quot;,&quot;val&quot;:&quot;{{PagingItemVal}}&quot;}"
+   data-ignore="true"
+   data-tstid="Go_Prev"
+   data-paging="{&quot;{{PagingItemId}}&quot;:&quot;{{PagingItemVal}}&quot;}"
+   rel="nofollow" href="{{PagingItemSEO}}">
+    <span class="glyphs float-left icon-arrowLeft">
+    </span>
+</a>
+{{/Prev}}
+{{^Prev}}
+{{/Prev}}
+<div data-tstid="ListingBox_Page" class="dropdown float-left listing-pagination-dropdown" style="z-index: 1000; cursor: pointer;">
+    <span class="glyphs">{{SelectedPage}}</span>
+    <ul class="list-regular absolute" style="display: none;">
+        {{#Items}}
+        <li>
+            <a id="PagingSelectorItem{{PagingItemVal}}" class="PagingSelectorItem{{#PagingSelected}} active{{/PagingSelected}}"
+               trk="{&quot;tid&quot;:&quot;40&quot;,&quot;val&quot;:&quot;{{PagingItemVal}}&quot;}"
+               data-ignore="true"
+               data-paging="{&quot;{{PagingItemId}}&quot;:&quot;{{PagingItemVal}}&quot;}"
+               href="{{PagingItemSEO}}" rel="nofollow">
+                {{PagingItemDesc}}
+            </a>
+        </li>
+        {{/Items}}
+    </ul>
+    <!--end-->
+</div>
+<!--dropdown-->
+<span class="color-medium-grey float-left listing-pagination-count">{{OfString}} {{NumberOfPages}}</span>
+{{#Next}}
+<a id="PagingSelectorItemNext" class="PagingSelectorItem no-underline"
+   trk="{&quot;tid&quot;:&quot;40&quot;,&quot;val&quot;:&quot;{{PagingItemVal}}&quot;}"
+   data-ignore="true"
+   data-tstid="Go_Next"
+   data-paging="{&quot;{{PagingItemId}}&quot;:&quot;{{PagingItemVal}}&quot;}"
+   rel="nofollow" href="{{PagingItemSEO}}">
+    <span class="glyphs icon-thinArrow float-left">
+    </span>
+</a>
+{{/Next}}
+{{^Next}}
+<a id="PagingSelectorItemNext" class="PagingSelectorItem no-underline"
+   style="visibility: hidden;"
+   rel="nofollow" href="#">
+    &nbsp;
+    <span class="glyphs icon-thinArrow float-left">
+    </span>
+</a>
+{{/Next}}

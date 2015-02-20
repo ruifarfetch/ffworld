@@ -1,0 +1,10 @@
+{{#PagingViewDesc}}
+    <span class="heading-bold ">{{PagingViewDesc}}:</span> 
+{{/PagingViewDesc}}
+{{#Items}}
+<a class="PagingViewItem mr10{{#PagingSelected}} active{{/PagingSelected}}{{^PagingSelected}} listing-filter-view_inactive color-medium-grey{{/PagingSelected}}"
+   data-paging="{&quot;{{PagingItemId}}&quot;:&quot;{{PagingItemVal}}&quot;}"
+   trk="{&quot;tid&quot;:&quot;38&quot;,&quot;val&quot;:&quot;{{PagingItemVal}}&quot;}"
+    data-tstid="Go_{{PagingItemVal}}View"
+   href="{{PagingItemSEO}}" data-ignore="1">{{PagingItemDesc}}</a>
+{{/Items}}

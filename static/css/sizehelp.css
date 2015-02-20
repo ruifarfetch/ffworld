@@ -1,0 +1,128 @@
+/*Color*/
+/*Typography*/
+/*Grid*/
+/*Media Queries*/
+/*line-height*/
+/*Animation time*/
+/*Color*/
+/*Typography*/
+/*Grid*/
+/*Media Queries*/
+/*line-height*/
+/*Animation time*/
+/*Font face*/
+/*Icons Placeholder*/
+/*Border-radius*/
+/*Box-shadow*/
+/*Buttons*/
+/*Sprite*/
+/*Calculate rems*/
+/*Effects and animations*/
+/**
+ *
+ * CSS for Size Help
+ *
+ */
+.sizehelp {
+  border: 1px solid #f5f5f5; }
+  .sizehelp th, .sizehelp td {
+    padding-left: 10px; }
+  .sizehelp th {
+    border-bottom: 1px solid #f5f5f5;
+    border-right: 1px solid #f5f5f5;
+    text-transform: uppercase; }
+  .sizehelp td {
+    border-bottom: 1px solid #f5f5f5;
+    border-right: 1px solid #f5f5f5; }
+    .sizehelp td.sizehelp-remove-border {
+      border-bottom: none; }
+
+.sizehelp-colspan td:nth-child(even) {
+  border-right: none; }
+
+.sizeGuideModal .pinned {
+  border-right: 0;
+  width: 20%; }
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .sizeGuideModal .pinned {
+      width: 28%; } }
+  @media (min-width: 481px) and (max-width: 767px) {
+    .sizeGuideModal .pinned {
+      width: 24%;
+      overflow-x: auto; } }
+  @media (max-width: 480px) {
+    .sizeGuideModal .pinned {
+      width: 35%;
+      overflow-x: auto; } }
+.sizeGuideModal h4 {
+  letter-spacing: 0px;
+  text-transform: none; }
+.sizeGuideModal .modal-content {
+  padding: 0; }
+.sizeGuideModal .table-wrapper div.scrollable {
+  margin-left: 20%; }
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .sizeGuideModal .table-wrapper div.scrollable {
+      margin-left: 28%; } }
+  @media (min-width: 481px) and (max-width: 767px) {
+    .sizeGuideModal .table-wrapper div.scrollable {
+      margin-left: 24%; } }
+  @media (max-width: 480px) {
+    .sizeGuideModal .table-wrapper div.scrollable {
+      margin-left: 35%; } }
+
+/*interactive hover states*/
+.no-touch {
+  /*hover interactive styles*/
+  /*remove styles from pinned table*/ }
+  .no-touch .sizehelp th.sizehelp-interactive_hover {
+    background-color: #f5f5f5;
+    color: #222; }
+  .no-touch .sizehelp th.sizehelp-nohover {
+    background-color: #fff;
+    color: #222; }
+  .no-touch .sizehelp-interactive_hover {
+    background-color: #f5f5f5;
+    color: #222; }
+    .no-touch .sizehelp-interactive_hover.sizehelp-interactive-selected_hover {
+      background-color: #222;
+      color: #fff; }
+  .no-touch .pinned .sizehelp .sizehelp-interactive-selected_hover {
+    background-color: #f5f5f5;
+    color: #222; }
+    .no-touch .pinned .sizehelp .sizehelp-interactive-selected_hover.sizehelp-nohover {
+      background-color: #fff; }
+  .no-touch .pinned .sizehelp .sizehelp-interactive_hover .sizehelp-nohover {
+    background-color: #fff; }
+  .no-touch .sizeGuide-notify {
+    cursor: pointer; }
+
+/*notify scroll*/
+.modal-sizehelp-table-info-scroll .col3 {
+  width: 20%; }
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .modal-sizehelp-table-info-scroll .col3 {
+      width: 28%; } }
+  @media (min-width: 481px) and (max-width: 767px) {
+    .modal-sizehelp-table-info-scroll .col3 {
+      width: 24%; } }
+  @media (max-width: 480px) {
+    .modal-sizehelp-table-info-scroll .col3 {
+      width: 35%; } }
+
+/*specific table changes*/
+.sizeguide-overflow .pinned {
+  overflow-x: auto; }
+
+.sizeGuideModal div.table-wrapper div.scrollable {
+  overflow: auto; }
+
+/*click&collect*/
+.modal-sizehelp-multichannel .icon-box-arrow-icon {
+  font-size: 5em;
+  max-height: 48px; }
+.modal-sizehelp-multichannel p {
+  margin-top: 13px; }
+  @media (max-width: 480px) {
+    .modal-sizehelp-multichannel p {
+      margin-top: 6px; } }

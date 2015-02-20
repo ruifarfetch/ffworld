@@ -1,0 +1,18 @@
+﻿{{#Filter}}
+<li>
+    <label class="label-check float-left col12" for="checkbox-1">
+        <div class="float-left">
+            <input value="0" type="checkbox"
+                   id="FilterPopUpListItemLink{{FilterIDIdentifier}}{{PropID}}{{FilterIDDeep}}{{PropDeep}}{{FilterValIdentifier}}{{PropVal}}{{#GroupID}}{{GroupSep}}{{GroupID}}{{/GroupID}}"
+                   class="FilterPopUpListItemLink {{FilterIDIdentifier}}{{PropID}}{{FilterIDDeep}}{{PropDeep}} {{FilterValIdentifier}}{{PropVal}}{{#GroupID}}{{GroupSep}}{{GroupID}}{{/GroupID}}"
+                   data-filter='{"{{FilterIDIdentifier}}":"{{PropID}}","{{FilterIDDeep}}":"{{PropDeep}}","{{FilterValIdentifier}}":"{{PropVal}}{{#GroupID}}{{GroupSep}}{{GroupID}}{{/GroupID}}"}'
+                   data-filter-relative-deep='{{FilterRelativeDeep}}'
+                   data-parent-filter='{"{{FilterIDIdentifier}}":"{{ParentID}}","{{FilterIDDeep}}":"{{ParentDeep}}","{{FilterValIdentifier}}":"{{ParentVal}}"}'
+                   data-parent-top-filter='{"{{FilterIDIdentifier}}":"{{ParentTopID}}","{{FilterIDDeep}}":"{{ParentTopDeep}}","{{FilterValIdentifier}}":"{{ParentTopVal}}"}'
+                   order='{{FilterItemIndex}}'
+                   href="{{SEO}}" />
+            </div>
+        <p class="dropdown-label-option">{{{Description}}}</p>
+</label>
+</li>
+{{/Filter}}
