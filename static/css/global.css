@@ -587,9 +587,6 @@ label {
     background-color: white;
     color: #222222;
     border-bottom: 1px solid transparent;
-    -webkit-box-shadow: 1px 1px 1px #e6e6e6 ;
-    -moz-box-shadow: 1px 1px 1px #e6e6e6 ;
-    box-shadow: 1px 1px 1px #e6e6e6 ;
     text-overflow: ellipsis;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
@@ -1534,6 +1531,14 @@ background-repeat: no-repeat;
   z-index: 9;
 }
 
+@media (min-width: 770px) {
+  .intro-video {
+    right: 0% !important; 
+  }
+  .forms-wrapper {
+    margin-top: 15% !important;
+  }
+}
 
 .overlay-mask-video {
   width: 100%;
@@ -1563,15 +1568,19 @@ main.login {
 
 .logo-white {
   background-image: url('../images/logo-white.svg');
-  background-size: 334px 40px;
+  background-size: 312px 36px;
   background-repeat: no-repeat;
   background-position: center center;
   text-align: center;
   margin: 0 auto !important;
-  width: 299px;
+  width: 290px;
   height: 44px;
 }
 
+
+.mt70 {
+  margin-top: 70px;
+}
 
 
 .mt60 {
@@ -1588,4 +1597,55 @@ main.login {
   color: white !important;
 }
 
+.button-style-one-app,
+.button-style-two-app,
+.button-style-three-app {
+    display: inline-block;
+    font-family: "Polaris-Book", sans-serif;
+    padding: 8px 20px 8px 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    border-radius: 20px;
+    border: 0;
+    outline: 0;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    border: 1px solid #fff;
+    width: 100%;
+    text-align: center;
+}
 
+.button-style-one-app:hover,
+.button-style-two-app:hover,
+.button-style-three-app:hover {
+  cursor: pointer;
+}
+
+
+
+.button-style-one-app,
+  .button-style-one-app:active
+  .button-style-one-app:hover {
+    color: #fff !important;
+    background-color: transparent;
+    
+  }
+
+  .button-style-two-app,
+  .button-style-two-app:active
+  .button-style-two-app:hover {
+    background-color: white;
+    color: #222 !important;
+  }
+
+  .button-style-three-app,
+  .button-style-three-app:active
+  .button-style-three-app:hover {
+    background-color: transparent;
+    color: #84878b !important;
+  }
