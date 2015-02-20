@@ -62,3 +62,55 @@ top: 11px;
   border: none;
   outline: 0;
 }
+
+
+.big-shop{
+    background-image: url(../images/_home/shop_1.jpg);
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 275px;
+
+    text-align: center;
+    color: #fff;
+    display: table;
+  }
+  .big-shop span{
+    max-width: 300px;
+    padding:0 50px;  
+    display:table-cell;
+    vertical-align: middle;
+  }
+  .big-shop p{
+    color: #B3B3B3;
+  }
+
+  .recommend-you{
+    width: 100%;
+    padding: 10px 10px 0;
+    font-family: "Polaris-Bold", sans-serif;
+    font-size: 9px;
+    text-transform: uppercase;
+  }
+
+  .social-header{
+    
+  }
+  .social-header .glyphs{
+    font-size:25px; 
+  }
+  .social-header .icon-twitter{
+    color: #5ba8df;
+  }
+  .social-header-copy{
+    font-family: "Polaris-Bold", sans-serif;
+    color:#4a4f55;
+    font-size: 13px;
+    line-height: 18px;
+  }
+  .social-header-copy span{
+    font-family: "Polaris-Book", sans-serif;
+    color:#4a4f55;
+  }
