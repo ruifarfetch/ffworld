@@ -39,6 +39,18 @@ top: 11px;
   width: 125px;
 }
 
+.bou-ambassador {
+  height:239px;
+  background-image: url(../images/nick_wooster.jpg); 
+  background-size: cover;
+}
+
+.bou-ambassador-title {
+  position: absolute;
+  top: 215px;
+
+}
+
 .choices {
   height:239px;
   background-image: url(../images/choices.jpg); 
