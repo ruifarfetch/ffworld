@@ -1513,6 +1513,14 @@ Logo
 background-repeat: no-repeat;
 }
 
+.f-farfetch {
+  background-image: url('../images/f-farfetch.svg');
+  height:30px;
+  background-size: 25px 28px;
+  width: 30px;
+  background-repeat: no-repeat;
+}
+
 
 .back-button span {
   font-size: 26px;
