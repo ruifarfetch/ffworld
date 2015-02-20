@@ -150,3 +150,20 @@ top: 11px;
   .app-bg h4{
     color:#222;
   }
+
+  .bg-home{
+    background-image: url(../images/_home/bg.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
+  .bg-home-info{
+    min-height: 400px;
+  }
+  .bg-home-info span{
+    color: #fff;
+  }
+  .bg-home-info p{
+    font-size: 1.1rem;
+  }
