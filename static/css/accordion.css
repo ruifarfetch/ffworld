@@ -1,0 +1,161 @@
+/*Color*/
+/*Typography*/
+/*Grid*/
+/*Media Queries*/
+/*line-height*/
+/*Animation time*/
+/*Color*/
+/*Typography*/
+/*Grid*/
+/*Media Queries*/
+/*line-height*/
+/*Animation time*/
+/*Font face*/
+/*Icons Placeholder*/
+/*Border-radius*/
+/*Box-shadow*/
+/*Buttons*/
+/*Sprite*/
+/*Calculate rems*/
+/*Effects and animations*/
+/* ==========================================================================
+   Responsice Accordion - Structure Control
+   ========================================================================== */
+.accordion .accordion-item {
+  float: left;
+  width: 100%; }
+.accordion .active .accordion-title {
+  border-bottom: 1px solid #aaa; }
+.accordion .accordion-title {
+  border-bottom: 1px solid #ccc; }
+.accordion .accordion-title .icon-more {
+  float: right;
+  position: relative; }
+.accordion .accordion-content {
+  width: 100%;
+  float: left;
+  display: none; }
+.accordion .accordion-item.active .icon-more:before {
+  content: "\e613"; }
+.accordion .accordion-item.active .accordion-content {
+  display: inline-block; }
+
+.lt-ie9 .accordion .accordion-title {
+  cursor: pointer; }
+
+.accordion-md .accordion-title,
+.accordion-sm .accordion-title,
+.accordion-xs .accordion-title {
+  border-bottom: none; }
+.accordion-md .accordion-title .icon-more,
+.accordion-sm .accordion-title .icon-more,
+.accordion-xs .accordion-title .icon-more {
+  display: none; }
+.accordion-md .accordion-content,
+.accordion-sm .accordion-content,
+.accordion-xs .accordion-content {
+  display: inline-block; }
+.accordion-md .accordion-content.pa10,
+.accordion-sm .accordion-content.pa10,
+.accordion-xs .accordion-content.pa10 {
+  padding-top: 0; }
+
+@media (min-width: 1025px) {
+  .accordion-xl .accordion-title {
+    cursor: pointer; }
+  .accordion-xl .accordion-title .icon-more {
+    display: inherit; }
+  .accordion-xl .accordion-content {
+    display: none; }
+  .accordion-xl .accordion-content.pa10 {
+    padding-top: 10px; } }
+@media (max-width: 1024px) {
+  .accordion-xl .accordion-title,
+  .accordion-md .accordion-title {
+    cursor: pointer;
+    border-bottom: 1px solid #ccc; }
+  .accordion-xl .accordion-title .icon-more,
+  .accordion-md .accordion-title .icon-more {
+    display: inherit; }
+  .accordion-xl .accordion-content,
+  .accordion-md .accordion-content {
+    display: none; }
+  .accordion-xl .accordion-content.pa10,
+  .accordion-md .accordion-content.pa10 {
+    padding-top: 10px; } }
+@media (max-width: 767px) {
+  .accordion-xl .accordion-title,
+  .accordion-md .accordion-title,
+  .accordion-sm .accordion-title {
+    cursor: pointer;
+    border-bottom: 1px solid #ccc; }
+  .accordion-xl .accordion-title .icon-more,
+  .accordion-md .accordion-title .icon-more,
+  .accordion-sm .accordion-title .icon-more {
+    display: inherit; }
+  .accordion-xl .accordion-content,
+  .accordion-md .accordion-content,
+  .accordion-sm .accordion-content {
+    display: none; }
+  .accordion-xl .accordion-content.pa10,
+  .accordion-md .accordion-content.pa10,
+  .accordion-sm .accordion-content.pa10 {
+    padding-top: 10px; } }
+@media (max-width: 480px) {
+  .accordion-xl .accordion-title,
+  .accordion-md .accordion-title,
+  .accordion-sm .accordion-title,
+  .accordion-xs .accordion-title {
+    cursor: pointer;
+    border-bottom: 1px solid #ccc; }
+  .accordion-xl .accordion-title .icon-more,
+  .accordion-md .accordion-title .icon-more,
+  .accordion-sm .accordion-title .icon-more,
+  .accordion-xs .accordion-title .icon-more {
+    display: inherit; }
+  .accordion-xl .accordion-content,
+  .accordion-md .accordion-content,
+  .accordion-sm .accordion-content,
+  .accordion-xs .accordion-content {
+    display: none; }
+  .accordion-xl .accordion-content.pa10,
+  .accordion-md .accordion-content.pa10,
+  .accordion-sm .accordion-content.pa10,
+  .accordion-xs .accordion-content.pa10 {
+    padding-top: 10px; } }
+/* ==========================================================================
+   Accordion White
+   ========================================================================== */
+.accordion-white .accordion-item {
+  display: inline-block;
+  margin-bottom: 2px; }
+.accordion-white .accordion-title, .accordion-white .active .accordion-title {
+  border-bottom: none;
+  background-color: #fff;
+  -webkit-box-shadow: 1px 1px 1px rgba(34, 34, 34, 0.1) ;
+  -moz-box-shadow: 1px 1px 1px rgba(34, 34, 34, 0.1) ;
+  box-shadow: 1px 1px 1px rgba(34, 34, 34, 0.1) ; }
+.accordion-white .accordion-content {
+  padding: 20px;
+  background-color: #fff;
+  -webkit-box-shadow: 1px 1px 1px rgba(34, 34, 34, 0.1) ;
+  -moz-box-shadow: 1px 1px 1px rgba(34, 34, 34, 0.1) ;
+  box-shadow: 1px 1px 1px rgba(34, 34, 34, 0.1) ; }
+.accordion-white .accordion-item.active {
+  margin-bottom: 10px; }
+
+/* ==========================================================================
+   Accordion Regular
+   ========================================================================== */
+.accordion.accordion-regular .accordion-title,
+.accordion .accordion-regular .accordion-title {
+  width: 100%;
+  display: table;
+  border-bottom: none; }
+.accordion.accordion-regular .accordion-title .col1,
+.accordion .accordion-regular .accordion-title .col1 {
+  display: table-cell;
+  vertical-align: middle;
+  float: none; }
+
+/*# sourceMappingURL=accordion.css.map */

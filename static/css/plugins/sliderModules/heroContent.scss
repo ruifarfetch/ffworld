@@ -1,0 +1,56 @@
+@import '../../sass/_variables';
+@import '../../sass/_mixins';
+/* Hero Content*/
+.slug {
+  color: #c2a67d;
+}
+
+.heroContentModule img{
+  width:100%
+}
+
+.hero-contentWrapper {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0; }
+
+.hero-mask {
+  width: 100%;
+  height: 98.9%;
+  background-color:$color-black;
+  opacity: 0.25;
+  filter: alpha(opacity=25);
+  z-index: 0; }
+
+.hero-content-container {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  top: 50%;
+  z-index: 1;
+  color: $color-white;
+  line-height:1.58em;
+}
+
+.hero-content {
+  width: 66.67%;
+  margin: 0 auto;
+  -webkit-transform: translate(0%, -50%);
+  -moz-transform: translate(0%, -50%);
+  -o-transform: translate(0%, -50%);
+  -ms-transform: translate(0%, -50%);
+  transform: translate(0%, -50%); }
+
+.hero-content-container .hero-content-cta{
+  color: $color-white;
+}
+
+@media(max-width:520px){
+  .hero-content h2{
+    @include fontSize($font-size3);
+  }
+  .hero-content p {
+    @include fontSize($font-size5);
+  }
+}

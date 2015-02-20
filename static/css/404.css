@@ -1,0 +1,60 @@
+/*Color*/
+/*Typography*/
+/*Grid*/
+/*Media Queries*/
+/*line-height*/
+/*Animation time*/
+/*Color*/
+/*Typography*/
+/*Grid*/
+/*Media Queries*/
+/*line-height*/
+/*Animation time*/
+/*Font face*/
+/*Icons Placeholder*/
+/*Border-radius*/
+/*Box-shadow*/
+/*Buttons*/
+/*Sprite*/
+/*Calculate rems*/
+/*Effects and animations*/
+.noresults-help h6 {
+  margin-bottom: 3px;
+}
+.noresults-help li {
+  padding-right: 15px;
+}
+.noresults-help .glyphs {
+  padding-right: 5px;
+  font-size: 1.6em;
+  position: relative;
+  top: -1px;
+}
+
+@media (max-width: 767px) {
+  .sidekick-wrapper {
+    background: none;
+    margin: 0;
+  }
+  .sidekick-wrapper h2, .sidekick-wrapper p, .sidekick-wrapper h1 {
+    color: #222;
+  }
+
+  .noresults-help ul {
+    width: 100%;
+  }
+  .noresults-help li {
+    width: 32%;
+  }
+  .noresults-help li:first-child {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+  .noresults-help li:nth-child(3) {
+    text-align: center;
+  }
+  .noresults-help li:nth-child(4) {
+    text-align: right;
+  }
+}

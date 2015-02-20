@@ -1,0 +1,100 @@
+@import '_variables';
+@import '_mixins';
+
+/*get checkout header & footer */
+@import "checkout_header_footer";
+
+.login-block {
+	.tabs-content {
+		position: relative;
+		padding-bottom: 80px;
+	}
+	.submit-button {
+		position: absolute;
+		bottom: 20px;
+		right: 20px;
+		padding: 0;
+	}
+	@media (max-width: $tablet) {
+		padding: 0;
+	}
+	@media (max-width: $fablet) {
+		.submit-button {
+			padding-left: 1%;
+			padding-right: 1%;
+			right: 0;
+			bottom: 10px;
+		}
+	}
+}
+
+@media (min-width: $tablet + 1) {
+	[data-page="checkout"] #login-register{
+		padding-bottom: 103px;
+	}
+
+	[data-page="login"] #login-signIn{
+		padding-bottom: 158px;
+	}
+}
+
+#login-signIn, #login-register{
+	@media (max-width: $fablet) {
+		padding-top: 20px;
+	}
+}
+
+
+.login-remember{
+	float:right;
+	@media (max-width: $fablet) {
+		float: left;
+	}
+}
+
+.icon-box-checked, .icon-radio-checked {
+ -webkit-box-shadow: 1px 1px 0px #cccccc inset;
+ -moz-box-shadow: 1px 1px 0px #cccccc inset;
+ box-shadow: 1px 1px 0px #cccccc inset;
+ background-color:$color-offWhite;
+}
+
+.icon-box-unchecked{
+ background-color:$color-offWhite;
+ -webkit-box-shadow: 1px 1px 0px #cccccc inset;
+    -moz-box-shadow: 1px 1px 0px #cccccc inset;
+    box-shadow: 1px 1px 0px #cccccc inset;
+}
+
+
+@media(max-width: $fablet){
+
+	/*Reverse order of continue and cancel*/
+	.flexbox .flexBox{
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-moz-box-orient: vertical;
+	-webkit-box-orient: vertical;
+	-ms-box-orient: vertical;
+	-webkit-flex-direction: column;
+	flex-direction: column;
+	}
+	
+	.flexBox .login-normal-order{
+	  -moz-box-ordinal-group: 1;
+	  -webkit-box-ordinal-group: 1;
+	  -ms-flex-order: 1;
+	  -webkit-order: 1;
+	  order: 1;
+	}
+	.flexBox .login-facebook-order{
+	  -moz-box-ordinal-group: 2;
+	  -webkit-box-ordinal-group: 2;
+	  -ms-flex-order: 2;
+	  -webkit-order: 2;
+	  order: 2;
+	}
+}

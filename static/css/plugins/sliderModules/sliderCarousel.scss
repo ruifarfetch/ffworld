@@ -1,0 +1,78 @@
+@import '../../sass/_variables';
+@import '../../sass/_mixins';
+
+.sliderRecommendationsModule  img{
+	display:block;
+	-webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+}
+
+.sliderRecommendations-content{
+	position: relative;
+	margin: 0;
+	text-align: center;	
+	background-color: $color-white;
+	@include box-shadow ( 2px, 2px, 1px, rgba(0,0,0,0.05));
+}
+
+.sliderRecommendations-content-box{
+	height:80px;
+	padding:5%;
+}
+.sliderRecommendations-content-box-center{
+	position: relative;
+	top: 50%;
+	@include transform(0,-50%);
+}
+
+.sliderRecommendations-content h3{
+	@include fontSize($font-size5);
+}
+
+.sliderRecommendations button{
+	width:90%;
+	position: absolute;
+	top:40%;
+	left:50%;
+	@include transform(-50%,-50%);
+}
+
+.sliderRecommendationsModule .bx-controls-direction .bx-prev {
+	top: 40%;
+	left: -14px;
+	top: calc(50% - 32px);
+	border: none;
+	margin-top: auto;
+	margin-bottom: auto;
+	background-color: $color-white;
+	@include border-radius (20px);
+}
+
+.sliderRecommendationsModule .bx-controls-direction .bx-next {
+	top: 40%;
+	right: -14px;
+	top: calc(50% - 32px);
+	border: none;
+	margin-top: auto;
+	margin-bottom: auto;
+	background-color: $color-white;
+	@include border-radius (20px);
+}
+
+/*hide controls*/
+.sliderRecommendationsModule .bx-wrapper .bx-pager{
+	display: none;
+}
+
+@media (max-width:$mobile) {
+	.sliderRecommendationsModule .bx-controls-direction .bx-prev {
+		left: 5px;
+	}
+	.sliderRecommendationsModule .bx-controls-direction .bx-next {
+		right: 5px;
+	}
+}
+
+

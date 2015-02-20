@@ -1,0 +1,59 @@
+/*Color*/
+/*Typography*/
+/*Grid*/
+/*Media Queries*/
+/*line-height*/
+/*Animation time*/
+/*Color*/
+/*Typography*/
+/*Grid*/
+/*Media Queries*/
+/*line-height*/
+/*Animation time*/
+/*Font face*/
+/*Icons Placeholder*/
+/*Border-radius*/
+/*Box-shadow*/
+/*Buttons*/
+/*Sprite*/
+/*Calculate rems*/
+/*Effects and animations*/
+.button-label {
+  font-family: "Polaris-Book", sans-serif;
+  color: #222;
+  letter-spacing: 0;
+  text-transform: none; }
+
+.button-share {
+  text-align: center;
+  width: 70px;
+  padding: 7px 18px 9px 16px; }
+
+@media (max-width: 480px) {
+  .button-circle-xs {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 1px 0;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    border: 0;
+    outline: 0;
+    line-height: 1;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%; }
+
+  .button-circle-xs .glyphs {
+    float: none;
+    position: relative;
+    top: 1px;
+    left: -2px; }
+
+  .button-circle-xs .glyphs:before {
+    margin: 0 9px; } }

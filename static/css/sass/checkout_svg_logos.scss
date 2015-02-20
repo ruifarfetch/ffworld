@@ -1,0 +1,237 @@
+@import '_variables';
+@import '_mixins';
+@import '_svgIcons';
+
+.svg{
+	/*Header*/
+	.checkout-header-logo-background {
+		background-image: $farfetch-logo-data-svg;
+	}
+	/*paypal*/
+	.checkout-payment-paypal,
+	.checkout-confirmation-payment-paypal{
+		background-image: $paypal-data-svg;
+	}
+	/*pagseguro*/
+	.checkout-payment-pagseguro,
+	.checkout-confirmation-payment-pagseguro {
+		background-image: $boleto-data-svg;
+	}
+
+	/*click and collect*/
+	.checkout-clickandcollect {
+	    background-image: $click-col-data-svg;
+	}
+
+	/*visa*/
+	.checkout-payment-visa {
+		background-image: $visa-data-svg;
+	}
+
+	/*Mastercard*/
+	.checkout-payment-mastercard {
+		background-image: $master-card-data-svg;
+	}
+
+	/*Maestro*/
+	.checkout-payment-maestro {
+		background-image: $maestro-data-svg;
+	}
+
+	/*diner Club Int*/
+	.checkout-payment-dinerclub {
+		background-image: $diner-club-card-data-svg;
+	}
+
+	/*American Express*/
+	.checkout-payment-americanexpress {
+		background-image: $american-express-data-svg;
+	}
+}
+
+.no-svg{
+	/*Header*/
+	.checkout-header-logo-background {
+		background-image: $farfetch-logo-file-png;
+	}
+	/*paypal*/
+	.checkout-payment-paypal,
+	.checkout-confirmation-payment-paypal{
+		background-image: $paypal-file-png;
+	}
+	/*pagseguro*/
+	.checkout-payment-pagseguro,
+	.checkout-confirmation-payment-pagseguro {
+		background-image: $boleto-file-png;
+	}
+
+	/*click and collect*/
+	.checkout-clickandcollect {
+	    background-image: $click-col-file-png;
+	}
+
+	/*visa*/
+	.checkout-payment-visa {
+		background-image: $visa-file-png;
+	}
+
+	/*Mastercard*/
+	.checkout-payment-mastercard {
+		background-image: $master-card-file-png;
+	}
+
+	/*Maestro*/
+	.checkout-payment-maestro {
+		background-image: $maestro-file-png;
+	}
+
+	/*diner Club Int*/
+	.checkout-payment-dinerclub {
+		background-image: $diner-club-card-file-png;
+	}
+
+	/*American Express*/
+	.checkout-payment-americanexpress {
+		background-image: $american-express-file-png;
+	}
+
+
+
+	/*Header*/
+	.checkout-header-logo-background ,
+	.checkout-payment-paypal,
+	.checkout-confirmation-payment-paypal,
+	.checkout-payment-pagseguro,
+	.checkout-confirmation-payment-pagseguro,
+	.checkout-clickandcollect,
+	.checkout-payment-visa,
+	.checkout-payment-mastercard,
+	.checkout-payment-maestro,
+	.checkout-payment-dinerclub,
+	.checkout-payment-americanexpress {
+		-ms-behavior: url(../static/backgroundsize.min.htc);
+	}
+}
+
+/*Header*/
+.checkout-header-logo-background {
+	background-repeat: no-repeat;
+	background-position:  center;
+	float: left;
+	width: 135px;
+	height: 18px;
+	@media (max-width: $mobile) {
+		background-size: 100px auto;
+		width: 100px;
+		height: 18px;
+		margin-top: 2px;
+	}
+}
+/*paypal*/
+.checkout-payment-paypal {
+	 background-repeat: no-repeat;
+	 background-position:  center;
+	 background-size: 110px;
+	 float: left;
+	 width: 124px;
+	 height: 30px;
+}
+.checkout-confirmation-payment-paypal {
+	background-repeat: no-repeat;
+	background-position:  center;
+	width: 94px;
+	height: 51px;
+	display: block;
+	position: absolute;
+	top: 50%;
+	left: 59%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+
+	@media (max-width: $mobile) {
+		left: 75%;
+	}
+}
+
+/*pagseguro*/
+.checkout-payment-pagseguro {
+	background-repeat: no-repeat;
+	background-position:  center;
+	float: left;
+	width: 70px;
+	height: 28px;
+}
+.checkout-confirmation-payment-pagseguro {
+	background-repeat: no-repeat;
+	background-position:  center;
+	width: 180px;
+	height: 51px;
+	display: block;
+	position: absolute;
+	top: 50%;
+	left: 59%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+/*click and collect*/
+.checkout-clickandcollect {
+	background-repeat: no-repeat;
+	background-position:  center;
+	float: left;
+	width: 75px;
+	height: 30px;
+	@media(max-width: $fablet){
+		margin-top: 8px;
+	}
+}
+
+/*visa*/
+.checkout-payment-visa {
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	float: left;
+	width: 66px;
+	height: 45px;
+}
+
+/*Mastercard*/
+.checkout-payment-mastercard {
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	float: left;
+	width: 66px;
+	height: 45px;
+}
+
+/*Maestro*/
+.checkout-payment-maestro {
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	float: left;
+	width: 66px;
+	height: 45px;
+}
+
+/*diner Club Int*/
+.checkout-payment-dinerclub {
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	float: left;
+	width: 66px;
+	height: 45px;
+}
+
+/*American Express*/
+.checkout-payment-americanexpress {
+	background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    float: left;
+    width: 66px;
+    height: 45px;
+}

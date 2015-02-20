@@ -1,0 +1,207 @@
+@import '_variables';
+@import '_mixins';
+
+main {
+  padding-top: 1px;
+}
+
+.country-selector-continent, .country-selector-results  {
+  & li {
+    padding-bottom:20px;
+  }
+}
+
+.country-selector-continent {
+  margin-bottom:2px;
+}
+
+.country-selector-continent-title  {
+    & h2 {
+      text-transform: uppercase;
+    }
+    & .heading-bold {
+      text-transform: uppercase;
+    }
+}
+.sidekick-country-selector {
+  width:100%!important;
+  position:relative;
+}
+
+.country-selector-wrapper .fixto-clone {
+  width:100%!important;
+}
+
+@media (min-width:$fablet +1) and (max-width:$tablet) {
+   .country-selector-col-right {
+    padding-left:0!important;
+  }
+}
+
+@media (max-width:$fablet) {
+
+  .sidekick-country-selector {
+    background-color:transparent!important;
+    & .sidekick-seo {
+      padding:0;
+      margin-top:0px;
+      color:$color-black;
+
+      & h1 {
+        color:$color-black;
+      }
+
+      & .country-selector-selected-info {
+        /*margin-top:0;
+        margin-bottom:13px;
+        padding-left:0px!important;
+        & .heading-bold {
+          display:block;
+        }*/
+      }
+    } 
+    .form-search-country {
+      position:fixed;
+      width:100%;
+      left:0;
+      background-color:$color-white;
+      @include box-shadow(1px,1px,1px,rgba($color-black,.1));
+      z-index:3;
+      @media (max-width: $fablet +1) {
+        z-index: 11;
+      }
+
+      & .input-search-icon {
+        color:$color-black!important;
+        top:18px;
+        left:10px;
+      } 
+
+      & .input_white {
+        padding-top:16px;
+        padding-bottom:16px;
+        padding-left:40px;
+        border:none;
+        @include placeholder($color-black);
+      }
+
+      & .input-text-clear {
+        top:8px;
+      }
+    }
+
+  }
+
+  .touch .country-selected-search_unfix {
+    position: absolute;
+    top: -106px;
+    left: -10px;
+    width: 107%;
+  }
+
+  .touch .country-selector-top-title-wrapper {
+    margin-top:0px;
+  }
+
+
+  .country-selector-results {
+    margin-top:45px;
+    padding-right:10px;
+    padding-left:10px;
+  }
+
+  .country-selector-continent-title h2 {
+    font-size:1em;
+  }
+
+  .country-selector-col-left, .country-selector-col-right {
+    padding-left:0!important;
+  }
+
+  .country-selector-top-title-wrapper {
+      margin-top: 0 !important;
+      margin-bottom: 0 !important;
+  }
+
+  .country-selector-results-clear {
+    position:absolute;
+    top:0;
+    right:0;
+  }
+
+  .msie .country-selector-results-clear {
+    position:relative; 
+  }
+
+  .country-selector-backtoTop {
+    margin-top:10px;
+    float:left;
+  }
+
+}  
+
+.sticky {z-index: 10;}
+
+
+.global_pos {
+  background-color:whitesmoke;
+  z-index:0;
+  position:relative;
+  top:-1px;
+  clear: both;
+ @include box-shadow(0px,0px,1px,rgba($color-black,.18));
+}
+
+.sidekick-country-selector {position:relative;top:-1px;}
+
+
+
+/*COUNTRY SELECTION V2.0 */
+
+.country-header, .info-banners-container {
+  @include transition(all,.45s,ease-in-out);
+  z-index: 90;
+  width: 100%;
+}
+
+
+@media (max-width: $fablet) {
+.country-header, .info-banners-container {
+    @include transition(all,0s,ease-in-out);
+  }
+  .form-search-country-mobile {
+      position:fixed;
+      width:100%;
+      left:0;
+      background-color:$color-white;
+      @include box-shadow(1px,1px,1px,rgba($color-black,.1));
+      
+
+      & .input-search-icon {
+        color:$color-black!important;
+        top:18px;
+        left:10px;
+      } 
+
+      & .input_white {
+        padding-top:16px;
+        padding-bottom:16px;
+        padding-left:40px;
+        border:none;
+        @include placeholder($color-black);
+        z-index: 9999;
+        color: $color-black;
+      }
+
+      & .input-text-clear {
+        top:8px;
+      }
+    }
+    .form-search-country-mobile {z-index: 99;}
+}
+
+@media (max-width: $fablet) {
+  .mt15-sm{
+    margin-top: 15px;
+  }
+}

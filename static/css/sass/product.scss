@@ -1,0 +1,252 @@
+@import '_variables';
+@import '_mixins';
+
+.sliderProductModule .bx-viewport{
+  overflow: visible !important;
+}
+
+.js-sliderProductPage{
+  visibility: hidden;
+}
+
+.js-sliderProduct .sliderProduct-slide.slider-active img,
+.js-sliderProduct .sliderProduct-slide.slider-active video
+{
+  opacity:1;
+  cursor:pointer;
+  @include transition(opacity,.3s,ease-in-out);
+}
+
+.js-sliderProduct .sliderProduct-slide img,
+.js-sliderProduct .sliderProduct-slide video
+{
+  opacity:0.4;
+  //cursor:default!important;
+  cursor: pointer;
+  @include transition(opacity,.3s,ease-in-out);
+}
+
+.sliderProductModule .bx-wrapper {
+  margin: 0 auto;
+}
+
+.sliderProductModule {
+  position: relative;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+.sliderProductModule .bx-pager-thumb img {
+  width: auto;
+}
+
+/*
+/////////fullscreen icon
+*/
+
+.sliderProductModule-fullscreen-container{
+  position: relative;
+  top: -50px;
+  left: -25px;
+  z-index: 9;
+  @media(max-width:$fablet){
+      max-width: 280px;
+      margin:0 auto; 
+      left: -20px;
+      top: -40px;
+  }
+  @media(min-width: $fablet) and (max-width: $tablet) {
+    top: -45px;
+    left: 10px;
+  }
+  @media(min-width: $tablet) and (max-width: 1200px) {
+    left: -15px;
+  }
+}
+
+.sliderProductModule-fullscreen-btn {
+  &:hover{
+  border-bottom: none;
+  color: $color-black!important;
+  }
+  @media(max-width:1524px){
+      margin-left:3%
+  }
+  @media(max-width:$fablet){
+    margin-left:27%
+  }
+}
+
+.sliderProductModule-fullscreen-btn .icon-resize{
+  position: relative;
+}
+
+/*
+//////////fullscreen icon
+*/
+
+.sliderProductModule .bx-controls-direction .bx-prev {
+  top: 40%;
+  left: -22px;
+  top: calc(50% - 20px);
+  border: none;
+  margin-top: auto;
+  margin-bottom: auto;
+  background-color: $color-white;
+  @include border-radius (40px);
+  z-index: 1;
+  width: 40px;
+  height: 40px;
+}
+
+.safari6 .sliderProductModule .bx-controls-direction .bx-next {
+  top: 40%;
+  top: calc(50% - 20px);
+  border: none;
+  margin-top: auto;
+  margin-bottom: auto;
+  background-color: $color-white;
+  @include border-radius (40px);
+  z-index: 1;
+  width: 40px;
+  height: 40px;
+}
+
+
+
+.sliderProductModule .bx-controls-direction .bx-next {
+  left: 31.9%;
+  top: calc(50% - 20px);
+  border: none;
+  margin-top: auto;
+  margin-bottom: auto;
+  background-color: $color-white;
+  @include border-radius (40px);
+  width: 40px;
+  height: 40px;
+  z-index: 1;
+  @media(max-width:768px){
+    left: 160px; 
+  }
+  @media(width:768px){
+    left: 220px;
+  }
+
+  @media (min-width:$fablet+1) and (max-width:$tablet) {
+    left: 31%;
+  }
+  @media (min-width:$tablet) and (max-width:1280px) {
+    left: 31.4%;
+  }
+   
+}
+
+.sliderProductModule {
+  .bx-wrapper .bx-prev:before {
+    top: 18px !important;
+    left: 10px !important;
+    @include fontSize($font-size3);
+    line-height: 0 !important;
+  }
+
+  .bx-wrapper .bx-next:before {
+    top: 18px !important;
+    left: 12px !important;
+    @include fontSize($font-size3);
+    line-height: 0 !important;
+  }
+
+}
+.sliderProductModule .bx-pager {
+  top: -48px;
+  bottom: 10px;
+  display: block;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sliderProductModule .bx-has-pager{
+  height:0px;
+  width: 100%;
+}
+
+@media (min-width: $fablet) {
+  .sliderProductModule .bx-pager-thumb, .sliderProductModule .bx-pager {
+    position: relative;
+    display: block;
+    z-index: 100;
+    padding-top: 0px;
+    width: 100%;
+    top: -25px;
+  }  
+}
+
+@media (max-width: $fablet) {
+  .sliderProductModule .bx-pager-thumb {
+    display: none;
+  }
+}
+
+/*
+//////////close btn on product fullscreen modal
+*/
+
+.modal-close-action-productFullscreen {
+  top: 20px;
+  right: 20px;
+  position: absolute;
+  z-index: 9999;
+}
+
+/*
+//////////close btn on product fullscreen modal
+*/
+
+
+/* 
+///////////.ProductDetail-modalSlider page styles
+ */
+.productDetail-modalSlider .sliderProductModule {
+  padding: 0px;
+}
+
+.productDetail-modalSlider .sliderProductModule .bx-pager-thumbFull{
+  position:absolute;
+  top:10px;
+  left:10px;
+  a{
+    float: left;
+    clear: left;
+    margin-bottom: 5px;
+  }
+}
+
+.productDetail-modalSlider .modal-dialog{
+  max-width: 1000px;
+}
+.productDetail-modalSlider .modal-content{
+  padding:0px;
+}
+
+.productDetail-modalSlider .sliderProductModule .bx-viewport{
+  overflow:hidden !important;
+}
+
+.productDetail-modalSlider .sliderProductModule .bx-pager{
+  bottom:20px;
+  padding-left: 0px;
+}
+
+.productDetail-modalSlider .sliderProductModule .bx-controls-direction .bx-prev{
+  left:10px;
+}
+
+.productDetail-modalSlider .sliderProductModule .bx-controls-direction .bx-next{
+  right: 10px;
+  left: inherit;
+}
+
+
+
+

@@ -1,0 +1,158 @@
+/*Color*/
+/*Typography*/
+/*Grid*/
+/*Media Queries*/
+/*line-height*/
+/*Animation time*/
+/*Color*/
+/*Typography*/
+/*Grid*/
+/*Media Queries*/
+/*line-height*/
+/*Animation time*/
+/*Font face*/
+/*Icons Placeholder*/
+/*Border-radius*/
+/*Box-shadow*/
+/*Buttons*/
+/*Sprite*/
+/*Calculate rems*/
+/*Effects and animations*/
+/* ==========================================================================
+   ffDiscover
+   ========================================================================== */
+.ffDiscover {
+  overflow: hidden;
+  position: relative; }
+  @media (max-width: 767px) {
+    .ffDiscover .flexbox {
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -moz-box-orient: vertical;
+      -webkit-box-orient: vertical;
+      -ms-box-orient: vertical;
+      -webkit-flex-direction: column;
+      flex-direction: column; } }
+  @media (max-width: 767px) {
+    .ffDiscover .col1 {
+      display: none; } }
+  .ffDiscover .bg {
+    width: 100%;
+    position: absolute; }
+  .ffDiscover .ffDiscover-contentWrapper {
+    display: inline-block;
+    margin-top: 40px;
+    width: 100%;
+    height: 100%;
+    top: 0; }
+    @media (max-width: 767px) {
+      .ffDiscover .ffDiscover-contentWrapper {
+        margin-top: 20px;
+        padding: 0 20px; } }
+    .ffDiscover .ffDiscover-contentWrapper .ffDiscover-container, .ffDiscover .ffDiscover-contentWrapper .container {
+      max-width: 1440px;
+      margin: 0 auto;
+      position: relative; }
+      @media (max-width: 767px) {
+        .ffDiscover .ffDiscover-contentWrapper .ffDiscover-container .ffDiscover-image, .ffDiscover .ffDiscover-contentWrapper .container .ffDiscover-image {
+          text-align: center;
+          line-height: 0; } }
+  .ffDiscover .container {
+    line-height: 0; }
+  .ffDiscover section {
+    margin-bottom: 20px; }
+  @media (max-width: 767px) {
+    .ffDiscover .mt0-xs {
+      margin-top: 0; }
+    .ffDiscover .mt30-xs {
+      margin-top: 30px; }
+    .ffDiscover .mb30-xs {
+      margin-bottom: 30px; } }
+  @media (max-width: 767px) {
+    .ffDiscover[data-section-label="shop"] .ffDiscover-image, .ffDiscover[data-section-label="city"] .ffDiscover-image, .ffDiscover[data-section-label="favourites"] .ffDiscover-image, .ffDiscover[data-section-label="competition"] .ffDiscover-image {
+      -moz-box-ordinal-group: 2;
+      -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 2;
+      -webkit-order: 2;
+      order: 2; }
+    .ffDiscover[data-section-label="shop"] .ffDiscover-content, .ffDiscover[data-section-label="city"] .ffDiscover-content, .ffDiscover[data-section-label="favourites"] .ffDiscover-content, .ffDiscover[data-section-label="competition"] .ffDiscover-content {
+      -moz-box-ordinal-group: 1;
+      -webkit-box-ordinal-group: 1;
+      -ms-flex-order: 1;
+      -webkit-order: 1;
+      order: 1; } }
+  .ffDiscover[data-section-label="around"], .ffDiscover[data-section-label="boutiques"], .ffDiscover[data-section-label="competition"] {
+    background-color: #fff;
+    line-height: 0; }
+  .ffDiscover[data-section-label="home"] .bg {
+    background: url("../images/01_assets/others/marketing/ffDiscover/home/bg_large.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 700px; }
+    @media (max-width: 767px) {
+      .ffDiscover[data-section-label="home"] .bg {
+        background: url("../images/01_assets/others/marketing/ffDiscover/home/bg_small.jpg") no-repeat;
+        background-position: center;
+        height: 400px; } }
+    @media (max-width: 480px) {
+      .ffDiscover[data-section-label="home"] .bg {
+        background: url("../images/01_assets/others/marketing/ffDiscover/home/bg_xsmall.jpg") no-repeat;
+        background-position: center;
+        height: 350px; } }
+  @media (max-width: 767px) {
+    .ffDiscover[data-section-label="home"] {
+      background-color: #fff; } }
+  .ffDiscover[data-section-label="home"] .ffDiscover-contentWrapper {
+    margin: 60px 0 30px 0; }
+    @media (max-width: 767px) {
+      .ffDiscover[data-section-label="home"] .ffDiscover-contentWrapper {
+        margin: 20px 0; } }
+  .ffDiscover[data-section-label="shop"] {
+    /*.ffDiscover-icon{
+      background: url("../images/01_assets/others/marketing/ffDiscover/shop/shop.png") no-repeat;
+      background: url("../images/01_assets/others/marketing/ffDiscover/shop/shop.svg") no-repeat;
+      position: absolute;
+      width: 35px;
+      height: 35px;
+      @media (max-width:$fablet){
+        margin-left: 20px;
+      }
+      }*/ }
+  .ffDiscover[data-section-label="around"] {
+    /*.ffDiscover-icon{
+      background: url("../images/01_assets/others/marketing/ffDiscover/around/around.png") no-repeat;
+      background: url("../images/01_assets/others/marketing/ffDiscover/around/around.svg") no-repeat;
+      position: absolute;
+      width: 35px;
+      height: 35px;
+      @media (max-width:$fablet){
+        margin-left: 20px;
+      }
+      }*/ }
+  .ffDiscover[data-section-label="city"] {
+    /*.ffDiscover-icon{
+      background: url("../images/01_assets/others/marketing/ffDiscover/city/city.png") no-repeat;
+      background: url("../images/01_assets/others/marketing/ffDiscover/city/city.svg") no-repeat;
+      position: absolute;
+      width: 35px;
+      height: 35px;
+      @media (max-width:$fablet){
+        margin-left: 20px;
+      }
+      }*/ }
+  .ffDiscover[data-section-label="favourites"] {
+    /*.ffDiscover-icon{
+      background: url("../images/01_assets/others/marketing/ffDiscover/favourites/favourites.png") no-repeat;
+      background: url("../images/01_assets/others/marketing/ffDiscover/favourites/favourites.svg") no-repeat;
+      position: absolute;
+      width: 35px;
+      height: 35px;
+      @media (max-width:$fablet){
+        margin-left: 20px;
+      }
+      }*/ }
+  .ffDiscover[data-section-label="footer"] .container {
+    line-height: normal; }

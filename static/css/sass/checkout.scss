@@ -1,0 +1,74 @@
+@import '_variables';
+@import '_mixins';
+@import '_svgIcons';
+
+/* ==========================================================================
+   Checkout Files
+   ========================================================================== */
+   /*br translations adjustments*/
+   @media (max-width:480px){
+       :lang(br) .checkout-steps-container h4::first-letter{
+          width: 100%;
+          float: left;
+       }
+   }
+   @media (max-width:480px){
+       :lang(br) .checkout-steps .arrow_right{
+           top:25px
+       }
+   }
+   @media (max-width:480px){
+       :lang(br) .checkout-header-Help h6{
+          display:none;
+       }
+   }
+  @media (max-width:480px){
+       :lang(br) .checkout-mainContent-boxModule-addNewAddress{
+          height: 88px !important;
+          min-height: 0px !important;
+          margin-top: 10px;
+       }
+  }
+  @media (max-width:480px){
+    :lang(br) .checkout-mainContent-boxModule-addNewAddress .checkout-mainContent-boxModule-addNewIcon-small{
+      padding-top: 16px !important;
+    }
+  }
+
+   /*sticky summary box global fix*/
+   .sticky-holder{
+      z-index: 4;
+   }
+   /*modal fix*/
+   .sizeGuideModal{
+      z-index:10000;
+   }
+
+
+   .checkout-form-backToCardList a{
+      @media(max-width:$mobile){
+      margin-top:10px;
+      }
+   }
+
+   @import "checkout_svg_logos";
+   @import "checkout_header_footer";
+   @import "checkout_listItems";
+   @import "checkout_summaryBox";
+   @import "checkout_wishlist";
+   @import "checkout_signIn";
+   @import "checkout_topStepsBar"; 
+   @import "checkout_mainBoxModules";
+   @import "checkout_forms";
+   @import "checkout_confirmation"; 
+   @import "checkout_icons";
+
+ .helpContact-info-box {
+    min-height: 130px;
+    -webkit-box-shadow: 0px 2px 3px rgba(34, 34, 34, 0.18);
+    -moz-box-shadow: 0px 2px 3px rgba(34, 34, 34, 0.18);
+    box-shadow: 0px 2px 3px rgba(34, 34, 34, 0.18);
+    .icon-phone, .icon-chat, .icon-contact {
+      margin: 4px 10px 0 0;
+    }
+  }

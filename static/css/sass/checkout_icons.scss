@@ -1,0 +1,76 @@
+@import '_variables';
+@import '_mixins';
+
+/* ==========================================================================
+   Checkout Icons
+   ========================================================================== */
+
+.checkout-summaryBox-container-secondary-image {
+	.glyphs {
+		font-size:3em;
+		float:left;
+		color:$color-mediumGrey;
+
+		&:before {
+			float:left;
+		}
+	}
+}
+
+.checkout-listItems-productDetails-disclaimer-description {
+	button {
+		margin-top:7px;
+	}	
+	.glyphs{
+		color: $color-mediumGrey;
+		font-size: 3rem;	
+	}
+}
+
+.icon-circular-bg {
+	border-radius: 50%;
+	width: 19px;
+	height: 19px;
+	background-color: $color-mediumGrey;
+	color:white;
+	cursor:pointer;
+	& span {
+		&:before {
+			margin-top: 3px;
+			margin-left: 3px;
+			float: left;
+			font-size: 1em;
+		}
+	}
+}
+
+.checkout-confirmation-whatHapNext {
+	.glyphs:before {
+		font-size:7em;
+		color:$color-mediumGrey;
+	}
+}
+
+// icons
+.icon-info-fill{
+  font-size:2em;
+  color: $color-mediumGrey;
+  cursor: pointer;
+  margin-right: 4px;
+}
+
+/* MARTELADA PARA MENTION ME*/
+#mmWrapper{
+  margin-top: -10px !important;
+}
+
+#mmLink{
+  font-family: "Polaris-Book", sans-serif !important;
+  border-bottom: 1px solid #222; 
+  color: #222222 !important;
+  font-size: 1.3rem !important;
+}
+
+#mmWrapper .mmWrapping{
+    margin-bottom: 0px !important;
+}

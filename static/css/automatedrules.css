@@ -1,0 +1,175 @@
+﻿
+#dvAutoRulesMaker {
+    width:650px;
+    height:470px;
+    background-color: #d2d2d2
+}
+#dvListaRules{
+    width:200px;
+    height:400px;
+    float:left;
+    border:solid 1px #ffffff;
+    margin:5px;
+    overflow:auto 
+}
+#dvListaRules div{
+    width:180px;   
+    border:solid 1px #ffffff;
+    margin:5px;
+    text-align:center;
+    cursor:pointer;
+}
+#dvListaRules div:hover {
+     background-color:Aqua 
+}
+#dvAutoRules{
+    width:420px;
+    height:360px;
+    float:left;
+    border:solid 1px #ffffff;
+    margin:5px;
+    overflow:auto;
+}
+#dvAutoRules div{
+    width:120px;
+    float:left;
+    margin:3px
+}
+#dvAutoRules div input{
+    width:20px;
+    background: tranparent !important
+}
+#dvAutoRules div div{
+    margin:0px
+}
+#dvRuleName{
+    width:420px;
+    height:30px;
+    float:left;
+    border:solid 1px #ffffff;
+    margin:5px;
+}
+#dvRuleName input{
+    width:400px;
+    background: tranparent !important
+}
+#dvCommands{
+    width:630px;
+    height:40px;
+    border:solid 1px #ffffff;
+    margin:5px;
+    float:left;
+}
+#dvCommands #dvButtons{
+    float:right;
+}
+#dvCommands #dvButtons input{
+     height:32px;
+     width:70px;
+     margin:2px;
+}   
+#dvRecycle{
+     height:32px;
+     width:80px;
+     border:solid 1px #ffffff;
+     margin:2px;
+     float:left;
+     background-color:red
+}
+.dropped{
+    background-color:#ffffff; 
+}
+#dvAjaxPanel{
+    position:absolute;
+    width:100%;
+    height:100%;
+    z-index:9999;
+    display:none;
+    top:0px;
+    left:0px;
+}
+#dvAjaxPanel #dvAjaxBottom{
+    background-color:#000000;
+    filter: alpha(opacity=50);
+    opacity: 0.5;
+    width:100%;
+    height:100%;
+}
+#dvAjaxPanel img{
+    filter: alpha(opacity=60);
+    opacity: 0.6;
+    position:absolute;
+    top:50%;
+    left:50%;
+}
+#dvChooseRule{
+    display:none;
+    background-color: #d2d2d2;
+    border:solid 2px #ffffff;
+    width:200px;
+    height: 300px;
+    overflow:auto;
+    position:absolute;
+    top:40%;
+    left:50%;
+    z-index:999999;
+}
+#dvProfileConfigurator{
+    width:650px;
+    height:470px;
+    background-color: #d2d2d2;
+    overflow:auto
+}
+#dvProfileConfigurator table{
+    width:630px;
+    height:40px;
+    background-color: #d2d2d2;
+    border:solid 1px #ffffff;
+    margin:5px;
+    float:left;
+}
+#dvProfileCommands{
+    width:630px;
+    height:40px;
+    border:solid 1px #ffffff;
+    margin:5px;
+    float:left;
+}
+#dvProfileCommands #dvProfileCommandsButtons{
+    float:right;
+}
+#dvProfileCommands #dvProfileCommandsButtons input{
+     height:32px;
+     width:70px;
+     margin:2px;
+}   
+
+#dvRankingDetail {
+    margin-bottom:30px;
+}
+
+#dvRankingDetail input[type="radio"] {
+    -webkit-appearance: radio;
+    float:left;
+    margin-top:3px;
+}
+
+#dvRankingDetail input[type="checkbox"] {
+    -webkit-appearance: checkbox; 
+    float:left;
+     margin-top:3px;
+}
+
+#dvRankingDetail h2 {
+  font-size: 24px;
+  font-size: 2.4rem;
+  line-height: 3rem; 
+}
+
+.admRanking .listing-item-content {
+    min-height: 210px;
+}
+
+.admRanking .listing-item-content-box {
+    position:relative!important;
+}

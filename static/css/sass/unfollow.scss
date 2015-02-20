@@ -1,0 +1,72 @@
+@import '_variables';
+@import '_mixins';
+
+/* ==========================================================================
+   UNFOLLOW HUB
+   ========================================================================== */
+.unfollow-cards{
+  @include box-shadow(1px,1px,1px,rgba($color-black,.1));
+  background-color: $color-white;
+}
+.unfollow-cards.hidden{
+  visibility: hidden;
+}
+
+.profile-pic {
+   max-width: 50px;
+}
+
+
+.unfollow-share a {
+   margin-right: 10px;
+} 
+
+.unfollow-share a span:hover {
+   color: $color-mediumGrey;
+}
+
+.unfollow-cards .glyphs{
+   font-size: 1.6em;  
+}
+
+.unfollow-like {
+   border-left: 1px solid $color-lightGrey;
+}
+
+.unfollow-like-on {
+   color: $color-beige;
+}
+
+#unfollow-loading {
+  text-align: center;
+}
+
+.unfollow-like {
+  margin-top: 1px;
+}
+
+.unfollow-like {
+  cursor:pointer;
+}  
+
+@media (max-width:$fablet) {
+  .column-margins{
+     padding-right:10px;
+     padding-left:10px;
+    }
+
+  .unfollow-share a {
+   margin-right: 20px;
+  } 
+}
+
+@media (max-width:$mobile) {
+  .unfollow-share a {
+   margin-right: 10px;
+  }
+
+}
+
+/* ==========================================================================
+   Player
+   ========================================================================== */

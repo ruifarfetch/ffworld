@@ -1,0 +1,50 @@
+/*slider pagination*/
+.bx-controls-direction .bx-prev {
+  top: 50%;
+  display: block;
+  background: url(../../../images/sprite.png) 12px 11px;
+  background-color:#fff;
+ }
+.bx-controls-direction .bx-next {
+  top: 50%;
+  display: block;
+  background: url(../../../images/sprite.png) 15px -39px;
+  background-color:white;
+}
+.arrow{
+  display:none;/*happy times :D*/
+}
+.bx-wrapper .bx-pager.bx-default-pager a{
+  background-color:rgb(239, 239, 239);
+}
+/**/
+
+
+/*slider slingle*/
+.sliderSingleModule .bx-pager{
+  bottom:10px;
+}
+.sliderSingleModule .bx-controls-direction{
+  bottom:75px;
+}
+.sliderSingle-content{
+  padding-top: 10px;
+}
+.sliderSingle-addToBag{
+  bottom:40px;
+}
+
+
+/*hero content*/
+.hero-content-container {
+  top: 30%;
+}
+
+
+/*sliderRecommendations*/
+.sliderRecommendations button{
+  left:5%;
+}
+.sliderRecommendations-content-box-center{
+  top:38%;
+}

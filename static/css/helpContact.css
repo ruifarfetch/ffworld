@@ -1,0 +1,112 @@
+/*Color*/
+/*Typography*/
+/*Grid*/
+/*Media Queries*/
+/*line-height*/
+/*Animation time*/
+/*Color*/
+/*Typography*/
+/*Grid*/
+/*Media Queries*/
+/*line-height*/
+/*Animation time*/
+/*Font face*/
+/*Icons Placeholder*/
+/*Border-radius*/
+/*Box-shadow*/
+/*Buttons*/
+/*Sprite*/
+/*Calculate rems*/
+/*Effects and animations*/
+/* ==========================================================================
+   Help
+   ========================================================================== */
+/*For iFrame*/
+#helpContact {
+  overflow: hidden; }
+  #helpContact body {
+    background-color: transparent;
+    padding-top: 30px; }
+
+.helpContact-contctForm-inputEmail,
+.helpContact-contctForm-textareaMessage {
+  clear: left; }
+
+.input_file {
+  font-size: .8em;
+  color: #aaa;
+  cursor: pointer;
+  border: none;
+  border-color: transparent; }
+
+.helpContact {
+  /* 
+   * Left Menu
+   */
+  /* 
+   * Content
+   */ }
+  .helpContact .helpContact-leftmenu ul {
+    width: 100%; }
+    .helpContact .helpContact-leftmenu ul li {
+      padding: 10px 0;
+      cursor: pointer; }
+  .helpContact .helpContact-leftmenu-active {
+    font-family: "Polaris-Bold", sans-serif; }
+  .helpContact .helpContact-Faq-SubCat-Menu {
+    cursor: pointer; }
+  .helpContact .helpContact-Faq-SubCat.show .helpContact-Faq-SubCat-Title {
+    margin-top: 0px; }
+  .helpContact .helpContact-content .helpContact-field-title {
+    margin: 0 10px; }
+  .helpContact .helpContact-content .helpContact-selector {
+    margin-bottom: 2px; }
+  .helpContact .helpContact-content .helpContact-selector-content .icon-phone, .helpContact .helpContact-content .helpContact-selector-content .icon-chat {
+    margin: 4px 10px 0 0; }
+  .helpContact .helpContact-content .helpContact-selector-content .button-black-circle {
+    width: 15px;
+    height: 15px;
+    margin: 4px 10px 0 0; }
+    .helpContact .helpContact-content .helpContact-selector-content .button-black-circle:hover {
+      box-shadow: none; }
+    .helpContact .helpContact-content .helpContact-selector-content .button-black-circle .icon-question-mark {
+      position: relative;
+      top: -5px;
+      font-size: .7em; }
+  .helpContact .helpContact-info-box {
+    min-height: 164px; }
+    .helpContact .helpContact-info-box .glyphs {
+      font-size: 1.25em;
+      margin-top: 2px; }
+  @media (max-width: 767px) {
+    .helpContact .helpContact-title {
+      margin: 30px 0 20px 0; }
+    .helpContact .helpContact-selector {
+      margin-left: -10px;
+      margin-right: -10px; }
+    .helpContact .helpContact-leftmenu {
+      padding: 10px 20px 0px 20px;
+      margin-bottom: 30px;
+      background: #fff;
+      -webkit-box-shadow: 0px 1px 2px rgba(34, 34, 34, 0.05) ;
+      -moz-box-shadow: 0px 1px 2px rgba(34, 34, 34, 0.05) ;
+      box-shadow: 0px 1px 2px rgba(34, 34, 34, 0.05) ; }
+    .helpContact .helpContact-info-box {
+      margin-bottom: 10px; }
+    .helpContact .helpContact-contctForm-inputFile {
+      display: none; } }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .helpContact-info-box {
+    min-height: 154px !important; } }
+/*Isolate icon for iFrame*/
+#contactForm .icon-contact {
+  font-size: 1.25em;
+  margin: 3px 10px 0 0; }
+
+.lt-ie9 .helpContact-contctForm-inputFile-wrapper .baseline.omega {
+  float: left;
+  clear: both;
+  padding-left: 0 !important; }
+
+/*# sourceMappingURL=helpContact.css.map */

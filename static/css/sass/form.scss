@@ -1,0 +1,90 @@
+@import '_variables';
+@import '_mixins';
+
+/*******RADIO BUTTONS AND CHECKBOX*******/
+
+.label-check,
+.label-radio{
+  font-family: $font-regular;
+  text-transform: none;
+  letter-spacing: 0;
+}
+
+.fancy-checkbox,
+.fancy-radio{
+  font-family: $font-regular;
+  text-transform: none;
+  letter-spacing: 0;
+}
+
+
+.icon-box-checked,
+.icon-box-unchecked,
+.icon-radio-checked,
+.icon-radio-unchecked{
+  position: relative;
+  width: 16px;
+  height: 16px;
+  top:2px;
+  float: left;
+  background-color: $color-white;
+  color: $color-black; 
+}
+.no-touch .icon-box-checked,
+.no-touch .icon-box-unchecked,
+.no-touch .icon-radio-checked,
+.no-touch .icon-radio-unchecked{
+  &:hover{
+    @include box-shadow(1px,1px,0px,#ccc,inset);
+  } 
+}
+
+.icon-box-checked,
+.icon-radio-checked{
+  @include box-shadow(1px,1px,0px,#ccc,inset);
+}
+
+.icon-radio-checked,
+.icon-radio-unchecked{
+  @include border-radius(8px);
+}
+
+.no-touch .label-check-disabled span,
+.no-touch .label-radio-disabled span{
+   &:hover{
+  @include box-shadow-no();
+  }
+}
+
+.label-check,
+.label-radio,
+.label-check-disabled,
+.label-radio-disabled {
+  cursor: pointer;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.label-check-disabled,
+.label-radio-disabled {
+  color: $color-mediumGrey;
+  cursor: default; 
+  @include opacity(0.4);
+}
+
+.label-check input,
+.label-radio input,
+.label-check-disabled input,
+.label-radio-disabled input {
+  left: -9999999px;
+  /*NOT THE BEST SOLUTION*/
+  position: absolute;
+  /*NEED TO DELETE THIS*/
+  direction: ltr; }
+
+
+
+@import "fancy_checkbox";

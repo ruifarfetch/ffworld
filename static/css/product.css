@@ -1,0 +1,242 @@
+/*Color*/
+/*Typography*/
+/*Grid*/
+/*Media Queries*/
+/*line-height*/
+/*Animation time*/
+/*Color*/
+/*Typography*/
+/*Grid*/
+/*Media Queries*/
+/*line-height*/
+/*Animation time*/
+/*Font face*/
+/*Icons Placeholder*/
+/*Border-radius*/
+/*Box-shadow*/
+/*Buttons*/
+/*Sprite*/
+/*Calculate rems*/
+/*Effects and animations*/
+.sliderProductModule .bx-viewport {
+  overflow: visible !important; }
+
+.js-sliderProductPage {
+  visibility: hidden; }
+
+.js-sliderProduct .sliderProduct-slide.slider-active img,
+.js-sliderProduct .sliderProduct-slide.slider-active video {
+  opacity: 1;
+  cursor: pointer;
+  -webkit-transition: opacity 0.3s ease-in-out;
+  -moz-transition: opacity 0.3s ease-in-out;
+  -o-transition: opacity 0.3s ease-in-out;
+  -ms-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out; }
+
+.js-sliderProduct .sliderProduct-slide img,
+.js-sliderProduct .sliderProduct-slide video {
+  opacity: 0.4;
+  cursor: pointer;
+  -webkit-transition: opacity 0.3s ease-in-out;
+  -moz-transition: opacity 0.3s ease-in-out;
+  -o-transition: opacity 0.3s ease-in-out;
+  -ms-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out; }
+
+.sliderProductModule .bx-wrapper {
+  margin: 0 auto; }
+
+.sliderProductModule {
+  position: relative;
+  padding-left: 35px;
+  padding-right: 35px; }
+
+.sliderProductModule .bx-pager-thumb img {
+  width: auto; }
+
+/*
+/////////fullscreen icon
+*/
+.sliderProductModule-fullscreen-container {
+  position: relative;
+  top: -50px;
+  left: -25px;
+  z-index: 9; }
+  @media (max-width: 767px) {
+    .sliderProductModule-fullscreen-container {
+      max-width: 280px;
+      margin: 0 auto;
+      left: -20px;
+      top: -40px; } }
+  @media (min-width: 767px) and (max-width: 1024px) {
+    .sliderProductModule-fullscreen-container {
+      top: -45px;
+      left: 10px; } }
+  @media (min-width: 1024px) and (max-width: 1200px) {
+    .sliderProductModule-fullscreen-container {
+      left: -15px; } }
+
+.sliderProductModule-fullscreen-btn:hover {
+  border-bottom: none;
+  color: #222 !important; }
+@media (max-width: 1524px) {
+  .sliderProductModule-fullscreen-btn {
+    margin-left: 3%; } }
+@media (max-width: 767px) {
+  .sliderProductModule-fullscreen-btn {
+    margin-left: 27%; } }
+
+.sliderProductModule-fullscreen-btn .icon-resize {
+  position: relative; }
+
+/*
+//////////fullscreen icon
+*/
+.sliderProductModule .bx-controls-direction .bx-prev {
+  top: 40%;
+  left: -22px;
+  top: calc(50% - 20px);
+  border: none;
+  margin-top: auto;
+  margin-bottom: auto;
+  background-color: #fff;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
+  border-radius: 40px;
+  z-index: 1;
+  width: 40px;
+  height: 40px; }
+
+.safari6 .sliderProductModule .bx-controls-direction .bx-next {
+  top: 40%;
+  top: calc(50% - 20px);
+  border: none;
+  margin-top: auto;
+  margin-bottom: auto;
+  background-color: #fff;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
+  border-radius: 40px;
+  z-index: 1;
+  width: 40px;
+  height: 40px; }
+
+.sliderProductModule .bx-controls-direction .bx-next {
+  left: 31.9%;
+  top: calc(50% - 20px);
+  border: none;
+  margin-top: auto;
+  margin-bottom: auto;
+  background-color: #fff;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
+  border-radius: 40px;
+  width: 40px;
+  height: 40px;
+  z-index: 1; }
+  @media (max-width: 768px) {
+    .sliderProductModule .bx-controls-direction .bx-next {
+      left: 160px; } }
+  @media (width: 768px) {
+    .sliderProductModule .bx-controls-direction .bx-next {
+      left: 220px; } }
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .sliderProductModule .bx-controls-direction .bx-next {
+      left: 31%; } }
+  @media (min-width: 1024px) and (max-width: 1280px) {
+    .sliderProductModule .bx-controls-direction .bx-next {
+      left: 31.4%; } }
+
+.sliderProductModule .bx-wrapper .bx-prev:before {
+  top: 18px !important;
+  left: 10px !important;
+  font-size: 18px;
+  font-size: 1.8rem;
+  line-height: 2.61rem;
+  line-height: 0 !important; }
+.sliderProductModule .bx-wrapper .bx-next:before {
+  top: 18px !important;
+  left: 12px !important;
+  font-size: 18px;
+  font-size: 1.8rem;
+  line-height: 2.61rem;
+  line-height: 0 !important; }
+
+.sliderProductModule .bx-pager {
+  top: -48px;
+  bottom: 10px;
+  display: block;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto; }
+
+.sliderProductModule .bx-has-pager {
+  height: 0px;
+  width: 100%; }
+
+@media (min-width: 767px) {
+  .sliderProductModule .bx-pager-thumb, .sliderProductModule .bx-pager {
+    position: relative;
+    display: block;
+    z-index: 100;
+    padding-top: 0px;
+    width: 100%;
+    top: -25px; } }
+@media (max-width: 767px) {
+  .sliderProductModule .bx-pager-thumb {
+    display: none; } }
+/*
+//////////close btn on product fullscreen modal
+*/
+.modal-close-action-productFullscreen {
+  top: 20px;
+  right: 20px;
+  position: absolute;
+  z-index: 9999; }
+
+/*
+//////////close btn on product fullscreen modal
+*/
+/* 
+///////////.ProductDetail-modalSlider page styles
+ */
+.productDetail-modalSlider .sliderProductModule {
+  padding: 0px; }
+
+.productDetail-modalSlider .sliderProductModule .bx-pager-thumbFull {
+  position: absolute;
+  top: 10px;
+  left: 10px; }
+  .productDetail-modalSlider .sliderProductModule .bx-pager-thumbFull a {
+    float: left;
+    clear: left;
+    margin-bottom: 5px; }
+
+.productDetail-modalSlider .modal-dialog {
+  max-width: 1000px; }
+
+.productDetail-modalSlider .modal-content {
+  padding: 0px; }
+
+.productDetail-modalSlider .sliderProductModule .bx-viewport {
+  overflow: hidden !important; }
+
+.productDetail-modalSlider .sliderProductModule .bx-pager {
+  bottom: 20px;
+  padding-left: 0px; }
+
+.productDetail-modalSlider .sliderProductModule .bx-controls-direction .bx-prev {
+  left: 10px; }
+
+.productDetail-modalSlider .sliderProductModule .bx-controls-direction .bx-next {
+  right: 10px;
+  left: inherit; }
+
+/*# sourceMappingURL=product.css.map */

@@ -1,0 +1,110 @@
+/*Color*/
+/*Typography*/
+/*Grid*/
+/*Media Queries*/
+/*line-height*/
+/*Animation time*/
+/*Color*/
+/*Typography*/
+/*Grid*/
+/*Media Queries*/
+/*line-height*/
+/*Animation time*/
+/*Font face*/
+/*Icons Placeholder*/
+/*Border-radius*/
+/*Box-shadow*/
+/*Buttons*/
+/*Sprite*/
+/*Calculate rems*/
+/*Effects and animations*/
+body[data-page="account"],
+body[data-page="checkout"],
+body[data-page="returns"],
+body[data-page="forgotpassword"],
+body[data-page="login"] {
+  padding-top: 0;
+  /*footer*/ }
+  body[data-page="account"] .wrapper,
+  body[data-page="checkout"] .wrapper,
+  body[data-page="returns"] .wrapper,
+  body[data-page="forgotpassword"] .wrapper,
+  body[data-page="login"] .wrapper {
+    overflow: hidden;
+    margin-bottom: -40px; }
+  body[data-page="account"] main,
+  body[data-page="checkout"] main,
+  body[data-page="returns"] main,
+  body[data-page="forgotpassword"] main,
+  body[data-page="login"] main {
+    margin-top: 50px;
+    padding-bottom: 40px; }
+  body[data-page="account"] footer,
+  body[data-page="checkout"] footer,
+  body[data-page="returns"] footer,
+  body[data-page="forgotpassword"] footer,
+  body[data-page="login"] footer {
+    margin: 0;
+    min-height: 40px;
+    color: #fff; }
+    body[data-page="account"] footer a, body[data-page="account"] footer a:link,
+    body[data-page="checkout"] footer a,
+    body[data-page="checkout"] footer a:link,
+    body[data-page="returns"] footer a,
+    body[data-page="returns"] footer a:link,
+    body[data-page="forgotpassword"] footer a,
+    body[data-page="forgotpassword"] footer a:link,
+    body[data-page="login"] footer a,
+    body[data-page="login"] footer a:link {
+      color: #fff !important;
+      border-bottom: none !important; }
+  @media (max-width: 767px) {
+    body[data-page="account"] .wrapper,
+    body[data-page="checkout"] .wrapper,
+    body[data-page="returns"] .wrapper,
+    body[data-page="forgotpassword"] .wrapper,
+    body[data-page="login"] .wrapper {
+      margin-bottom: -60px; }
+    body[data-page="account"] main,
+    body[data-page="checkout"] main,
+    body[data-page="returns"] main,
+    body[data-page="forgotpassword"] main,
+    body[data-page="login"] main {
+      padding-bottom: 60px; }
+    body[data-page="account"] footer,
+    body[data-page="checkout"] footer,
+    body[data-page="returns"] footer,
+    body[data-page="forgotpassword"] footer,
+    body[data-page="login"] footer {
+      overflow: hidden; }
+    body[data-page="account"] footer.not-logged,
+    body[data-page="checkout"] footer.not-logged,
+    body[data-page="returns"] footer.not-logged,
+    body[data-page="forgotpassword"] footer.not-logged,
+    body[data-page="login"] footer.not-logged {
+      overflow: hidden; } }
+
+/*header*/
+.checkout-header {
+  height: 50px;
+  padding: 16px 0 10px 0; }
+
+.checkout-header-container-mainRight .glyphs, .checkout-footer-container-mainRight .glyphs {
+  font-size: 20px;
+  position: relative;
+  top: -2px; }
+
+.checkout-header-Help h6 {
+  white-space: nowrap; }
+
+.checkout-header-currency p {
+  border-right: 1px solid #ccc; }
+
+.checkout-header a {
+  border-bottom: none !important; }
+
+@media (min-width: 480px) {
+  .checkout-phone-link {
+    pointer-events: none; } }
+
+/*# sourceMappingURL=checkout_header_footer.css.map */

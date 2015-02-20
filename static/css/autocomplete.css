@@ -1,0 +1,69 @@
+/*Color*/
+/*Typography*/
+/*Grid*/
+/*Media Queries*/
+/*line-height*/
+/*Animation time*/
+/*Color*/
+/*Typography*/
+/*Grid*/
+/*Media Queries*/
+/*line-height*/
+/*Animation time*/
+/*Font face*/
+/*Icons Placeholder*/
+/*Border-radius*/
+/*Box-shadow*/
+/*Buttons*/
+/*Sprite*/
+/*Calculate rems*/
+/*Effects and animations*/
+.header-autocomplete-containter {
+  position: relative; }
+
+.autocomplete-suggestions {
+  cursor: default;
+  padding-top: 20px;
+  margin-top: 1px; }
+
+.header-search .autocomplete-suggestions {
+  width: 100% !important; }
+
+.autocomplete-group {
+  float: left;
+  width: 48%;
+  padding-right: 10px; }
+
+.autocomplete-group > b {
+  font-family: "Polaris-Bold", sans-serif;
+  text-transform: none;
+  letter-spacing: normal !important;
+  font-size: 11px;
+  font-size: 1.1rem;
+  line-height: 1.848rem;
+  display: block;
+  padding-bottom: 10px;
+  font-weight: normal; }
+
+.autocomplete-suggestion {
+  cursor: pointer;
+  font-size: 13px;
+  font-size: 1.3rem;
+  line-height: 2.184rem;
+  margin-bottom: 12px; }
+
+.autocomplete-suggestion:hover {
+  color: #aaa; }
+
+#autocomplete-group-x {
+  position: absolute;
+  background: transparent;
+  z-index: 1;
+  display: none; }
+
+.autocomplete-suggestions strong {
+  font-family: "Polaris-Condensed-Bold", "Polaris-Bold", sans-serif; }
+
+@media (max-width: 767px) {
+  .header-autocomplete-containter .autocomplete-suggestions {
+    display: none; } }

@@ -1,0 +1,50 @@
+/*Color*/
+$color-black: #222;
+$color-darkGrey: #555;
+$color-mediumGrey: #aaa;
+$color-lightGrey: #ccc;
+$color-platinum: #ddd;
+$color-offWhite: #f5f5f5;
+$color-white: #fff;
+$color-beige: #c2a67d;
+$color-red: #fd4f57;
+$color-green: #3eb46e;
+$color-facebook: #38579b;
+ 
+/*Typography*/
+$font-condensed: 'Polaris-Condensed-Bold', 'Polaris-Bold', sans-serif;
+$font-regular:  'Polaris-Book', sans-serif;
+$font-bold: 'Polaris-Bold', sans-serif;
+$font-gliphs: 'iconGliphs';
+$font-size1: 30;
+$font-size2: 24;
+$font-size3: 18;
+$font-size4: 16;
+$font-size5: 13;
+$font-size6: 11;
+
+/*Grid*/
+$col-1: 8.33%;
+$col-2: 16.667%;
+$col-3: 25%;
+$col-4: 33.33%;
+$col-5: 41.66%;
+$col-6: 50%;
+$col-7: 58.33%;
+$col-8: 66.66%;
+$col-9: 75%;
+$col-10: 83.33%;
+$col-11: 91.67%;
+$col-12: 100%;
+
+/*Media Queries*/
+$mobile: 480px;
+$fablet: 767px;
+$tablet: 1024px;
+$desktop: 1440px;
+
+/*line-height*/
+$letter-spacing: .2em;
+
+/*Animation time*/
+$animation-time: .3s;

@@ -1,0 +1,201 @@
+@import '_variables';
+@import '_mixins';
+
+.mt5{
+    margin-top:5px;
+}
+
+// toggle filter
+.left-filters-wrapper {
+	@media (max-width:$fablet) { 
+        margin-top: 0;
+    }
+    .accordion {
+        @media (max-width:$fablet) { 
+            margin-top:0px;
+            margin-bottom:0px;
+        }
+    }
+    .accordion .accordion-item:last-of-type {
+        @media (max-width:$fablet) {
+            .accordion-title {
+               border-bottom:none;
+            }
+            &.active .accordion-title {
+                border-bottom: 1px solid #ccc;
+            }
+        }
+    }
+    .accordion-title.no-border {
+        border: 0;
+    }
+    .accordion-item.active .accordion-title {
+        font-family: $font-bold;
+    }
+    .accordion-content {
+        padding: 20px 10px 0px 10px;
+        li{
+            padding-left: 10px;
+            padding-bottom: 10px;
+        }
+    }
+    & .boutiques-select-search a:hover,
+    .boutiques-select-search a:active {
+        border:none!important;
+    }
+
+    //options without checkboxs
+    .accordion-content-single-select .accordion-content li {
+        padding-left:0px;
+    }
+
+    .accordion-content-single-select .accordion-content li .toplevel_filter .fancy-checkbox:after {
+        content: '';
+    }
+
+    //multilevel options
+    .accordion-content-single-select .filter_hasParent li {
+      margin-bottom:0px;
+    }
+    .accordion-content-single-select .filter_hasParent li:first-child {
+      padding-top: 15px; 
+    }
+}
+
+@media (max-width:$fablet){
+    
+    /*Filters Header Menu*/
+    .listing-filter-wrapper {
+        height:50px;
+        background-color:$color-white;
+        padding:10px 0 10px 0;
+        color:$color-mediumGrey;
+        position:relative;
+        z-index: 8;
+        .icon-down {
+            font-size:2.4em;
+            position:relative;
+            top: 2px;
+            right: 5px;
+        }
+        .filters-filter-active {
+
+            color:$color-black;
+
+            .icon-down:before {
+                content:"\e611";
+            }
+        }
+
+        .listing-filter-view .glyphs{
+            color:$color-mediumGrey;
+        }
+
+        .glyphs.listing-grid_active {
+            color:$color-black;
+        }
+
+        .listing-filter-view,
+        .listing-header-filter,
+        .listing-filter-sort-title {
+            z-index:7;
+            position:relative;
+        }
+
+        .listing-header-filter,
+        .listing-filter-sort-title {
+            cursor:pointer;
+            span{
+                display: inline-block;
+            }
+        }
+    }
+    .listing-filter-shadow {
+        @include box-shadow(1px,1px,1px,rgba($color-black,.1));
+        height:50px;
+        position:absolute;
+        width:100%;
+        left:0;
+        top:0;
+        z-index:6;
+    }
+
+	/*listing filters wrapper when open*/
+    .listing-filter-wrapper-open .listing-filter-shadow,
+    .listing-sortby-wrapper-open .listing-filter-shadow,
+    .listing-search-wrapper-open .listing-filter-shadow {
+        @include box-shadow(0px,0px,0px,rgba($color-black,.1));
+    }
+    // toggle filter
+    .left-filters-wrapper {
+        background-color: $color-white;
+        padding-left: 1% !important;
+        padding-top: 20px;
+        top: -20px;
+        z-index: 6;
+        @include box-shadow(1px,1px,1px,rgba($color-black,.1));
+
+        .accordion-title.no-border {
+            border: 0;
+        }
+
+        .accordion-item.active .accordion-title {
+            font-family: $font-bold;
+        }
+
+        .accordion-content {
+            padding: 20px 10px;
+            li{
+                padding-left: 10px;
+                padding-bottom: 10px;  
+            }
+        }
+
+        & .boutiques-select-search a:hover,
+        .boutiques-select-search a:active {
+            border:none!important;
+        }
+    }
+}
+
+/*Filters top fixed*/
+//.boutique-filters_fixed {
+.back-to-top-filters{
+    z-index:4;
+    position:fixed;
+    top:10px;
+    left: 0;
+    width: 100%;    
+    margin: 0;
+    cursor:pointer;
+    text-align:center;
+    @include opacity(0);
+    @include transition;
+    a:hover, a:visited {
+        border:none;
+    }
+    a {
+        background-color:$color-white;
+        text-align:center;
+        padding:8px 30px 8px 30px;
+        border-bottom-left-radius:10px;
+        border-bottom-right-radius:10px;
+        @include box-shadow(1px, 1px, 1px, #e6e6e6);
+    }
+    &.stuck {
+        top:53px;
+        @include opacity(1);
+    }
+
+
+
+}
+@media (max-width:$fablet){
+    .designers-header .designers-filters .designers-dropdown-name{
+        color: $color-black;
+
+        &:before {
+            font-size: 1.8em;
+        }
+    }
+}       

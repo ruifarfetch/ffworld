@@ -1,0 +1,22 @@
+@import '_variables';
+@import '_mixins';
+
+/* ==========================================================================
+   About Us
+   ========================================================================== */
+.video-msg {
+display:none;
+position: absolute;
+z-index: 2;
+top: 35%;
+left: 18%;
+margin-left: -26px;
+margin-top: -26px;
+}
+
+.about-backTop{
+	 @media (max-width:$fablet)  {
+		margin-left: 10px;
+	}
+}
+

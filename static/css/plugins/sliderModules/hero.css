@@ -1,0 +1,76 @@
+/*Color*/
+/*Typography*/
+/*Grid*/
+/*Media Queries*/
+/*line-height*/
+/*Color*/
+/*Typography*/
+/*Grid*/
+/*Media Queries*/
+/*line-height*/
+/*Font face*/
+/*Icons Placeholder*/
+/*Border-radius*/
+/*Box-shadow*/
+/*Buttons*/
+/*Sprite*/
+/*Calculate rems*/
+/*Effects and animations*/
+.sliderCarouselModule .bx-wrapper {
+  max-width: 100% !important; }
+
+.sliderCarouselModule .bx-viewport {
+  width: 100%;
+  margin: 0 auto;
+  height: 100%;
+  padding-left: 25%;
+  padding-right: 25%; }
+
+.sliderCarouselModule .bx-controls-direction .bx-prev {
+  top: 50%;
+  /*ie8 fallback*/
+  top: calc(50% - 16px);
+  left: 24%;
+  background-color: white;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  border-radius: 20px; }
+.sliderCarouselModule .bx-controls-direction .bx-next {
+  top: 50%;
+  /*ie8 fallback*/
+  top: calc(50% - 16px);
+  right: 24%;
+  background-color: white;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  border-radius: 20px; }
+
+.sliderCarouselModule .bx-pager {
+  display: none; }
+
+@media (max-width: 1023px) {
+  .sliderCarouselModule .bx-viewport {
+    padding-left: 0;
+    padding-right: 0; }
+
+  .sliderCarouselModule .bx-controls-direction {
+    display: none; }
+
+  .sliderCarouselModule .bx-pager {
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    top: 86%; } }
+@media (min-width: 767px) and (max-width: 480px) {
+  .sliderCarouselModule .bx-pager {
+    top: 85%; } }
+@media (max-width: 479px) {
+  .sliderCarouselModule .bx-pager {
+    top: 75%; } }

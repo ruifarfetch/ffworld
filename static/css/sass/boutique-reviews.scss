@@ -1,0 +1,460 @@
+@import '_variables';
+@import '_mixins';
+@import '_svgIcons';
+
+//BOUTIQUE REVIEWS PAGE
+//helper classes
+
+.pt5 {
+	padding-top: 5px !important;
+}
+
+.pr5 {
+	padding-right: 5px !important;
+}
+
+.mt60 {
+	margin-top: 60px!important;
+}
+
+.mb60 {
+	margin-bottom: 60px !important;
+}
+
+.boutique-pagination-dropdown {
+   	width:62px;
+   	margin-top:-4px;
+   	margin-right:10px;
+   	//margin-left:8px;
+   }
+
+   .boutique-pagination-count {
+   	margin-top:1px;
+   	display: inline-table;
+   }
+
+
+.boutique-filter-paging  {
+   	& .icon-arrowLeft, .icon-thinArrow {
+   		cursor:pointer;
+   		width: 30px;
+   		height: 30px;
+   		&:before {
+   			font-size:1.3em;
+   			position: relative;
+   			top: 5px;
+   			right: -5px;
+   		}
+   	}
+
+}
+
+.boutique-filter-paging { 
+	@media (min-width:$mobile +1) and (max-width:$fablet) {
+		& .icon-arrowLeft, .icon-thinArrow {
+			width:24px; 
+			&:before {
+				right:-6px;
+			}
+		}
+	}
+}
+
+
+@media (max-width: $fablet) {
+	.select-menu-reviews {
+		background-color: white;
+		padding: 10px;
+		margin-top: 10px;
+		width: 100% !important; 
+		label {
+			padding-left: 10px;
+		}	
+	}
+	.reviews-count {
+		width: 100% !important;
+	}
+
+	.hidden-1280 {
+		display: none !important;
+	}
+}
+
+.top-module {
+	margin-bottom: 1px;
+}
+
+
+.ellipsed-text {
+	text-overflow: ellipsis;
+	max-height: 100px;
+}
+
+.review, .review-content {
+	@include transition(all, 0.3s ease-in-out);
+}
+
+.review-content-more{
+  height:21px;
+  overflow:hidden;
+}
+
+
+.icon-customer-charter {
+	@include fontSize(35);
+	float: left;
+	line-height: 0.8 !important;
+}
+
+
+.icon-contact-customer {
+	@include fontSize($font-size4);	
+	& span {
+		@include fontSize($font-size3);		
+	}
+}
+
+.svg {
+	.card-footer-icons {
+		 .norton {
+			background-image: $norton-data-svg;
+		}
+		.paypal {
+			background-image: $paypal-data-svg;
+		}
+		.boleto {
+			background-image: $boleto-data-svg;
+		}
+		.ebit {
+			background-image: url('https://a248.e.akamai.net/f/248/52872/0s/img.ebit.com.br/ebitBR/selo/img_19465.png');	
+		}
+		.reclame {
+			background-image: url('http://cdn-static.farfetch.com/content/br/images/footer/selo_reclameaqui.png');
+		}
+		.site-blindado {
+			background-image: url('http://cdn.siteblindado.com/seals_aw/farfetch.com br/siteblindado.gif');
+		}
+	}
+}
+.no-svg {
+	.card-footer-icons {
+		 .norton {
+			background-image: $norton-file-png;
+		}
+		.paypal {
+			background-image: $paypal-file-png;
+		}
+		.boleto {
+			background-image: $boleto-file-png;
+		}
+		.ebit {
+			background-image: url('../../static/images/02_common/icons/ebit.png');	
+		}
+		.reclame {
+			background-image: url('../../static/images/02_common/icons/selo_reclameaqui.png');	
+		}
+		.site-blindado {
+			background-image: url('../../static/images/02_common/icons/siteblindado.gif');
+		}
+	}
+}
+.card-footer-image{
+	margin-bottom:10px;
+}
+.card-footer-icons {
+	float: left;
+
+	.title {
+		margin-top: 5px;
+	}
+	 .norton {
+	 	background-repeat: no-repeat;
+	 	background-position: center;
+		background-size: 78px 30px;	
+		height: 51px;
+	}
+	.paypal {
+	 	background-repeat: no-repeat;
+	 	background-position: center;
+		background-size: 90px 22px;	
+		height: 51px;
+	}
+	.boleto {
+	 	background-repeat: no-repeat;
+	 	background-position: center;
+		background-size: 67px 30px;	
+		height: 51px;
+	}
+	.ebit {
+		background-repeat: no-repeat;
+	 	background-position: center;
+		background-size: 45px 47px;
+		height: 51px;	
+	}
+	.reclame {
+		background-repeat: no-repeat;
+		background-position: center;	
+		background-size: 95px 30px;
+		height: 51px;
+	}
+	.site-blindado {
+		background-repeat: no-repeat;
+	 	background-position: center;
+		background-size: 95px 26px;	
+		height: 51px;
+	}
+}
+
+.safari4.android .card-footer-icons {
+	.norton {
+		width: 78px;
+		height: 30px;
+		margin-right: 15px;
+	}
+	.paypal {
+		width: 78px;
+		height: 30px;
+		margin-right: 15px;
+	}
+	.boleto {
+		width: 67px;
+		height: 30px;
+		margin-right: 15px;
+	}
+	.ebit {
+		background-size: 29px 30px;
+		width: 29px;
+		height: 30px;
+		margin-right: 15px;
+	}
+	.reclame {
+		width: 95px;
+		height: 30px;
+		margin-right: 15px;
+	}
+	.site-blindado {
+		width: 95px;
+		height: 30px;
+		margin-right: 15px;
+	}
+}
+
+
+.read-more-button {
+	@include fontSize(35);
+	line-height: 1 !important-big;
+	&:hover {
+		border-bottom: 0;
+	}
+}
+.review-active .icon-more {
+	&:before {
+		content: "\e613";		
+	}
+}
+.select-menu-reviews {
+	@media (min-width: $desktop) {
+		margin-left: -25px;
+		margin-right: 25px;
+	}
+}
+.readmore-js-toggle {
+	margin-top: 20px;
+	display: inline !important;
+	&:hover {
+		border-bottom: 0;
+
+	}
+}
+.chosen-search {
+	padding-left: 20px !important;
+	border-bottom: 1px solid #cccccc !important;
+	input[type="text"] {
+		border-bottom: 0 !important;
+	}
+}
+ .boutique-icon-search {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	font-size: 1.2em;
+	color: $color-mediumGrey;
+}
+.icon-circular-bg {
+	border-radius: 50%;
+	width: 18px;
+	height: 18px;
+	background-color: $color-beige;
+	color: white;
+}
+.resolved {
+	.icon-tickbox {
+		top: -1px;
+		@include fontSize(16);
+		line-height: 1 !important;
+		position: relative;
+	}
+}
+
+
+// flex container
+// star <-> copy
+// heading-regular
+@media (max-width: $fablet) {
+	.flex-container {
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flexbox;
+		display: -webkit-flex;
+		display: flex;
+		-moz-box-orient: vertical;
+		-webkit-box-orient: vertical;
+		-ms-box-orient: vertical;
+		-webkit-flex-direction: column;
+		flex-direction: column;
+	}
+	.flex-item-1 {
+		-moz-box-ordinal-group: 2;
+		-webkit-box-ordinal-group: 2;
+		-ms-flex-order: 2;
+		-webkit-order: 2;
+		order: 2;
+	}
+	.flex-item-2 {
+		-moz-box-ordinal-group: 1;
+		-webkit-box-ordinal-group: 1;
+		-ms-flex-order: 1;
+		-webkit-order: 1;
+		order: 1;
+	} 
+}
+// review-container
+.review-container-right{
+	float:right;
+}
+.review-container-left{
+	float:left;
+}
+
+.rateit {
+	float: left;
+}
+
+@media (max-width: $mobile) {
+	// help class
+	.mobile-mt0{
+		margin-top:0px;
+	}
+	.mobile-mb5{
+		margin-bottom:5px;
+	}
+	.review-container-right{
+		float:left;
+	}
+	.review-container-left{
+		float:right;
+	}
+
+
+
+	.review-flex-container {
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flexbox;
+		display: -webkit-flex;
+		display: flex;
+		-moz-box-orient: horizontal;
+		-webkit-box-orient: horizontal;
+		-ms-box-orient: horizontal;
+		-webkit-flex-direction: row;
+		flex-direction: row;
+	}
+	.review-flex-item-1 {
+		-moz-box-ordinal-group: 2;
+		-webkit-box-ordinal-group: 2;
+		-ms-flex-order: 2;
+		-webkit-order: 2;
+		order: 2;
+	}
+	.review-flex-item-2 {
+		-moz-box-ordinal-group: 1;
+		-webkit-box-ordinal-group: 1;
+		-ms-flex-order: 1;
+		-webkit-order: 1;
+		order: 1;
+	}
+
+	.safari4.android .review-flex-item-1{
+		text-align: left;
+	}
+	.safari4.android .review-flex-item-1,
+	.safari4.android .review-flex-item-2{
+		float:left;
+		width: 50%;
+		padding:0;
+		padding-bottom:3px;
+	}
+}
+.no-flex {
+	display: block;
+	-webkit-flex: none;
+	flex: none;
+}
+
+
+
+//review-reply
+
+.review-reply{
+	position: relative;
+	float:left;
+	width: 100%;
+	border:1px solid #c2a67e;
+	&::after {
+		position: absolute;
+		top:-8px;
+		left:13px;
+		width: 0;
+		height: 0;
+		margin-top:1px;
+		margin-left:1px;
+		border-style: solid;
+		border-width: 0 7px 7px 7px;
+		border-color: transparent transparent #ffffff transparent;
+		line-height: 0px;
+		_border-color: #000000 #000000 #ffffff #000000;
+		_filter: progid:DXImageTransform.Microsoft.Chroma(color='#000000');
+		content: "";
+	}
+	&::before {
+		position: absolute;
+		top:-8px;
+		left:13px;
+		width: 0;
+		height: 0;
+		border-style: solid;
+		border-width: 0 8px 8px 8px;
+		border-color: transparent transparent $color-beige transparent;
+		line-height: 0px;
+		_border-color: #000000 #000000 $color-beige #000000;
+		_filter: progid:DXImageTransform.Microsoft.Chroma(color='#000000');
+		content: "";
+	}
+	.pb5{
+		padding-bottom:5px;
+	}
+}
+.review-reply-inner{
+	padding:5px 30px 10px;
+}
+.svg .review-reply-inner{
+	background-image: $icon-farfetch-data-svg;
+	background-size:9px 15px;
+	background-position: 11px 11px;
+	background-repeat: no-repeat;
+}
+.no-svg .review-reply-inner{
+	background-image: $icon-farfetch-file-png;
+	background-position: 11px 11px;
+	background-repeat: no-repeat;
+}

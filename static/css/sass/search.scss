@@ -1,0 +1,10 @@
+
+@import '_variables';
+@import '_mixins';
+
+.search-list{
+ @include fontSize($font-size5);
+  font-family: "Polaris-Condensed-Bold", sans-serif;
+  letter-spacing: 0.15em;
+  text-transform: uppercase; 
+}

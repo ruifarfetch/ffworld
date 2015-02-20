@@ -1,0 +1,73 @@
+/*Color*/
+/*Typography*/
+/*Grid*/
+/*Media Queries*/
+/*line-height*/
+/*Animation time*/
+/*Color*/
+/*Typography*/
+/*Grid*/
+/*Media Queries*/
+/*line-height*/
+/*Animation time*/
+/*Font face*/
+/*Icons Placeholder*/
+/*Border-radius*/
+/*Box-shadow*/
+/*Buttons*/
+/*Sprite*/
+/*Calculate rems*/
+/*Effects and animations*/
+/* ==========================================================================
+   Checkout Icons
+   ========================================================================== */
+.checkout-summaryBox-container-secondary-image .glyphs {
+  font-size: 3em;
+  float: left;
+  color: #aaa; }
+  .checkout-summaryBox-container-secondary-image .glyphs:before {
+    float: left; }
+
+.checkout-listItems-productDetails-disclaimer-description button {
+  margin-top: 7px; }
+.checkout-listItems-productDetails-disclaimer-description .glyphs {
+  color: #aaa;
+  font-size: 3rem; }
+
+.icon-circular-bg {
+  border-radius: 50%;
+  width: 19px;
+  height: 19px;
+  background-color: #aaa;
+  color: white;
+  cursor: pointer; }
+  .icon-circular-bg span:before {
+    margin-top: 3px;
+    margin-left: 3px;
+    float: left;
+    font-size: 1em; }
+
+.checkout-confirmation-whatHapNext .glyphs:before {
+  font-size: 7em;
+  color: #aaa; }
+
+.icon-info-fill {
+  font-size: 2em;
+  color: #aaa;
+  cursor: pointer;
+  margin-right: 4px; }
+
+/* MARTELADA PARA MENTION ME*/
+#mmWrapper {
+  margin-top: -10px !important; }
+
+#mmLink {
+  font-family: "Polaris-Book", sans-serif !important;
+  border-bottom: 1px solid #222;
+  color: #222222 !important;
+  font-size: 1.3rem !important; }
+
+#mmWrapper .mmWrapping {
+  margin-bottom: 0px !important; }
+
+/*# sourceMappingURL=checkout_icons.css.map */

@@ -1,0 +1,71 @@
+@import '_variables';
+@import '_mixins';
+
+.sliderCarouselModule .bx-wrapper{
+	margin: 0 auto;
+}
+
+.sliderCarouselModule .bx-viewport {
+	width: 100%;
+	margin: 0 auto;
+	height:100%;
+	padding-left: 35px;
+	padding-right: 35px;
+	overflow: visible!important;
+}
+
+.sliderCarouselModule .bx-controls-direction{
+	.bx-prev{
+		top:50%;/*ie8 fallback*/
+		top: calc((50%) - 16px);
+		left: 20px;
+		background-color: $color-white;
+		@include border-radius (20px);
+		opacity: 0.8;
+	}
+	.bx-next{
+		top:50%;/*ie8 fallback*/
+		top: calc((50%) - 16px);
+		right: 20px;
+		background-color: $color-white;
+		@include border-radius (20px);
+		opacity: 0.8;	
+	}
+}
+
+.sliderCarouselModule .bx-pager {
+	display:none;	
+}
+
+@media (max-width:$tablet) {
+	.sliderCarouselModule .bx-viewport {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.sliderCarouselModule .bx-controls-direction{
+		display:none;
+	}
+	.sliderCarouselModule .bx-pager {
+		display: block;
+		position: absolute;
+		left: 0;
+		right: 0;
+		margin-left: auto;
+		margin-right: auto;
+		bottom: 5%;
+	}
+}
+
+
+@media (min-width:$fablet) and (max-width:$mobile +1) {
+	.sliderCarouselModule .bx-pager {
+		bottom: 5%;
+	}
+}
+
+@media (max-width:$mobile) {
+	.sliderCarouselModule .bx-pager {
+		bottom: 5%;
+	}
+}
+

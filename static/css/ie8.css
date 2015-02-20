@@ -1,0 +1,173 @@
+/*Color*/
+/*Typography*/
+/*Grid*/
+/*Media Queries*/
+/*line-height*/
+/*Color*/
+/*Typography*/
+/*Grid*/
+/*Media Queries*/
+/*line-height*/
+/*Font face*/
+/*Icons Placeholder*/
+/*Border-radius*/
+/*Box-shadow*/
+/*Buttons*/
+/*Sprite*/
+/*Calculate rems*/
+/*Effects and animations*/
+.lt-ie9 h1 {
+  line-height: 22px;
+}
+
+.hidden-xl{
+display:none;
+}
+
+.sidekick-footer {
+  padding: 20px; }
+
+/*checkout martelation i8 é tudo à grande*/
+body[data-page="checkout"] .checkout-wishlist-container img{
+   width:100%;
+}
+
+.checkout-form-input-left {
+    padding-right: 10px !important;
+}
+
+.checkout-footer {
+margin-top: 0px !important;
+}
+
+.label-check input,
+.label-radio input,
+.label-check-disabled input,
+.label-radio-disabled input {
+  left: -999px;
+  /*NOT THE BEST SOLUTION*/
+  position: absolute;
+  /*NEED TO DELETE THIS*/
+  direction: ltr;
+  display:none;
+}
+
+.checkout-listItems-topbar-review-ie{
+  height:51px;
+}
+
+.checkout-listItems-topbar.checkout-listItems-topbar-review-ie{
+	min-height:0px;
+}
+
+.checkout-payMethod-Box{
+  border:1px solid #ccc;
+}
+
+
+.no-svg .checkout-header-logo-background {
+  background: url(../images/logo_secure.png);
+  background-repeat: no-repeat;
+  float: left;
+  width: 135px;
+  height: 18px;
+}
+
+@media (max-width: 480px) {
+.no-svg .checkout-header-logo-background{
+    background-size: 100px auto;
+    width: 100px;
+    height: 18px;
+    margin-top: 2px;
+  }
+}
+
+.no-svg .checkout-payment-paypal {
+  background: url(../images/checkout/paypal.png);
+  background-size: 90px 25px;
+  background-repeat: no-repeat;
+  float: left;
+  width: 180px;
+  height: 25px; 
+}
+
+.no-svg .checkout-payment-pagseguro {
+  background: url(../images/checkout/boleto.png);
+  background-size: 90px 25px;
+  background-repeat: no-repeat;
+  float: left;
+  width: 180px;
+  height: 25px; 
+}
+
+.no-svg .checkout-confirmation-payment-pagseguro {
+  background: url(../images/checkout/boleto.png);
+  background-size: 119px 60px;
+  background-repeat: no-repeat;
+  width: 180px;
+  height: 51px;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 59%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.no-svg .checkout-confirmation-payment-paypal {
+  background: url(../images/checkout/paypal.png);
+  background-size: 119px 60px;
+  background-repeat: no-repeat;
+  width: 180px;
+  height: 51px;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 59%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.no-svg .checkout-clickandcollect {
+  background: url(../images/02_common/icons/svg/click_col.png);
+  background-repeat: no-repeat;
+  float: left;
+  width: 70px;
+  height: 44px;
+}
+
+.checkout-mainContent-boxModule {
+height:218px !important;
+}
+.checkout-mainContent-boxModule-active {
+border:none;
+}
+.productDetailModule {
+z-index:99;
+}
+
+span.slvzr-empty.form-validator_error {
+display: block !important;
+}
+
+/*listing filters*/
+.left-filters-wrapper .accordion-content li {
+  margin-bottom:15px;
+}
+
+.left-filters-wrapper .dropdown-clear-all {
+  position:absolute!important;
+}
+
+/*header designers a-z list*/
+.header-designersAZ li {
+  width:51px;
+}
+
+.lt-ie9 .accordion-content-single-select input[type='checkbox']  {
+  display:none;
+}
+
+.lt-ie9 .productDetailModule {
+  z-index: 10;
+}

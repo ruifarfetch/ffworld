@@ -1,0 +1,95 @@
+@import '_variables';
+@import '_mixins';
+
+[data-page="editorial"] .wrapper{
+	overflow: hidden;
+}
+
+/*Landing page*/
+#editorial-landing{
+	.sliderSingleModule{
+		width: 25%;
+		padding: 1px;
+		
+		.sliderSingleModule-image{
+			position: relative;
+		}
+
+		.sliderSingle-content{
+			p{
+				@include fontSize($font-size5);
+				margin-top: 5px;
+				display: inline-block;
+			}
+		}
+
+		@media (max-width:$fablet) {
+			margin-bottom: 10px;
+			padding: 0;
+		}
+	}
+}
+
+@media (max-width:$tablet){
+	/*Landing - change to 3 columns*/
+	#editorial-landing{
+		.sliderSingleModule{
+			width: 33.33%;
+		}
+	}
+
+	.sliderCarouselArticle{
+		.bx-pager{
+			position: relative;
+			width: 100%;
+			margin: 0 auto; 
+			bottom: 0;
+			z-index: 99;
+		}
+	}
+
+	.sliderCarouselModule .bx-pager {position:relative;}
+}
+
+@media (max-width:$fablet){
+	/*Landing - change to 2 columns*/
+	#editorial-landing{
+		.sliderSingleModule{
+			width: 50%;
+		} 
+	}
+
+	.sliderCarouselArticle{
+		.bx-pager{
+			position: relative;
+			width: 100%;
+			margin: 0 auto;
+			bottom: 0;
+			z-index: 99;
+		}
+	}
+
+	.sliderCarouselModule .bx-pager {position:relative;}
+}
+
+
+@media (max-width:$mobile) {
+	
+	/*Landing - change to 1 columns*/
+	#editorial-landing{
+		.sliderSingleModule{
+			width: 100%;
+			.sliderSingle-content{
+				padding: 10px;
+				min-height: 60px;
+			}
+		}
+	}
+	/*Fix back to current season float*/
+    .article-backTo-editorial{
+      float:left;
+  }
+}
+
+@import "article";
+

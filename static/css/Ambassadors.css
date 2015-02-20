@@ -1,0 +1,40 @@
+/*Color*/
+/*Typography*/
+/*Grid*/
+/*Media Queries*/
+/*line-height*/
+/*Animation time*/
+/*Color*/
+/*Typography*/
+/*Grid*/
+/*Media Queries*/
+/*line-height*/
+/*Animation time*/
+/*Font face*/
+/*Icons Placeholder*/
+/*Border-radius*/
+/*Box-shadow*/
+/*Buttons*/
+/*Sprite*/
+/*Calculate rems*/
+/*Effects and animations*/
+.ambassadors-profile {
+  margin: 1px; }
+  .ambassadors-profile img, .ambassadors-profile .mask-overlay {
+    cursor: pointer; }
+  @media (max-width: 767px) {
+    .ambassadors-profile {
+      margin-bottom: 10px;
+      padding: 0; } }
+
+.ambassadors-profile-container .arrow_top {
+  top: -7px;
+  left: calc(50% - 8px); }
+
+.ambassadors-profile-container {
+  padding: 10px; }
+
+@media (max-width: 767px) {
+  .sidekick-wrapper {
+    background-color: transparent;
+    margin: 0; } }

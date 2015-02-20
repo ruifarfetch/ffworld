@@ -1,0 +1,139 @@
+/*Color*/
+/*Typography*/
+/*Grid*/
+/*Media Queries*/
+/*line-height*/
+/*Animation time*/
+/*Color*/
+/*Typography*/
+/*Grid*/
+/*Media Queries*/
+/*line-height*/
+/*Animation time*/
+/*Font face*/
+/*Icons Placeholder*/
+/*Border-radius*/
+/*Box-shadow*/
+/*Buttons*/
+/*Sprite*/
+/*Calculate rems*/
+/*Effects and animations*/
+/* ==========================================================================
+   Filters 
+   ========================================================================== */
+/*Dropdown Styling*/
+.listing-filter-wrapper .dropdown, .boutique-filter-paging-bottom .dropdown {
+  margin-top: -4px; }
+  .listing-filter-wrapper .dropdown li, .boutique-filter-paging-bottom .dropdown li {
+    float: left;
+    clear: both;
+    width: 100%; }
+    .listing-filter-wrapper .dropdown li a, .boutique-filter-paging-bottom .dropdown li a {
+      float: left;
+      clear: both;
+      width: 100%; }
+.listing-filter-wrapper .boutique-pagination-dropdown, .boutique-filter-paging-bottom .boutique-pagination-dropdown {
+  width: 62px;
+  margin-top: -4px;
+  margin-right: 10px;
+  margin-left: 8px; }
+.listing-filter-wrapper .boutique-pagination-count, .boutique-filter-paging-bottom .boutique-pagination-count {
+  margin-top: 1px;
+  display: table;
+  padding-right: 10px; }
+.listing-filter-wrapper .icon-arrowLeft, .listing-filter-wrapper .icon-thinArrow, .boutique-filter-paging-bottom .icon-arrowLeft, .boutique-filter-paging-bottom .icon-thinArrow {
+  cursor: pointer;
+  width: 30px;
+  height: 30px; }
+  .listing-filter-wrapper .icon-arrowLeft:before, .listing-filter-wrapper .icon-thinArrow:before, .boutique-filter-paging-bottom .icon-arrowLeft:before, .boutique-filter-paging-bottom .icon-thinArrow:before {
+    font-size: 1.3em;
+    position: relative;
+    top: 5px;
+    right: -5px; }
+
+.no-touch .boutique-filter-wrapper .dropdown li:hover a, .boutique-filter-paging-bottom .dropdown li:hover a {
+  text-decoration: underline;
+  box-shadow: none; }
+
+.boutique-directory .accordion-item img {
+  width: 100%; }
+.boutique-directory .boutique-itemsFound div {
+  padding-left: 10px !important; }
+
+a.boutique-filter-view_inactive {
+  color: #aaa; }
+
+.left-filters-wrapper .accordion-content {
+  padding: 20px 10px 0 10px; }
+
+@media (min-width: 768px) {
+  .boutique-leftFilters-wrapper {
+    display: block !important;
+    overflow: visible !important; } }
+/**
+ * Media Querie for small devices mobile and fablet
+ */
+@media (max-width: 767px) {
+  .boutique-filter-wrapper {
+    color: #aaa;
+    position: relative;
+    z-index: 4; }
+    .boutique-filter-wrapper .boutique-filter-top-right {
+      background-color: #fff;
+      -webkit-box-shadow: 1px 1px 1px rgba(34, 34, 34, 0.1) ;
+      -moz-box-shadow: 1px 1px 1px rgba(34, 34, 34, 0.1) ;
+      box-shadow: 1px 1px 1px rgba(34, 34, 34, 0.1) ;
+      padding: 10px 0 9px 0;
+      z-index: 3; }
+      .boutique-filter-wrapper .boutique-filter-top-right .boutique-header-filter {
+        cursor: pointer; }
+        .boutique-filter-wrapper .boutique-filter-top-right .boutique-header-filter.boutique-filter-active {
+          color: #222; }
+          .boutique-filter-wrapper .boutique-filter-top-right .boutique-header-filter.boutique-filter-active .icon-down:before {
+            content: "\e611"; }
+        .boutique-filter-wrapper .boutique-filter-top-right .boutique-header-filter .glyphs {
+          display: inline-block;
+          font-size: 2.4em;
+          position: relative;
+          top: 2px;
+          right: 5px; }
+
+  .boutique-leftFilters-wrapper {
+    background-color: #fff;
+    padding-left: 1% !important;
+    padding-top: 20px;
+    top: -20px;
+    padding-bottom: 20px;
+    z-index: 2;
+    -webkit-box-shadow: 1px 1px 1px rgba(34, 34, 34, 0.1) ;
+    -moz-box-shadow: 1px 1px 1px rgba(34, 34, 34, 0.1) ;
+    box-shadow: 1px 1px 1px rgba(34, 34, 34, 0.1) ; }
+    .boutique-leftFilters-wrapper .accordion {
+      margin: 0 10px 10px 10px; }
+      .boutique-leftFilters-wrapper .accordion .h4 {
+        font-size: 1em; }
+    .boutique-leftFilters-wrapper .ms-parent {
+      padding-left: 10px;
+      padding-right: 10px; }
+      .boutique-leftFilters-wrapper .ms-parent.ms-parent-open button span {
+        font-family: "Polaris-Bold", sans-serif; }
+
+  .boutique-directory {
+    padding-left: 10px !important;
+    padding-right: 10px !important; }
+    .boutique-directory .boutique-directory-title-wrapper {
+      margin-bottom: 10px; }
+      .boutique-directory .boutique-directory-title-wrapper h1 {
+        margin-bottom: 4px; }
+      .boutique-directory .boutique-directory-title-wrapper .boutique-directory-title {
+        font-family: "Polaris-Bold", sans-serif;
+        padding-right: 6px; }
+      .boutique-directory .boutique-directory-title-wrapper .boutique-itemsFound {
+        margin-top: 7px;
+        padding-left: 0; }
+    .boutique-directory .boutique-pagination-count {
+      padding-right: 2px; }
+    .boutique-directory .boutique-pagination-dropdown {
+      margin-left: 0px; }
+    .boutique-directory img {
+      width: 100%; } }

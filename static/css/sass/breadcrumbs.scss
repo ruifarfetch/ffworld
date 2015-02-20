@@ -1,0 +1,20 @@
+@import '_variables';
+@import '_mixins';
+
+/* ==========================================================================
+   Breacrumbs
+   ========================================================================== */
+.breadcrumbs-regular{
+  color:$color-mediumGrey;
+  a{
+  	color:$color-mediumGrey;
+  }
+  span{
+  	@extend %glyphs;
+  	&:before{
+  		content:"\e605";
+      position: relative;
+      padding: 0px 2px;
+  	}
+  }
+}

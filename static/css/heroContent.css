@@ -1,0 +1,157 @@
+/*Color*/
+/*Typography*/
+/*Grid*/
+/*Media Queries*/
+/*line-height*/
+/*Animation time*/
+/*Color*/
+/*Typography*/
+/*Grid*/
+/*Media Queries*/
+/*line-height*/
+/*Animation time*/
+/*Font face*/
+/*Icons Placeholder*/
+/*Border-radius*/
+/*Box-shadow*/
+/*Buttons*/
+/*Sprite*/
+/*Calculate rems*/
+/*Effects and animations*/
+/* Hero Content*/
+.heroContentModule {
+  color: white; }
+  .heroContentModule:hover {
+    color: white; }
+  .heroContentModule > a {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 99;
+    padding-bottom: 0; }
+    .heroContentModule > a:hover {
+      border: none; }
+
+.no-touch .heroContentModule:hover .hero-mask {
+  -webkit-transition: opacity 0.2s ease-in-out;
+  -moz-transition: opacity 0.2s ease-in-out;
+  -o-transition: opacity 0.2s ease-in-out;
+  -ms-transition: opacity 0.2s ease-in-out;
+  transition: opacity 0.2s ease-in-out;
+  height: 100%;
+  opacity: 0.2;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+  filter: alpha(opacity=80); }
+.no-touch .article-hero .heroContentModule:hover .color-black {
+  color: #222222 !important; }
+
+.sliderCarouselModule-static {
+  position: relative; }
+
+.heroContentModule img, .hero-contentCategories img {
+  width: 100%; }
+
+.video-container .hero-contentWrapper {
+  position: static; }
+
+.hero-contentWrapper {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0; }
+
+.hero-contentWrapperCentered {
+  position: absolute;
+  max-width: 1440px;
+  margin: 0 auto; }
+
+.hero-mask {
+  background-color: #222222;
+  width: 100%;
+  height: 100%;
+  filter: alpha(opacity=0);
+  z-index: 0;
+  opacity: 0;
+  -webkit-backface-visibility: hidden;
+  -webkit-transition: opacity 0.2s ease-in-out;
+  -moz-transition: opacity 0.2s ease-in-out;
+  -o-transition: opacity 0.2s ease-in-out;
+  -ms-transition: opacity 0.2s ease-in-out;
+  transition: opacity 0.2s ease-in-out; }
+  .hero-mask:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 2px solid whitesmoke; }
+
+.hero-content-container {
+  width: 100%;
+  position: absolute;
+  top: 20px;
+  padding-left: 20px;
+  z-index: 1; }
+  @media (max-width: 767px) {
+    .hero-content-container {
+      top: 10px;
+      padding-left: 10px; } }
+  .hero-content-container p, .hero-content-container a:link, .hero-content-container a:visited {
+    font-size: 13px;
+    font-size: 1.3rem;
+    line-height: 2.21rem;
+<<<<<<< HEAD
+    color: #fff;
+=======
+    color: white;
+>>>>>>> origin/grunt-structure
+    border-bottom: none; }
+  .hero-content-container a:hover {
+    border-bottom: 1px solid whitesmoke; }
+    .hero-content-container a:hover.color-black {
+      border-bottom: 1px solid #222222; }
+  .hero-content-container.centered {
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    left: 50%; }
+    .hero-content-container.centered .hero-content {
+      width: 100%; }
+
+.hero-contentCategories a:link, .hero-contentCategories a:visited {
+  color: #222222; }
+.hero-contentCategories a:hover {
+  border-bottom: 1px solid #aaaaaa; }
+.hero-contentCategories h6 {
+  margin-bottom: 5px; }
+.hero-contentCategories ul {
+  font-size: 13px;
+  font-size: 1.3rem;
+  line-height: 2.21rem; }
+.hero-contentCategories .hero-contentCategories-bg {
+  background-color: white;
+  position: absolute;
+  width: 100%;
+  height: 500px; }
+
+.hero-content {
+  width: 80%; }
+
+.hero-content-container .hero-content-cta {
+  color: white; }
+
+@media (max-width: 1024px) {
+  .sliderCarouselModule-static .container {
+    padding: 0; } }
+@media (max-width: 767px) {
+  .hero-contentCategories {
+    background-color: white;
+    padding: 10px; }
+    .hero-contentCategories img {
+      display: none; }
+    .hero-contentCategories .hero-contentWrapper, .hero-contentCategories .hero-content-container {
+      position: relative;
+      top: auto;
+      left: auto;
+      padding-left: 0px; } }

@@ -1,0 +1,84 @@
+/*Color*/
+/*Typography*/
+/*Grid*/
+/*Media Queries*/
+/*line-height*/
+/*Animation time*/
+/*Color*/
+/*Typography*/
+/*Grid*/
+/*Media Queries*/
+/*line-height*/
+/*Animation time*/
+/*Font face*/
+/*Icons Placeholder*/
+/*Border-radius*/
+/*Box-shadow*/
+/*Buttons*/
+/*Sprite*/
+/*Calculate rems*/
+/*Effects and animations*/
+/* ==========================================================================
+Global Pos
+========================================================================== */
+.global-pos {
+  z-index: 10;
+  background-color: #f5f5f5; }
+  .global-pos .global-pos-item {
+    text-align: center;
+    float: none; }
+  .global-pos .global-pos-title {
+    border-bottom: none; }
+  .global-pos .glyphs {
+    top: -2px; }
+  .global-pos .divider {
+    padding: 0 10px; }
+  .global-pos .global-pos-content {
+    width: auto;
+    float: none; }
+
+.global-pos.accordion .active .accordion-title {
+  border-bottom: none; }
+
+@media (max-width: 767px) {
+  .accordion-item {
+    overflow: hidden;
+    text-align: left; }
+    .accordion-item .accordion-content {
+      float: left; }
+
+  .global-pos-title {
+    display: block; }
+
+  .global-pos-item.active .global-pos-content {
+    display: block; }
+
+  .global-pos-content,
+  .global-pos-title > .divider {
+    display: none; } }
+.no-touch .global-pos-title:hover {
+  color: #222; }
+
+/*Brasil global POS*/
+.global-pos-br {
+  background-color: #aaa;
+  color: #fff; }
+  .global-pos-br .gutter-right {
+    padding: 5px 0; }
+    @media (max-width: 767px) {
+      .global-pos-br .gutter-right {
+        padding-left: 10px !important; } }
+    .global-pos-br .gutter-right:before {
+      top: 0;
+      right: 10px; }
+      @media (max-width: 767px) {
+        .global-pos-br .gutter-right:before {
+          border-right: none;
+          border-bottom: 1px solid #f5f5f5;
+          right: 0; } }
+    .global-pos-br .gutter-right:last-child:before {
+      border: none; }
+  .global-pos-br .glyphs {
+    font-size: 2em; }
+
+/*# sourceMappingURL=global_pos.css.map */

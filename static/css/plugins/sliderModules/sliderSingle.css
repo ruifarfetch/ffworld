@@ -1,0 +1,131 @@
+/*Color*/
+/*Typography*/
+/*Grid*/
+/*Media Queries*/
+/*line-height*/
+/*Font face*/
+/*Border-radius*/
+/*Box-shadow*/
+/*Buttons*/
+/*Sprite*/
+/*Calculate rems*/
+/*Effects and animations*/
+/*sliderSingle static version*/
+.sliderSingle_static {
+  overflow: hidden; }
+
+.sliderSingle_static img {
+  width: 100%; }
+
+.sliderSingle-content.sliderSingle_static-content {
+  padding: 4rem 10px 20px 10px; }
+
+/**/
+.sliderSingleModule {
+  padding-right: 2px; }
+
+.sliderSingleModule img {
+  display: block; }
+
+.sliderSingle-content {
+  position: relative;
+  padding: 4rem 10px 20px 10px;
+  background-color: white;
+  text-align: center;
+  min-height: 120px; }
+
+.sliderSingle-content .arrow_top {
+  top: -7px;
+  left: calc(50% - 8px); }
+
+.sliderSingle-content-topArrow {
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -7px;
+  margin-left: auto;
+  margin-right: auto;
+  transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  background: #fff; }
+
+.sliderSingle-content h3, h4 {
+  margin: 0; }
+
+.sliderSingle-content-MainTitle {
+  color: #c2a67d; }
+
+.sliderSingle-content-CTA {
+  margin-top: 0.5em; }
+
+.sliderSingleModule .bx-controls-direction {
+  position: relative; }
+
+.sliderSingleModule .bx-controls-direction .bx-prev {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  border: none;
+  bottom: 11rem;
+  margin-top: auto;
+  margin-bottom: auto;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  border-radius: 20px; }
+
+.sliderSingleModule .bx-controls-direction .bx-next {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  border: none;
+  bottom: 11rem;
+  margin-top: auto;
+  margin-bottom: auto;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  border-radius: 20px; }
+
+.sliderSingleModule .bx-pager {
+  position: absolute;
+  bottom: 5px;
+  /*IE8 Fallback*/
+  bottom: 9.0rem;
+  left: 43%;
+  z-index: 1000;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto; }
+
+.sliderSingle-addToBag {
+  position: absolute;
+  bottom: 5px;
+  /*IE8 Fallback*/
+  bottom: 3.8rem;
+  z-index: 1000;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center; }
+
+/*Double edit slider*/
+.sliderDouble {
+  position: relative;
+  background-color: white; }
+  .sliderDouble .sliderDouble-image {
+    line-height: 0; }
+    .sliderDouble .sliderDouble-image img {
+      max-width: 100%; }
+  .sliderDouble .sliderDouble-content {
+    text-align: center;
+    padding: 10px 0; }
+  .sliderDouble.gutter {
+    margin-bottom: 2px; }

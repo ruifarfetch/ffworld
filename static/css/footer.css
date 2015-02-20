@@ -1,0 +1,124 @@
+/*Color*/
+/*Typography*/
+/*Grid*/
+/*Media Queries*/
+/*line-height*/
+/*Animation time*/
+/*Color*/
+/*Typography*/
+/*Grid*/
+/*Media Queries*/
+/*line-height*/
+/*Animation time*/
+/*Font face*/
+/*Icons Placeholder*/
+/*Border-radius*/
+/*Box-shadow*/
+/*Buttons*/
+/*Sprite*/
+/*Calculate rems*/
+/*Effects and animations*/
+.footer a:link, .footer a:visited {
+  color: #fff;
+}
+
+.footer {
+  width: 100%;
+  display: inline-block;
+  padding: 10px 0;
+}
+.footer .accordion .accordion-title {
+  color: #aaa;
+  border-bottom: none;
+}
+.footer form {
+  position: relative;
+}
+.footer .footer-countrySelect .chosen-search {
+  display: block;
+}
+.footer .footer-languageSelect .chosen-search {
+  display: none;
+}
+
+.footer-privacy {
+  padding-left: 9px;
+  padding-right: 9px;
+}
+
+.footer-privacy a:link, .footer-privacy a:visited {
+  color: #aaa;
+  border-bottom: 1px solid #aaaaaa;
+}
+
+.footer-countrySelect label a:link, .footer-countrySelect label a:visited {
+  color: #aaa;
+}
+.footer-countrySelect label a:hover, .footer-countrySelect label a:active {
+  border-bottom: none;
+}
+
+.footer-social-icons {
+  padding-left: 4px;
+  margin-top: 16px;
+}
+
+.footer-social-icons a {
+  margin-right: 20px;
+}
+
+.footer-social-icons .glyphs {
+  font-size: 1.7em;
+}
+
+/**Medium size breakpoint**/
+@media (min-width: 768px) and (max-width: 1024px) {
+  .footer-social-icons a {
+    margin-right: 14px;
+  }
+}
+/**Mobile, Fablets and Tablets**/
+@media (max-width: 1024px) {
+  .footer {
+    padding: 10px 0;
+  }
+
+  .footer .accordion-item.mt30 {
+    margin-top: 0px;
+  }
+
+  .footer-privacy {
+    margin-top: 40px;
+  }
+
+  .footer .accordion-content {
+    padding: 10px 0px 20px 0px;
+  }
+
+  .footer h5 {
+    padding: 10px 0px;
+    cursor: pointer;
+  }
+
+  .footer-languageSelect label {
+    padding-left: 0;
+  }
+}
+/*Br Specific*/
+.footer-selected-country {
+  margin-top: 7px;
+  padding-bottom: 7px;
+  border-bottom: 1px solid #aaa;
+}
+
+.wrapper:lang(br) {
+  margin-bottom: -622px;
+}
+
+main:lang(br) {
+  padding-bottom: 622px;
+}
+
+footer:lang(br) {
+  height: 600px;
+}

@@ -1,0 +1,47 @@
+@import '_variables';
+@import '_mixins';
+
+.noresults-help{
+	h6{
+		margin-bottom: 3px;
+	}
+	li{
+		padding-right: 15px;
+	}
+	.glyphs{
+		padding-right: 5px;
+		font-size: 1.6em;
+		position: relative;
+		top: -1px;
+	}
+}
+
+@media(max-width:$fablet){
+	.sidekick-wrapper{
+		background: none;
+		margin:0;
+		h2,p, h1{
+			color: $color-black;
+		}
+	}
+
+	.noresults-help{
+		ul{
+			width: 100%;
+		}
+		li{
+			width: 32%;
+			&:first-child{
+				width: 100%;
+				display: block;
+				margin-bottom: 20px;
+			}
+			&:nth-child(3){
+				text-align:center;
+			}
+			&:nth-child(4){
+				text-align:right;
+			}
+		}
+	}
+}

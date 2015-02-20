@@ -1,0 +1,829 @@
+@import '_variables';
+@import '_mixins';
+
+.flags:before {
+	border-radius:30px;
+	width:16px;
+	height:16px;
+	background-image:url(../images/02_common/flags.png);
+	background-position:0 -1999px;
+	 content: '';
+    float:left;
+    margin-right:10px; 
+    margin-top:3px;
+    @include box-shadow(0px,1px,0px,rgba($color-black,.1));
+  margin-left: 1px;
+}
+
+footer .flags:before {
+  box-shadow: none;
+}
+
+.flag-no_country:before {
+  background-position: -25px -1775px; }
+
+.flag-northen-ireland:before {
+  background-position: -25px -1795px; }
+
+.flag-catalonia-36:before {
+  background-position: 0 -850px; }
+
+.flag-european-union-63:before {
+  background-position: 0 -1550px; }
+
+.flag-scotland:before {
+  background-position: -50px -445px; }
+
+.flag-vatican-city:before {
+  background-position: -50px -1370px; }
+
+.flag-wales:before {
+  background-position: -50px -1545px; }
+
+.flag-ae:before {
+  background-position: -2px -27px; }
+
+.flag-af:before {
+  background-position: -2px -53px; }
+
+.flag-ag:before {
+  background-position: -2px -78px; }
+
+.flag-ai:before {
+  background-position: -2px -102px; }
+
+.flag-al:before {
+  background-position: -2px -128px; }
+
+.flag-am:before {
+  background-position: -2px -153px; }
+
+.flag-an:before {
+  background-position: -2px -178px; }
+
+.flag-ao:before {
+  background-position: -2px -203px; }
+
+.flag-aq:before {
+  background-position: -2px -228px; }
+
+.flag-ar:before {
+  background-position: -2px -253px; }
+
+.flag-at:before {
+  background-position: -2px -278px; }
+
+.flag-au:before {
+  background-position: -2px -303px; }
+
+.flag-aw:before {
+  background-position: -2px -328px; }
+
+.flag-az:before {
+  background-position: -2px -353px; }
+
+.flag-ba:before {
+  background-position: -2px -378px; }
+
+.flag-bb:before {
+  background-position: -2px -403px; }
+
+.flag-bd:before {
+  background-position: -2px -428px; }
+
+.flag-be:before {
+  background-position: -2px -453px; }
+
+.flag-bf:before {
+  background-position: -2px -478px; }
+
+.flag-bg:before {
+  background-position: -2px -503px; }
+
+.flag-bh:before {
+  background-position: -2px -528px; }
+
+.flag-bi:before {
+  background-position: -2px -553px; }
+
+.flag-bj:before {
+  background-position: -2px -578px; }
+
+.flag-bm:before {
+  background-position: -2px -603px; }
+
+.flag-bn:before {
+  background-position: -2px -628px; }
+
+.flag-bo:before {
+  background-position: -2px -653px; }
+
+.flag-br:before {
+  background-position: -2px -678px; }
+
+.flag-bs:before {
+  background-position: -2px -703px; }
+
+.flag-bt:before {
+  background-position: -2px -728px; }
+
+.flag-bw:before {
+  background-position: -2px -753px; }
+
+.flag-by:before {
+  background-position: -2px -778px; }
+
+.flag-bz:before {
+  background-position: -2px -803px; }
+
+.flag-ca:before {
+  background-position: -2px -828px; }
+
+.flag-cd:before {
+  background-position: -2px -878px; }
+
+.flag-cf:before {
+  background-position: -2px -903px; }
+
+.flag-cg:before {
+  background-position: -2px -928px; }
+
+.flag-ch:before {
+  background-position: -2px -952px; }
+
+.flag-ci:before {
+  background-position: -2px -978px; }
+
+.flag-cl:before {
+  background-position: -2px -1003px; }
+
+.flag-cm:before {
+  background-position: -2px -1028px; }
+
+.flag-cn:before {
+  background-position: -2px -1053px; }
+
+.flag-co:before {
+  background-position: -2px -1078px; }
+
+.flag-cr:before {
+  background-position: -2px -1103px; }
+
+.flag-cu:before {
+  background-position: -2px -1128px; }
+
+.flag-cv:before {
+  background-position: -2px -1153px; }
+
+.flag-cy:before {
+  background-position: -2px -1178px; }
+
+.flag-cz:before {
+  background-position: -2px -1203px; }
+
+.flag-de:before {
+  background-position: -2px -1228px; }
+
+.flag-dj:before {
+  background-position: -2px -1253px; }
+
+.flag-dk:before {
+  background-position: -2px -1278px; }
+
+.flag-dm:before {
+  background-position: -2px -1303px; }
+
+.flag-do:before {
+  background-position: -2px -1328px; }
+
+.flag-dz:before {
+  background-position: -2px -1353px; }
+
+.flag-ec:before {
+  background-position: -2px -1378px; }
+
+.flag-ee:before {
+  background-position: -2px -1403px; }
+
+.flag-eg:before {
+  background-position: -2px -1428px; }
+
+.flag-eh:before {
+  background-position: -2px -1453px; }
+
+.flag-er:before {
+  background-position: -2px -1478px; }
+
+.flag-es:before {
+  background-position: -2px -1503px; }
+
+.flag-et:before {
+  background-position: -2px -1528px; }
+
+.flag-fi:before {
+  background-position: 0px -1578px; }
+
+.flag-fj:before {
+  background-position: -2px -1603px; }
+
+.flag-fk:before {
+  background-position: -2px -1628px; }
+
+.flag-fo:before {
+  background-position: -2px -1653px; }
+
+.flag-fr:before {
+  background-position: -2px -1678px; }
+
+.flag-ga:before {
+  background-position: -2px -1703px; }
+
+.flag-gb:before {
+  background-position: -2px -1727px; }
+
+.flag-gb2:before {
+  background-position: -2px -1753px; }
+
+.flag-gd:before {
+  background-position: -2px -1778px; }
+
+.flag-ge:before {
+  background-position: -2px -1803px; }
+
+.flag-gf:before {
+  background-position: -2px -1828px; }
+
+.flag-gg:before {
+  background-position: -2px -1853px; }
+
+.flag-gh:before {
+  background-position: -2px -1878px; }
+
+.flag-gi:before {
+  background-position: -2px -1903px; }
+
+.flag-gl:before {
+  background-position: -2px -1928px; }
+
+.flag-gm:before {
+  background-position: -2px -1953px; }
+
+.flag-gn:before {
+  background-position: -2px -1978px; }
+
+.flag-gp:before {
+  background-position: -27px -3px; }
+
+.flag-gq:before {
+  background-position: -27px -27px; }
+
+.flag-gr:before {
+  background-position: -27px -53px; }
+
+.flag-gt:before {
+  background-position: -27px -78px; }
+
+.flag-gw:before {
+  background-position: -27px -103px; }
+
+.flag-gy:before {
+  background-position: -27px -128px; }
+
+.flag-hk:before {
+  background-position: -27px -153px; }
+
+.flag-hn:before {
+  background-position: -27px -178px; }
+
+.flag-hr:before {
+  background-position: -27px -203px; }
+
+.flag-ht:before {
+  background-position: -27px -228px; }
+
+.flag-hu:before {
+  background-position: -27px -253px; }
+
+.flag-id:before {
+  background-position: -27px -278px; }
+
+.flag-ie:before {
+  background-position: -27px -303px; }
+
+.flag-il:before {
+  background-position: -27px -328px; }
+
+.flag-im:before {
+  background-position: -3px -2px; }
+
+.flag-in:before {
+  background-position: -27px -353px; }
+
+.flag-iq:before {
+  background-position: -27px -378px; }
+
+.flag-ir:before {
+  background-position: -27px -403px; }
+
+.flag-is:before {
+  background-position: -27px -428px; }
+
+.flag-it:before {
+  background-position: -27px -453px; }
+
+.flag-je:before {
+  background-position: -27px -478px; }
+
+.flag-jm:before {
+  background-position: -27px -503px; }
+
+.flag-jo:before {
+  background-position: -27px -528px; }
+
+.flag-jp:before {
+  background-position: -27px -553px; }
+
+.flag-ke:before {
+  background-position: -27px -578px; }
+
+.flag-kg:before {
+  background-position: -27px -603px; }
+
+.flag-kh:before {
+  background-position: -25px -628px; }
+
+.flag-ki:before {
+  background-position: -27px -653px; }
+
+.flag-km:before {
+  background-position: -27px -678px; }
+
+.flag-kn:before {
+  background-position: -27px -703px; }
+
+.flag-kp:before {
+  background-position: -27px -728px; }
+
+.flag-kr:before {
+  background-position: -27px -753px; }
+
+.flag-kw:before {
+  background-position: -27px -778px; }
+
+.flag-ky:before {
+  background-position: -27px -803px; }
+
+.flag-kz:before {
+  background-position: -27px -828px; }
+
+.flag-la:before {
+  background-position: -27px -853px; }
+
+.flag-lb:before {
+  background-position: -27px -878px; }
+
+.flag-lc:before {
+  background-position: -27px -903px; }
+
+.flag-li:before {
+  background-position: -27px -928px; }
+
+.flag-lk:before {
+  background-position: -25px -950px; }
+
+.flag-lr:before {
+  background-position: -27px -978px; }
+
+.flag-ls:before {
+  background-position: -27px -1003px; }
+
+.flag-lt:before {
+  background-position: -27px -1028px; }
+
+.flag-lu:before {
+  background-position: -27px -1053px; }
+
+.flag-lv:before {
+  background-position: -27px -1078px; }
+
+.flag-ly:before {
+  background-position: -27px -1103px; }
+
+.flag-ma:before {
+  background-position: -27px -1128px; }
+
+.flag-mc:before {
+  background-position: -27px -1153px; }
+
+.flag-md:before {
+  background-position: -27px -1178px; }
+
+.flag-me:before {
+  background-position: -27px -1203px; }
+
+.flag-mg:before {
+  background-position: -27px -1228px; }
+
+.flag-mh:before {
+  background-position: -27px -1253px; }
+
+.flag-mk:before {
+  background-position: -27px -1278px; }
+
+.flag-ml:before {
+  background-position: -27px -1303px; }
+
+.flag-mm:before {
+  background-position: -27px -1328px; }
+
+.flag-mn:before {
+  background-position: -27px -1353px; }
+
+.flag-mo:before {
+  background-position: -27px -1378px; }
+
+.flag-mr:before {
+  background-position: -27px -1403px; }
+
+.flag-ms:before {
+  background-position: -27px -1428px; }
+
+.flag-mt:before {
+  background-position: -27px -1453px; }
+
+.flag-mu:before {
+  background-position: -27px -1478px; }
+
+.flag-mv:before {
+  background-position: -27px -1503px; }
+
+.flag-mw:before {
+  background-position: -27px -1528px; }
+
+.flag-mx:before {
+  background-position: -27px -1553px; }
+
+.flag-my:before {
+  background-position: -27px -1578px; }
+
+.flag-mz:before {
+  background-position: -27px -1603px; }
+
+.flag-na:before {
+  background-position: -27px -1628px; }
+
+.flag-ne:before {
+  background-position: -27px -1653px; }
+
+.flag-ng:before {
+  background-position: -27px -1678px; }
+
+.flag-ni:before {
+  background-position: -27px -1703px; }
+
+.flag-nl:before {
+  background-position: -27px -1728px; }
+
+.flag-no:before {
+  background-position: -27px -1753px; }
+
+.flag-np:before {
+  background-position: -27px -1823px; }
+
+.flag-nr:before {
+  background-position: -27px -1848px; }
+
+.flag-nz:before {
+  background-position: -27px -1873px; }
+
+.flag-om:before {
+  background-position: -27px -1898px; }
+
+.flag-pa:before {
+  background-position: -27px -1923px; }
+
+.flag-pe:before {
+  background-position: -27px -1948px; }
+
+.flag-pg:before {
+  background-position: -27px -1973px; }
+
+.flag-ph:before {
+  background-position: -52px -3px; }
+
+.flag-pk:before {
+  background-position: -52px -27px; }
+
+.flag-pl:before {
+  background-position: -52px -53px; }
+
+.flag-pm:before {
+  background-position: -52px -78px; }
+
+.flag-pr:before {
+  background-position: -52px -103px; }
+
+.flag-ps:before {
+  background-position: -52px -128px; }
+
+.flag-pt:before {
+  background-position: -52px -153px; }
+
+.flag-pw:before {
+  background-position: -52px -178px; }
+
+.flag-py:before {
+  background-position: -52px -203px; }
+
+.flag-qa:before {
+  background-position: -52px -228px; }
+
+.flag-re:before {
+  background-position: -52px -253px; }
+
+.flag-ro:before {
+  background-position: -52px -278px; }
+
+.flag-rs:before {
+  background-position: -52px -298px; }
+
+.flag-ru:before {
+  background-position: -52px -323px; }
+
+.flag-rw:before {
+  background-position: -50px -348px; }
+
+.flag-sa:before {
+  background-position: -52px -373px; }
+
+.flag-sb:before {
+  background-position: -52px -398px; }
+
+.flag-sc:before {
+  background-position: -52px -423px; }
+
+.flag-sd:before {
+  background-position: -52px -473px; }
+
+.flag-se:before {
+  background-position: -52px -498px; }
+
+.flag-sg:before {
+  background-position: -52px -523px; }
+
+.flag-sh:before {
+  background-position: -52px -548px; }
+
+.flag-si:before {
+  background-position: -52px -573px; }
+
+.flag-sj:before {
+  background-position: -52px -598px; }
+
+.flag-sk:before {
+  background-position: -52px -623px; }
+
+.flag-sl:before {
+  background-position: -52px -648px; }
+
+.flag-sm:before {
+  background-position: -52px -673px; }
+
+.flag-sn:before {
+  background-position: -52px -698px; }
+
+.flag-so:before {
+  background-position: -52px -723px; }
+
+.flag-sr:before {
+  background-position: -52px -748px; }
+
+.flag-st:before {
+  background-position: -52px -773px; }
+
+.flag-sv:before {
+  background-position: -52px -798px; }
+
+.flag-sy:before {
+  background-position: -52px -823px; }
+
+.flag-sz:before {
+  background-position: -52px -848px; }
+
+.flag-tc:before {
+  background-position: -52px -873px; }
+
+.flag-td:before {
+  background-position: -52px -898px; }
+
+.flag-tg:before {
+  background-position: -52px -923px; }
+
+.flag-th:before {
+  background-position: -52px -948px; }
+
+.flag-tj:before {
+  background-position: -52px -973px; }
+
+.flag-tl:before {
+  background-position: -52px -998px; }
+
+.flag-tm:before {
+  background-position: -52px -1023px; }
+
+.flag-tn:before {
+  background-position: -52px -1048px; }
+
+.flag-to:before {
+  background-position: -52px -1073px; }
+
+.flag-tr:before {
+  background-position: -52px -1098px; }
+
+.flag-tt:before {
+  background-position: -52px -1123px; }
+
+.flag-tv:before {
+  background-position: -52px -1148px; }
+
+.flag-tw:before {
+  background-position: -52px -1173px; }
+
+.flag-tz:before {
+  background-position: -52px -1198px; }
+
+.flag-ua:before {
+  background-position: -52px -1223px; }
+
+.flag-ug:before {
+  background-position: -52px -1248px; }
+
+.flag-us:before {
+  background-position: -52px -1273px; }
+
+.flag-uy:before {
+  background-position: -52px -1298px; }
+
+.flag-uz:before {
+  background-position: -52px -1323px; }
+
+.flag-va:before {
+  background-position: -57px -1348px; }
+
+.flag-vc:before {
+  background-position: -52px -1398px; }
+
+.flag-ve:before {
+  background-position: -52px -1423px; }
+
+.flag-vg:before {
+  background-position: -52px -1448px; }
+
+.flag-vi:before {
+  background-position: -52px -1473px; }
+
+.flag-vn:before {
+  background-position: -52px -1498px; }
+
+.flag-vu:before {
+  background-position: -52px -1523px; }
+
+.flag-ws:before {
+  background-position: -52px -1573px; }
+
+.flag-ye:before {
+  background-position: -52px -1598px; }
+
+.flag-za:before {
+  background-position: -52px -1623px; }
+
+.flag-zm:before {
+  background-position: -52px -1648px; }
+
+.flag-zw:before {
+  background-position: -52px -1673px; }
+
+.flag-mq:before {
+  background-position: -52px -1728px; }
+
+.flag-ad:before {
+  background-position: -52px -1753px; }
+
+.flag-kv:before,
+.flag-kosovo:before {
+  background-position: -52px -1698px; }
+
+.flag-br_int:before {
+  background-position: -52px -1778px; }
+
+ .flag-cx:before {
+background-position: -52px -1803px; }
+
+.flag-bv:before {
+  background-position: -27px -1753px;}
+
+.flag-cc:before {
+  background-position: -52px -1828px;
+}
+
+.flag-ck:before {
+  background-position: -52px -1853px;
+}
+
+.flag-pf:before {
+  background-position: -52px -1878px;
+}
+
+.flag-tf:before {
+  background-position: -52px -1901px;
+}
+
+.flag-hm:before {
+  background-position: -52px -1926px;
+}
+
+.flag-fm:before {
+  background-position: -52px -1953px;
+}
+
+.flag-nc:before {
+  background-position: -52px -1978px;
+}
+
+.flag-nu:before {
+  background-position: -76px 0px;
+}
+
+.flag-nf:before {
+  background-position: -78px -27px;
+}
+
+.flag-mp:before {
+  background-position: -78px -53px;
+}
+
+.flag-pn:before {
+  background-position: -76px -75px;
+}
+
+.flag-tk:before {
+  background-position: -76px -102px;
+}
+
+.flag-um:before {
+ background-position: -53px -1273px; }
+
+ .flag-wf:before {
+background-position: -82px -128px; }
+
+ .flag-zr:before {
+background-position: -78px -153px; }
+
+ .flag-ic:before {
+background-position: -78px -178px; }
+
+ .flag-xc:before {
+background-position: -78px -203px; }
+
+ .flag-io:before {
+background-position: -76px -228px; }
+
+.flag-gu:before {
+  background-position: -76px -253px;
+}
+
+.flag-ss:before {
+  background-position: -76px -278px;
+}
+
+.flag-xb:before {
+  background-position: -76px -303px;
+}
+
+.flag-xe:before {
+  background-position: -76px -328px;
+}
+
+.flag-xm:before {
+  background-position: -76px -353px;
+}
+
+.flag-xn:before {
+  background-position: -76px -378px;
+}
+
+.flag-xs:before {
+  background-position: -76px -403px;
+}
+
+.flag-xy:before {
+  background-position: -76px -428px;
+}
+
+.flag-xt:before {
+  background-position: -76px -453px;
+}
+
+.flag-ff:before {
+  background-position: -76px -478px;
+}

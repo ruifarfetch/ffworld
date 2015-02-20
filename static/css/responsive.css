@@ -1,0 +1,421 @@
+/*Color*/
+/*Typography*/
+/*Grid*/
+/*Media Queries*/
+/*line-height*/
+/*Animation time*/
+/*Color*/
+/*Typography*/
+/*Grid*/
+/*Media Queries*/
+/*line-height*/
+/*Animation time*/
+/*Font face*/
+/*Icons Placeholder*/
+/*Border-radius*/
+/*Box-shadow*/
+/*Buttons*/
+/*Sprite*/
+/*Calculate rems*/
+/*Effects and animations*/
+/* ==========================================================================
+   Responsive Framework
+   ========================================================================== */
+html {
+  -ms-touch-action: manipulation;
+  touch-action: manipulation; }
+
+body {
+  -webkit-overflow-scrolling: touch; }
+
+@media (min-width: 1441px) {
+  .hidden-xl {
+    display: none; }
+
+  .container {
+    padding: 0 35px; } }
+/**
+ * Flexible images and add 1% if device is lower than grid
+ */
+@media (max-width: 1440px) {
+  img {
+    height: auto;
+    max-width: 100%; }
+
+  .container {
+    max-width: 100%;
+    padding: 0 35px; } }
+/**
+ * Media Querie for large devices
+ */
+@media (min-width: 1025px) and (max-width: 1440px) {
+  .hidden-xl {
+    display: none; }
+
+  .hidden-md {
+    display: none; }
+
+  .hidden-sm {
+    display: none; }
+
+  .hidden-xs {
+    display: none; }
+
+  .visible-xl {
+    display: inherit; }
+
+  .col-xl-1 {
+    width: 8.33%; }
+
+  .col-xl-2 {
+    width: 16.667%; }
+
+  .col-xl-3 {
+    width: 25%; }
+
+  .col-xl-4 {
+    width: 33.33%; }
+
+  .col-xl-5 {
+    width: 41.66%; }
+
+  .col-xl-6 {
+    width: 50%; }
+
+  .col-xl-7 {
+    width: 58.33%; }
+
+  .col-xl-8 {
+    width: 66.66%; }
+
+  .col-xl-9 {
+    width: 75%; }
+
+  .col-xl-10 {
+    width: 83.33%; }
+
+  .col-xl-11 {
+    width: 91.67%; }
+
+  .col-xl-12 {
+    width: 100%; }
+
+  html {
+    font-size: 60.5%; } }
+/**
+ * Media Querie for medium devices
+ */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .container {
+    padding: 0 10px; }
+
+  .hidden-xl {
+    display: none; }
+
+  .hidden-md {
+    display: none; }
+
+  .hidden-sm {
+    display: none; }
+
+  .hidden-xs {
+    display: none; }
+
+  .visible-md {
+    display: inherit; }
+
+  .col-md-1 {
+    width: 8.33%; }
+
+  .col-md-2 {
+    width: 16.667%; }
+
+  .col-md-3 {
+    width: 25%; }
+
+  .col-md-4 {
+    width: 33.33%; }
+
+  .col-md-5 {
+    width: 41.66%; }
+
+  .col-md-6 {
+    width: 50%; }
+
+  .col-md-7 {
+    width: 58.33%; }
+
+  .col-md-8 {
+    width: 66.66%; }
+
+  .col-md-9 {
+    width: 75%; }
+
+  .col-md-10 {
+    width: 83.33%; }
+
+  .col-md-11 {
+    width: 91.67%; }
+
+  .col-md-12 {
+    width: 100%; }
+
+  h1, .h1 {
+    font-size: 24px;
+    font-size: 2.4rem;
+    line-height: 3.48rem; }
+
+  h2, .h2 {
+    font-size: 18px;
+    font-size: 1.8rem;
+    line-height: 2.61rem; }
+
+  h3, .h3 {
+    font-size: 16px;
+    font-size: 1.6rem;
+    line-height: 2.32rem; }
+
+  h4, .h4 {
+    font-size: 16px;
+    font-size: 1.6rem;
+    line-height: 2.32rem; }
+
+  h5, .h5 {
+    font-size: 13px;
+    font-size: 1.3rem;
+    line-height: 2.21rem; }
+
+  /*html {font-size: 58.5%;}*/
+  .pa0-md {
+    padding: 0 !important; }
+
+  .pt20-md {
+    padding-top: 20px; } }
+/**
+ * Media Querie for medium and small devices
+ */
+@media (min-width: 481px) and (max-width: 767px) {
+  .container {
+    padding: 0 10px; }
+
+  .hidden-xl {
+    display: none; }
+
+  .hidden-md {
+    display: none; }
+
+  .hidden-sm {
+    display: none; }
+
+  .hidden-xs {
+    display: none; }
+
+  .visible-sm {
+    display: inherit; }
+
+  .col-sm-1 {
+    width: 8.33%; }
+
+  .col-sm-2 {
+    width: 16.667%; }
+
+  .col-sm-3 {
+    width: 25%; }
+
+  .col-sm-4 {
+    width: 33.33%; }
+
+  .col-sm-5 {
+    width: 41.66%; }
+
+  .col-sm-6 {
+    width: 50%; }
+
+  .col-sm-7 {
+    width: 58.33%; }
+
+  .col-sm-8 {
+    width: 66.66%; }
+
+  .col-sm-9 {
+    width: 75%; }
+
+  .col-sm-10 {
+    width: 83.33%; }
+
+  .col-sm-11 {
+    width: 91.67%; }
+
+  .col-sm-12 {
+    width: 100%; }
+
+  /*html{font-size: 56.5%;}*/
+  h1, .h1 {
+    font-size: 24px;
+    font-size: 2.4rem;
+    line-height: 3.48rem; }
+
+  h2, .h2 {
+    font-size: 18px;
+    font-size: 1.8rem;
+    line-height: 2.61rem; }
+
+  h3, .h3 {
+    font-size: 16px;
+    font-size: 1.6rem;
+    line-height: 2.32rem; }
+
+  h4, .h4 {
+    font-size: 16px;
+    font-size: 1.6rem;
+    line-height: 2.32rem; }
+
+  h5, .h5 {
+    font-size: 13px;
+    font-size: 1.3rem;
+    line-height: 2.21rem; }
+
+  footer {
+    height: auto; }
+
+  .pa0-sm {
+    padding: 0; }
+
+  .pt10-sm {
+    padding-top: 10px; }
+
+  .pl10-sm {
+    padding-left: 10px; }
+
+  .pt10-sm {
+    padding-top: 10px; }
+
+  .pr10-sm {
+    padding-right: 10px; }
+
+  .pb10-sm {
+    padding-bottom: 10px; }
+
+  .pt20-sm {
+    padding-top: 20px; }
+
+  .pb20-sm {
+    padding-bottom: 20px; } }
+/**
+ * Media Querie for small devices
+ */
+@media (max-width: 480px) {
+  .container {
+    padding: 0 10px; }
+
+  .hidden-xl {
+    display: none; }
+
+  .hidden-md {
+    display: none; }
+
+  .hidden-sm {
+    display: none; }
+
+  .hidden-xs {
+    display: none; }
+
+  .visible-xs {
+    display: inherit; }
+
+  .col-xs-1 {
+    width: 8.33%; }
+
+  .col-xs-2 {
+    width: 16.667%; }
+
+  .col-xs-3 {
+    width: 25%; }
+
+  .col-xs-4 {
+    width: 33.33%; }
+
+  .col-xs-5 {
+    width: 41.66%; }
+
+  .col-xs-6 {
+    width: 50%; }
+
+  .col-xs-7 {
+    width: 58.33%; }
+
+  .col-xs-8 {
+    width: 66.66%; }
+
+  .col-xs-9 {
+    width: 75%; }
+
+  .col-xs-10 {
+    width: 83.33%; }
+
+  .col-xs-11 {
+    width: 91.67%; }
+
+  .col-xs-12 {
+    width: 100%; }
+
+  /* html{font-size: 54.5%;}*/
+  h1, .h1 {
+    font-size: 24px;
+    font-size: 2.4rem;
+    line-height: 3.48rem; }
+
+  h2, .h2 {
+    font-size: 18px;
+    font-size: 1.8rem;
+    line-height: 2.61rem; }
+
+  h3, .h3 {
+    font-size: 16px;
+    font-size: 1.6rem;
+    line-height: 2.32rem; }
+
+  h4, .h4 {
+    font-size: 16px;
+    font-size: 1.6rem;
+    line-height: 2.32rem; }
+
+  h5, .h5 {
+    font-size: 13px;
+    font-size: 1.3rem;
+    line-height: 2.21rem; }
+
+  footer {
+    height: auto; }
+
+  .pa0-xs {
+    padding: 0; }
+
+  .pt10-xs {
+    padding-top: 10px; }
+
+  .pl10-xs {
+    padding-left: 10px; }
+
+  .pt10-xs {
+    padding-top: 10px; }
+
+  .pr10-xs {
+    padding-right: 10px; }
+
+  .pb10-xs {
+    padding-bottom: 10px; }
+
+  .pt20-xs {
+    padding-top: 20px; }
+
+  .pb20-xs {
+    padding-bottom: 20px; } }
+/**
+ * Media Querie for small devices
+ */
+@media (min-width: 1025px) {
+  html {
+    overflow-y: scroll; } }
+
+/*# sourceMappingURL=responsive.css.map */

@@ -1,0 +1,81 @@
+/*Color*/
+/*Typography*/
+/*Grid*/
+/*Media Queries*/
+/*line-height*/
+/*Animation time*/
+/*Color*/
+/*Typography*/
+/*Grid*/
+/*Media Queries*/
+/*line-height*/
+/*Animation time*/
+/*Font face*/
+/*Icons Placeholder*/
+/*Border-radius*/
+/*Box-shadow*/
+/*Buttons*/
+/*Sprite*/
+/*Calculate rems*/
+/*Effects and animations*/
+/*global margins*/
+.quick_marginbottom {
+  border-bottom: 1px solid #ddd; }
+
+.js-quick-boxSelector-container {
+  display: none; }
+
+.js-quick-change-action-cancel {
+  display: none; }
+
+.js-quick-addNewForm-container {
+  display: none; }
+
+.js-quick-editForm-shipping-container {
+  display: none; }
+
+.js-quick-editForm-billing-container {
+  display: none; }
+
+.js-quick-editForm-cardDetails {
+  display: none; }
+
+.quick_topactions-container-change-actions-open-default .js-quick-change-action-cancel {
+  display: block; }
+.quick_topactions-container-change-actions-open-default .js-quick-change-action-change {
+  display: none; }
+
+.checkout-quick-module-open-default {
+  display: block; }
+
+@media (max-width: 480px) {
+  .svg .checkout-mainContent-boxModule-mc {
+    min-height: 100%; } }
+
+.svg .checkout-mainContent-boxModule-mc .checkout-clickandcollect {
+  width: 91px;
+  height: 46px;
+  background-size: 86px 46px;
+  left: 35%;
+  top: 40%; }
+  @media (max-width: 480px) {
+    .svg .checkout-mainContent-boxModule-mc .checkout-clickandcollect {
+      position: static;
+      margin-left: 6px; } }
+
+@media (max-width: 767px) {
+  .quick_topactions-payment-cardLogos {
+    clear: both;
+    float: left;
+    width: 100%;
+    margin-bottom: 10px; } }
+
+#quick-TogglePlusShipping.icon-more {
+  color: #aaa; }
+
+@media (max-width: 480px) {
+  .quick-editChange-cardDetail-cancel {
+    text-align: left; } }
+
+.quick-checkout-wrapper .checkout-selectPayment-cvv-container-boxHeight {
+  min-height: 340px; }

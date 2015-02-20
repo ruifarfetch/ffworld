@@ -1,0 +1,272 @@
+@import '_variables';
+@import '_mixins';
+
+main {padding-bottom: 0;}
+
+@media (max-width: $fablet) {
+	main {
+		margin-top: 0px;
+	}
+}
+
+body {
+	padding-top: 0;
+}
+
+caption, th, td {
+	text-align: right;
+}
+
+
+.bolchat-header {
+  @include box-shadow(0px, 2px, 3px, rgba($color-black, .18));
+  height:50px;
+}
+
+ .header .glyphs {
+  font-size: 20px; 
+}
+
+.boldchat-header-Help h6 {
+  white-space: nowrap; 
+}
+
+.user-name-input {
+	span {
+		font-weight: bold;
+	}
+
+	input {
+		@include placeholder($color-mediumGrey);
+	&:focus {
+		background-color: $color-offWhite;
+	}
+	}
+}
+
+.main-boldchat {
+	min-height: 450px;
+}
+
+.boldchat-header-logo {
+	top:5px;
+}
+
+.main-chat {
+	min-height: 350px;
+	max-height: 350px;
+	overflow-y: scroll;
+}
+
+.send-message {
+	resize: none;
+	height: 100px;
+	&:focus {
+		background-color: $color-offWhite !important;
+	}
+}
+
+.send-button {
+
+	@media (min-width: $tablet + 1) {
+		margin-top: 75px;
+	}
+}
+
+
+.is-typing-message {
+	margin-top: 5px;
+	@include fontSize($font-size6);
+}
+
+.action-icons {
+	position:relative;
+	top: -10px;
+	right: -9px;
+	height: 35px;
+}
+
+.svg .icon-email {
+	background: url('../../static/images/02_common/icons/svg/letter.svg') no-repeat;
+	@include fontSize($font-size4);
+	height:50px;
+	width:50px;
+	display: block;
+	float:left;
+	/* hammer time */ 
+	position:relative;
+	top:-1px;
+
+}
+
+.svg .icon-print {
+	background: url('../../static/images/02_common/icons/svg/printer.svg') no-repeat;
+	@include fontSize($font-size4);
+	height:50px;
+	width:36px;
+	display: block;
+	float:left;
+}
+
+.svg .message-icon {
+	background: url('../../static/images/02_common/icons/svg/message.svg') no-repeat;
+	@include fontSize($font-size4);
+	height:50px;
+	width:50px;
+	display: block;
+	float:left;
+	/* hammer time */
+	position:relative;
+	top:-12px;
+	right: -10px;
+}
+
+ .no-svg .icon-email {
+	background: url('../../static/images/02_common/icons/letter.png') no-repeat;
+	@include fontSize($font-size4);
+	height:50px;
+	width:50px;
+	display: block;
+	float:left;
+	/* hammer time */
+	position:relative;
+	top:5px;
+}
+
+.no-svg .icon-print {
+	background: url('../../static/images/02_common/icons/printer.png') no-repeat;
+	@include fontSize($font-size4);
+	height:50px;
+	width:32px;
+	display: block;
+	float:left;
+}
+
+.no-svg .message-icon {
+	background: url('../../static/images/02_common/icons/message.png') no-repeat;
+	height:20px;
+	width:32px;
+	display: block;
+	float:left;
+}
+
+
+.close-chat {
+	border-bottom: 1px solid #222;
+}
+
+.end-conversation {
+	background-color: $color-lightGrey;
+	text-align: center;
+
+}
+
+
+.boldchat-copy {
+	@include fontSize($font-size4);
+}
+
+.mb40 {
+	margin-bottom: 40px;
+}
+/* rate it */
+
+
+/*css*/
+.icon-radio-checked~p {
+	color:$color-black !important;
+}
+
+.rate-position-number-button {
+	top:-40px;
+	left:3px;
+}
+
+.rate-position-number-button-1 {
+	top:-40px;
+	left:-1px;
+}
+
+
+.rate-radio-description {
+	margin-top:-30px;
+	width: 536px;
+}
+
+.rate-radio-description1 {
+	margin-top:-30px;
+}
+
+.rate-mt50 {
+	margin-top:50px;
+}
+
+.rate-mt70 {
+	margin-top:70px;
+}
+
+.rate-nickname-descri {
+	font-size:$font-size5;
+}
+
+
+.rate-imput-size textarea {
+	resize:none;
+	height:125px;
+
+}
+
+.rate-radio-mr-percent {
+	margin-right: 36px;
+}
+
+.rate-bullets {
+	width: 100%;
+}
+
+
+.rate-bullets-div {
+	width: 528px;
+}
+
+.rate-img-explained-mr {
+	margin-right:25px;
+}
+
+.rate-img-explained-mr1 {
+	margin-right:30px;
+}
+
+.rate-img-explained-mb {
+	margin-bottom:40px;
+} 
+
+.rate-bullets li {
+	width:15px !important; 
+}
+
+
+.rate-icon-circular-bg {
+	border-radius: 50%;
+	width: 18px;
+	height: 18px;
+	background-color: white;
+	margin-top:4px;
+}
+
+.rate-icon-circular-bg span:before {
+	margin-top: 2px;
+	margin-left: 2.5px;
+	float: left;
+	font-size: 1em;
+}
+
+.icon-radio-unchecked {
+	background-color: $color-offWhite;
+	@include box-shadow(1px,1px,0px,#ccc,inset);
+}
+
+.chosen-container-single .chosen-single {
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+}

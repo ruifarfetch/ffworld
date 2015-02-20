@@ -1,0 +1,81 @@
+/*Color*/
+/*Typography*/
+/*Grid*/
+/*Media Queries*/
+/*line-height*/
+/*Animation time*/
+/*Color*/
+/*Typography*/
+/*Grid*/
+/*Media Queries*/
+/*line-height*/
+/*Animation time*/
+/*Font face*/
+/*Icons Placeholder*/
+/*Border-radius*/
+/*Box-shadow*/
+/*Buttons*/
+/*Sprite*/
+/*Calculate rems*/
+/*Effects and animations*/
+.sliderCarouselModule .bx-wrapper {
+  margin: 0 auto; }
+
+.sliderCarouselModule .bx-viewport {
+  width: 100%;
+  margin: 0 auto;
+  height: 100%;
+  padding-left: 35px;
+  padding-right: 35px;
+  overflow: visible !important; }
+
+.sliderCarouselModule .bx-controls-direction .bx-prev {
+  top: 50%;
+  /*ie8 fallback*/
+  top: calc((50%) - 16px);
+  left: 20px;
+  background-color: #fff;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  border-radius: 20px;
+  opacity: 0.8; }
+.sliderCarouselModule .bx-controls-direction .bx-next {
+  top: 50%;
+  /*ie8 fallback*/
+  top: calc((50%) - 16px);
+  right: 20px;
+  background-color: #fff;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  border-radius: 20px;
+  opacity: 0.8; }
+
+.sliderCarouselModule .bx-pager {
+  display: none; }
+
+@media (max-width: 1024px) {
+  .sliderCarouselModule .bx-viewport {
+    padding-left: 0;
+    padding-right: 0; }
+
+  .sliderCarouselModule .bx-controls-direction {
+    display: none; }
+
+  .sliderCarouselModule .bx-pager {
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 5%; } }
+@media (min-width: 767px) and (max-width: 481px) {
+  .sliderCarouselModule .bx-pager {
+    bottom: 5%; } }
+@media (max-width: 480px) {
+  .sliderCarouselModule .bx-pager {
+    bottom: 5%; } }

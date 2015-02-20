@@ -1,0 +1,65 @@
+/*Color*/
+/*Typography*/
+/*Grid*/
+/*Media Queries*/
+/*line-height*/
+/*Animation time*/
+/*Color*/
+/*Typography*/
+/*Grid*/
+/*Media Queries*/
+/*line-height*/
+/*Animation time*/
+/*Font face*/
+/*Icons Placeholder*/
+/*Border-radius*/
+/*Box-shadow*/
+/*Buttons*/
+/*Sprite*/
+/*Calculate rems*/
+/*Effects and animations*/
+.christmas-card {
+  margin: 1px; }
+  .christmas-card img, .christmas-card .mask-overlay {
+    cursor: pointer; }
+  @media (max-width: 767px) {
+    .christmas-card {
+      margin-bottom: 10px;
+      padding: 0; } }
+
+.christmas-social .glyphs {
+  font-size: 1.8em;
+  cursor: pointer; }
+  .christmas-social .glyphs:hover {
+    color: #aaa !important; }
+.christmas-social .icon-contact {
+  font-size: 1.6em; }
+
+.christmas-profile-container .arrow_top {
+  top: -7px;
+  left: calc(50% - 8px); }
+
+.christmas-profile-container {
+  padding: 10px; }
+  .christmas-profile-container .accordion-regular-title {
+    display: table;
+    width: 100%; }
+    .christmas-profile-container .accordion-regular-title .col2 {
+      display: table-cell;
+      vertical-align: middle;
+      float: none; }
+
+.sidekick-wrapper {
+  margin-bottom: 3px !important; }
+  @media (max-width: 767px) {
+    .sidekick-wrapper {
+      background-color: transparent;
+      margin: 0; } }
+
+@media (max-width: 767px) {
+  .sidekick-seo, .sidekick-seo p {
+    color: #222; } }
+
+.message-textarea {
+  resize: none;
+  min-height: 100px; }

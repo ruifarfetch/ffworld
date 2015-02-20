@@ -1,0 +1,73 @@
+@import '_variables';
+@import '_mixins';
+
+body[data-page="account"], 
+body[data-page="checkout"],
+body[data-page="returns"],
+body[data-page="forgotpassword"],
+body[data-page="login"] {
+  padding-top: 0;
+  .wrapper {
+    overflow:hidden;
+    margin-bottom: -40px;
+  }
+  main {
+    margin-top: 50px;
+    padding-bottom: 40px;
+  }
+  /*footer*/
+  footer {
+    margin: 0;
+    min-height: 40px;
+    color:$color-white;
+    a, a:link {
+      color: $color-white !important;
+      border-bottom:none !important;
+    }
+  }
+  @media(max-width: $fablet) {
+    .wrapper {
+      margin-bottom: -60px;
+    }
+    main {
+      padding-bottom: 60px;
+    }
+    footer {
+      overflow: hidden;
+    }
+    footer.not-logged {
+      overflow: hidden;
+    }
+  } 
+}
+
+/*header*/
+.checkout-header{
+  height: 50px;
+  padding: 16px 0 10px 0;
+}
+
+.checkout-header-container-mainRight .glyphs,.checkout-footer-container-mainRight .glyphs{
+  font-size:20px;
+  position: relative;
+  top:-2px;
+}
+
+.checkout-header-Help h6{
+  white-space: nowrap;
+}
+
+.checkout-header-currency p{
+  border-right:1px solid #ccc;
+}
+
+.checkout-header a {
+  border-bottom:none !important;
+}
+
+@media(min-width:480px) {
+  .checkout-phone-link{
+    pointer-events:none;
+  }
+} 
+

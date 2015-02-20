@@ -1,0 +1,264 @@
+/*Color*/
+/*Typography*/
+/*Grid*/
+/*Media Queries*/
+/*line-height*/
+/*Animation time*/
+/*Color*/
+/*Typography*/
+/*Grid*/
+/*Media Queries*/
+/*line-height*/
+/*Animation time*/
+/*Font face*/
+/*Icons Placeholder*/
+/*Border-radius*/
+/*Box-shadow*/
+/*Buttons*/
+/*Sprite*/
+/*Calculate rems*/
+/*Effects and animations*/
+/*Rating*/
+.rateit {
+  display: -moz-inline-box;
+  display: inline-block;
+  position: relative;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+  margin-left: 10px; }
+
+.rateit .rateit-range {
+  position: relative;
+  display: -moz-inline-box;
+  display: inline-block;
+  height: 16px;
+  outline: none; }
+
+.rateit .rateit-range * {
+  display: block; }
+
+/* for IE 6 */
+* html .rateit, * html .rateit .rateit-range {
+  display: inline; }
+
+/* for IE 7 */
+* + html .rateit, * + html .rateit .rateit-range {
+  display: inline; }
+
+.rateit .rateit-hover, .rateit .rateit-selected {
+  position: absolute;
+  left: 0px; }
+
+.rateit .rateit-hover-rtl, .rateit .rateit-selected-rtl {
+  left: auto;
+  right: 0px; }
+
+.rateit .rateit-hover-rtl {
+  background-position: right -32px; }
+
+.rateit .rateit-selected-rtl {
+  background-position: right -16px; }
+
+.rateit button.rateit-reset {
+  width: 16px;
+  height: 16px;
+  display: none !important;
+  float: left;
+  outline: none;
+  border: none;
+  padding: 0; }
+
+.rateit button.rateit-reset:hover, .rateit button.rateit-reset:focus {
+  background-position: 0 -16px; }
+
+/*css*/
+.icon-radio-checked ~ p {
+  color: #222222 !important; }
+
+.rate-position-number-button {
+  top: -40px;
+  left: 3px; }
+
+.rate-position-number-button-1 {
+  top: -40px;
+  left: -1px; }
+
+.rate-radio-description {
+  margin-top: -30px;
+  width: 528px; }
+
+.rate-radio-description1 {
+  margin-top: -30px; }
+
+.rate-mt50 {
+  margin-top: 50px; }
+
+.rate-mt70 {
+  margin-top: 70px; }
+
+.rate-nickname-descri {
+  font-size: 11; }
+
+.rate-imput-size textarea {
+  resize: none;
+  height: 125px; }
+
+.rate-radio-mr-percent {
+  margin-right: 36px; }
+
+.rate-bullets {
+  width: 100%; }
+
+.rate-bullets-div {
+  width: 528px; }
+
+.rate-img-explained-mr {
+  margin-right: 25px; }
+
+.rate-img-explained-mr1 {
+  margin-right: 30px; }
+
+.rate-img-explained-mb {
+  margin-bottom: 40px; }
+
+.rate-bullets li {
+  width: 15px !important; }
+
+.rate-icon-circular-bg {
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  background-color: white;
+  margin-top: 4px; }
+
+.rate-icon-circular-bg span:before {
+  margin-top: 2px;
+  margin-left: 2.5px;
+  float: left;
+  font-size: 1em; }
+
+textarea {
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
+  border-radius: 0px;
+  -webkit-appearance: none; }
+
+.modal h2 {
+  letter-spacing: 0px;
+  text-transform: none; }
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .rate-star-div li span .rateit {
+    float: none; } }
+@media (max-width: 481px) {
+  .rate-question {
+    float: none; }
+
+  .rateit {
+    float: none;
+    margin-top: 20px; }
+
+  .rate-popup-space {
+    top: 5%;
+    padding: 30px;
+    padding-bottom: 80px; }
+
+  .rate-img-explained {
+    float: none;
+    position: relative;
+    top: 50px; }
+
+  .rate-img-explained-mr {
+    margin-right: 14%; }
+
+  .rate-img-explained-mr1 {
+    margin-right: 0px; }
+
+  /*.rate-head p,
+  .rate-head a {
+  	float: none;
+  }*/ }
+@media (max-width: 315px) {
+  .rate-head p,
+  .rate-head .rate-explain-div {
+    float: none; } }
+@media (max-width: 389px) {
+  .rate-img-explained-mr {
+    margin-right: 11%; } }
+/*Shame*/
+.firefox .rate-bullets .rate-radio-mr-percent,
+.msie .rate-bullets .rate-radio-mr-percent,
+.lt + ie10 .rate-bullets .rate-radio-mr-percent {
+  margin-right: 36px; }
+
+.msie span.svg span.rateit-range,
+.msie span.svg span.rateit-preset,
+.lt + ie10 span.svg span.rateit-range,
+.lt + ie10 span.svg span.rateit-preset,
+.lt-ie9 span.svg span.rateit-range,
+.lt-ie9 span.svg span.rateit-preset,
+.win.safari span.svg span.rateit-range,
+.win.safari span.svg span.rateit-preset {
+  width: 140px !important; }
+
+.lt-ie9 .rate-mobile-bullets {
+  display: none; }
+
+.lt-ie9 .rate-radio-description {
+  width: 528px; }
+
+.lt-ie9 .rate-radio-description1 {
+  display: none; }
+
+/*SVG*/
+span.svg span.rateit-range {
+  background: url(../../images/02_common/icons/star-preset.svg); }
+
+.no-svg span.svg span.rateit-range {
+  background: url(../../images/02_common/icons/star-preset-fallback.png); }
+
+span.svg span.rateit-hover {
+  background: url(../../images/02_common/icons/star-normal.svg); }
+
+span.svg span.rateit-selected {
+  background: url(../../images/02_common/icons/star-normal.svg); }
+
+.no-svg span.svg span.rateit-selected {
+  background: url(../../images/02_common/icons/star-normal-fallback.png); }
+
+span.svg span.rateit-preset {
+  background: url(../../images/02_common/icons/star-normal.svg); }
+
+.no-svg span.svg span.rateit-preset {
+  background: url(../../images/02_common/icons/star-normal-fallback.png); }
+
+.msie span.svg span.rateit-range,
+.lt + ie10 span.svg span.rateit-range,
+.lt-ie9 span.svg span.rateit-range,
+.win.safari span.svg span.rateit-range {
+  background: url(../../images/02_common/icons/star-preset-fallback.png) !important; }
+
+.msie span.svg span.rateit-hover,
+.lt + ie10 span.svg span.rateit-hover,
+.lt-ie9 span.svg span.rateit-hover,
+.win.safari span.svg span.rateit-hover {
+  background: url(../../images/02_common/icons/star-normal-fallback.png) !important; }
+
+.msie span.svg span.rateit-selected,
+.lt + ie10 span.svg span.rateit-selected,
+.lt-ie9 span.svg span.rateit-selected,
+.win.safari span.svg span.rateit-selected {
+  background: url(../../images/02_common/icons/star-normal-fallback.png) !important; }
+
+.msie span.svg span.rateit-preset,
+.lt + ie10 span.svg span.rateit-preset,
+.lt-ie9 span.svg span.rateit-preset,
+.win.safari span.svg span.rateit-preset {
+  background: url(../../images/02_common/icons/star-normal-fallback.png) !important; }

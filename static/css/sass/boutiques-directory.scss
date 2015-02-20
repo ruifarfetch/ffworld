@@ -1,0 +1,181 @@
+@import '_variables';
+@import '_mixins';
+
+/* ==========================================================================
+   Filters 
+   ========================================================================== */
+
+/*Dropdown Styling*/
+.listing-filter-wrapper, .boutique-filter-paging-bottom {
+	& .dropdown {
+		margin-top:-4px;
+		& li {
+			float:left;
+			clear:both;
+			width:100%;
+			& a {
+				float:left;
+				clear:both;
+				width:100%;
+			}
+		}
+	}
+
+	& .boutique-pagination-dropdown {
+	 	width:62px;
+	 	margin-top:-4px;
+	 	margin-right:10px;
+	 	margin-left:8px;
+	}
+
+	& .boutique-pagination-count {
+		margin-top:1px;
+		display:table;
+		padding-right:10px;
+	}
+
+	& .icon-arrowLeft, .icon-thinArrow {
+		cursor:pointer;
+		width: 30px;
+		height: 30px;
+		&:before {
+		font-size:1.3em;
+		position: relative;
+		top: 5px;
+		right: -5px;
+		}
+	}
+
+}
+
+.no-touch .boutique-filter-wrapper, .boutique-filter-paging-bottom {
+	& .dropdown li:hover a{
+		text-decoration: underline;
+		box-shadow:none;
+	}
+}
+
+.boutique-directory {
+	& .accordion-item img {
+		width: 100%;
+	}
+
+	& .boutique-itemsFound div{
+		padding-left:10px!important;
+	}
+}
+
+a.boutique-filter-view_inactive {
+	color:$color-mediumGrey;
+}
+.left-filters-wrapper .accordion-content {
+padding: 20px 10px 0 10px;
+}
+
+ @media (min-width:$fablet +1) {
+ 	.boutique-leftFilters-wrapper {
+ 		display:block!important;
+ 		overflow:visible!important;
+ 	}
+ }
+
+
+
+
+/**
+ * Media Querie for small devices mobile and fablet
+ */
+@media (max-width:$fablet) {
+	.boutique-filter-wrapper {
+		color:$color-mediumGrey;
+		position:relative;
+		z-index:4;
+		& .boutique-filter-top-right { 
+			background-color: $color-white;
+			@include box-shadow(1px,1px,1px,rgba($color-black,.1));
+			padding: 10px 0 9px 0;
+			z-index:3;
+			& .boutique-header-filter {
+				cursor: pointer;
+				&.boutique-filter-active {
+					color:$color-black;
+					& .icon-down:before {
+						content: "\e611";
+					}
+				}
+				& .glyphs {
+					display: inline-block;
+					font-size:2.4em;
+					position:relative;
+					top:2px;
+					right: 5px;
+				}
+			}
+		}
+
+	}
+
+
+	.boutique-leftFilters-wrapper {
+		background-color: $color-white;
+		padding-left: 1%!important;
+		padding-top:20px;
+		top:-20px;
+		padding-bottom:20px;
+		z-index:2;
+		@include box-shadow(1px,1px,1px,rgba($color-black,.1));
+
+		& .accordion {
+			margin:0 10px 10px 10px;
+			& .h4 {
+				font-size:1em;
+			}
+		}
+
+		& .ms-parent {
+			padding-left:10px;
+			padding-right:10px;
+
+			&.ms-parent-open button span {
+				font-family: $font-bold;
+			}
+		}
+	}
+
+	
+	.boutique-directory {
+		padding-left:10px!important;
+		padding-right:10px!important;
+		& .boutique-directory-title-wrapper {
+			margin-bottom:10px;	
+
+			& h1 {
+				margin-bottom:4px;
+			}
+
+			& .boutique-directory-title {
+				font-family: $font-bold;
+				padding-right:6px;
+			}
+
+			& .boutique-itemsFound {
+				margin-top:7px;
+				padding-left:0;
+			}
+		}
+
+		& .boutique-pagination-count {
+ 		padding-right:2px;
+	 	}
+
+	 	& .boutique-pagination-dropdown {
+	 		margin-left:0px;
+	 	}
+	 	
+	 	& img{
+	 		width: 100%;
+	 	}
+	}
+
+
+}

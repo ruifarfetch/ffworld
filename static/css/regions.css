@@ -1,0 +1,301 @@
+/*Color*/
+/*Typography*/
+/*Grid*/
+/*Media Queries*/
+/*line-height*/
+/*Animation time*/
+/*Color*/
+/*Typography*/
+/*Grid*/
+/*Media Queries*/
+/*line-height*/
+/*Animation time*/
+/*Font face*/
+/*Icons Placeholder*/
+/*Border-radius*/
+/*Box-shadow*/
+/*Buttons*/
+/*Sprite*/
+/*Calculate rems*/
+/*Effects and animations*/
+/* ==========================================================================
+   Regions 
+   ========================================================================== */
+html[lang="jp"] h1, html[lang="jp"] h2, html[lang="jp"] h3, html[lang="jp"] h4, html[lang="jp"] h5, html[lang="jp"] h6, html[lang="jp"] .h1, html[lang="jp"] .h2, html[lang="jp"] .h3, html[lang="jp"] .h4, html[lang="jp"] .h5, html[lang="jp"] label {
+  font-family: 'MS PGothic', Osaka, Arial, sans-serif;
+  font-weight: bold;
+  letter-spacing: 0; }
+
+html[lang="jp"] .heading-bold, html[lang="jp"] .slug, html[lang="jp"] #spanSelectedSizeText, html[lang="jp"] .dropdown-accordion > span, html[lang="jp"] button span, html[lang="jp"] .checkout-summaryBox-title, html[lang="jp"] .tab {
+  font-weight: bold; }
+
+html[lang="jp"] .h1.glyphs, html[lang="jp"] .h2.glyphs, html[lang="jp"] .h3.glyphs, html[lang="jp"] .h4.glyphs, html[lang="jp"] .h5.glyphs, html[lang="jp"] .h6.glyphs {
+   font-family: "iconGliphs";
+}
+
+html[lang="jp"] *[itemprop="brand"], html[lang="jp"] .listing-department h4 {
+  font-family: "Polaris-Condensed-Bold", "Polaris-Bold", sans-serif;
+  font-weight: normal;
+  letter-spacing: 0.2em; }
+
+html[lang="jp"] .glyphs, html[lang="jp"] .glyphs-accordion:before, html[lang="jp"] .dropdown-label-option, html[lang="jp"] label span, html[lang="jp"] .productDetailModule-dropdown-countrySize {
+  font-weight: normal;
+  letter-spacing: 0; }
+
+  html[lang="zh"] body, html[lang="zh"] .heading-regular, html[lang="zh"] p{
+    font-family: Microsoft Yahei, 微软雅黑, STXihei, 华文细黑;
+    font-weight: normal;
+  }
+
+/*CHINA*/
+  html[lang="zh"] h1, html[lang="zh"] h2, html[lang="zh"] h3, html[lang="zh"] h4, html[lang="zh"] h5, html[lang="zh"] h6, html[lang="zh"] .h1, html[lang="zh"] .h2, html[lang="zh"] .h3, html[lang="zh"] .h4, html[lang="zh"] .h5, html[lang="zh"] label, html[lang="zh"] .heading-bold {
+  font-family: Microsoft Yahei, 微软雅黑, STXihei, 华文细黑;
+  font-weight: bold;
+  letter-spacing: 0; }
+
+html[lang="zh"] .heading-bold, html[lang="zh"] .slug, html[lang="zh"] #spanSelectedSizeText, html[lang="zh"] .dropdown-accordion > span, html[lang="zh"] button span, html[lang="zh"] .checkout-summaryBox-title, html[lang="zh"] .tab {
+  font-weight: bold; }
+
+html[lang="zh"] *[itemprop="brand"], html[lang="zh"] .listing-department h4 {
+  font-family: "Polaris-Condensed-Bold", "Polaris-Bold", sans-serif;
+  font-weight: normal;
+  letter-spacing: 0.2em; }
+
+html[lang="zh"] .glyphs, html[lang="zh"] .glyphs-accordion:before, html[lang="zh"] .dropdown-label-option, html[lang="zh"] label span, html[lang="zh"] .productDetailModule-dropdown-countrySize {
+  font-weight: normal;
+  letter-spacing: 0; }
+
+  html[lang="zh"] .header-user-counter,
+html[lang="zh"] .header-user-counter-bag-items { 
+  font-family: Microsoft Yahei, 微软雅黑, STXihei, 华文细黑 !important;
+}
+
+html[lang="zh"] .input-search {
+  font-family: Microsoft Yahei, 微软雅黑, STXihei, 华文细黑 !important;
+}
+
+html[lang="zh"] .header-primary-nav > li {
+  font-family: Microsoft Yahei, 微软雅黑, STXihei, 华文细黑 !important;
+}
+
+html[lang="zh"] .header-list {
+  font-family: Microsoft Yahei, 微软雅黑, STXihei, 华文细黑 !important;
+}
+
+html[lang="zh"] .header-secondary-nav {
+  font-family: Microsoft Yahei, 微软雅黑, STXihei, 华文细黑 !important;
+}
+
+html[lang="zh"] .header-list .accordion-links a {
+  font-family: Microsoft Yahei, 微软雅黑, STXihei, 华文细黑 !important;
+}
+
+html[lang="zh"] .header-secondary-nav h5, html[lang="zh"] .header-secondary-nav .header-mobile-menu {
+  font-family: Microsoft Yahei, 微软雅黑, STXihei, 华文细黑 !important;
+}
+
+html[lang="zh"] .header-search-mobile input {
+  font-family: Microsoft Yahei, 微软雅黑, STXihei, 华文细黑 !important;
+}
+
+html[lang="zh"] .header-search-mobile .button-gender-active {
+  font-family: Microsoft Yahei, 微软雅黑, STXihei, 华文细黑 !important;
+}
+
+html[lang="zh"] .header-search-mobile .button-gender-inactive {
+  font-family: Microsoft Yahei, 微软雅黑, STXihei, 华文细黑 !important;
+}
+
+html[lang="zh"] .header-login-mobile, html[lang="zh"] .header-login-mobile-logged-in {
+  font-family: Microsoft Yahei, 微软雅黑, STXihei, 华文细黑 !important;
+}
+
+
+ html[lang="zh"] .header-list .accordion-links .header-mobile-back a {
+  font-family: Microsoft Yahei, 微软雅黑, STXihei, 华文细黑 !important;
+ }
+
+html[lang="zh"] .header-mobile-back a {
+    font-family: Microsoft Yahei, 微软雅黑, STXihei, 华文细黑 !important;
+}
+
+html[lang="zh"] .header-mobile-submenu-title, 
+html[lang="zh"] .header-mobile-submenu-title a, 
+html[lang="zh"] .header-list .accordion-links .header-mobile-submenu-title, 
+html[lang="zh"] .header-list .accordion-links .header-mobile-submenu-title a { 
+  font-family: Microsoft Yahei, 微软雅黑, STXihei, 华文细黑 !important;
+}
+
+
+
+/*russia*/
+/*header login register drawers*/
+@media (min-width: 768px) and (max-width: 1024px) {
+  :lang(ru) .headerLogin, :lang(ru) .headerRegister {
+    padding-left: 50px; } }
+
+/*header top menu*/
+@media (min-width: 768px) and (max-width: 1024px) {
+  :lang(ru) .header-user li {
+    padding: 0 10px; } }
+
+/*header menu*/
+@media (min-width: 768px) and (max-width: 1024px) {
+  :lang(ru) .header-primary-nav > li {
+    font-size: 10px; } }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  :lang(ru) .header-secondary-nav li {
+    font-size: 13px; } }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  :lang(ru) .header-primary-nav > li > a {
+    padding: 0 15px 12px 0; } }
+
+/*listing page*/
+@media (max-width: 767px) {
+  :lang(ru) .listing-filters-apply-wrapper.col3.col-xs-4 {
+    width: 50%; } }
+
+:lang(ru) .listing-item-content {
+  min-height: 132px; }
+  @media (max-width: 767px) {
+    :lang(ru) .listing-item-content {
+      min-height: 150px; } }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  :lang(ru) .listing-filter-sort-dropdown .baseline.col6.col-md-8 {
+    width: 100%;
+    margin-top: 2px; } }
+
+@media (max-width: 480px) {
+  :lang(ru) .listing-filter-top-right-gridView.col-xs-4 {
+    width: 25%; } }
+
+@media (max-width: 480px) {
+  :lang(ru) .listing-filter-top-right-gridView .icon-single-column {
+    padding-left: 10px; } }
+
+@media (max-width: 480px) {
+  :lang(ru) .listing-filter-top-right-headerFilter {
+    text-align: left; } }
+
+@media (max-width: 480px) {
+  :lang(ru) .listing-filter-top-right-headerFilter .listing-header-filter {
+    display: inline-block;
+    padding-top: 0px;
+    padding-right: 6px;
+    padding-left: 0px;
+    width: 100%; } }
+
+@media (max-width: 480px) {
+  :lang(ru) .listing-filter-sort.col-xs-4 {
+    text-align: left;
+    width: 41.66%; } }
+
+@media (max-width: 480px) {
+  :lang(ru) .listing-filter-sort .listing-filter-sort-title {
+    display: inline-block;
+    padding-top: 0px !important; } }
+
+@media (max-width: 480px) {
+  :lang(ru) .listing-filter-top-right-headerFilter .glyphs, :lang(ru) .listing-filter-sort .glyphs {
+    font-size: 2em; } }
+
+@media (max-width: 767px) {
+  :lang(ru) .listing-filter-sort-dropdown {
+    margin-top: 5px; } }
+
+/*detail page*/
+@media (min-width: 768px) and (max-width: 1024px) {
+  :lang(ru) .detail-product .detail-notice {
+    float: left; } }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  :lang(ru) .productDetailModule-contact-listItem-icon {
+    float: left; } }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  :lang(ru) .productDetailModule-contact-listItem div.float-left {
+    width: 80%; } }
+
+/*checkout*/
+@media (max-width: 480px) {
+  :lang(ru) .checkout-signIn-remember {
+    float: left;
+    clear: both;
+    margin-top: 20px; } }
+
+@media (max-width: 480px) {
+  :lang(ru) .checkout-signIn-remember .label-check {
+    padding-left: 0px; } }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  :lang(ru) .checkout-header-Help h6 {
+    font-size: 13px; } }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  :lang(ru) .checkout-header-currency p {
+    margin-right: 10px !important;
+    padding-right: 10px !important; } }
+
+@media (max-width: 480px) {
+  :lang(ru) .checkout-steps-container h4::first-letter {
+    width: 100%;
+    float: left; } }
+
+@media (max-width: 480px) {
+  :lang(ru) .checkout-steps-container h4 {
+    font-size: 12px; } }
+
+@media (max-width: 480px) {
+  :lang(ru) body[data-page="returns"] .checkout-steps-container h4 {
+    font-size: 13px; } }
+
+@media (max-width: 480px) {
+  :lang(ru) .checkout-Maintitle-Container .checkout-editBag.col3 {
+    width: 100% !important; } }
+
+@media (max-width: 480px) {
+  :lang(ru) .checkout-Maintitle-Container-SignIn {
+    font-size: 10px; } }
+
+@media (max-width: 480px) {
+  :lang(ru) .remove-nowrap {
+    white-space: normal; } }
+
+@media (max-width: 480px) {
+  :lang(ru) .header-user-mobile-logged a.color-medium-grey {
+    float: left; } }
+
+/*Designers Page*/
+@media (max-width: 1024px) {
+  :lang(ru) .designers-header .designers-filters-toggle-title:before {
+    left: 90px; } }
+
+
+  /*Brasil*/
+@media (max-width: 480px) {
+  html[lang="pt"] .checkout-mainContent-boxModule-selectPayment .checkout-mainContent-boxModule-addNewTitle {
+  margin-top:0px!important;
+  }
+}
+
+@media (max-width: 480px) {
+  :lang(pt) .checkout-steps-container h4::first-letter {
+    width: 100%;
+    float: left; } }
+@media (max-width: 480px) {
+  :lang(pt) .checkout-steps .arrow_right {
+    top: 25px; } }
+@media (max-width: 480px) {
+  :lang(pt) .checkout-header-Help h6 {
+    display: none; } }
+@media (max-width: 480px) {
+  :lang(pt) .checkout-mainContent-boxModule-addNewAddress {
+    height: 88px !important;
+    min-height: 0px !important;
+    margin-top: 10px; } }
+@media (max-width: 480px) {
+  :lang(pt) .checkout-mainContent-boxModule-addNewAddress .checkout-mainContent-boxModule-addNewIcon-small {
+    padding-top: 16px !important; } }

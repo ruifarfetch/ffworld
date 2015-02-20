@@ -1,0 +1,35 @@
+/*Color*/
+/*Typography*/
+/*Grid*/
+/*Media Queries*/
+/*line-height*/
+/*Animation time*/
+/*Color*/
+/*Typography*/
+/*Grid*/
+/*Media Queries*/
+/*line-height*/
+/*Animation time*/
+/*Font face*/
+/*Icons Placeholder*/
+/*Border-radius*/
+/*Box-shadow*/
+/*Buttons*/
+/*Sprite*/
+/*Calculate rems*/
+/*Effects and animations*/
+/* ==========================================================================
+   About Us
+   ========================================================================== */
+.video-msg {
+  display: none;
+  position: absolute;
+  z-index: 2;
+  top: 35%;
+  left: 18%;
+  margin-left: -26px;
+  margin-top: -26px; }
+
+@media (max-width: 767px) {
+  .about-backTop {
+    margin-left: 10px; } }

@@ -1,0 +1,69 @@
+span.svg span.rateit-range {
+	 background: url(../../images/rate/star-preset.svg);
+}
+
+.no-svg span.svg span.rateit-range {
+	background: url(../../images/rate/star-preset-fallback.png); 
+}
+
+span.svg span.rateit-hover {
+  	background: url(../../images/rate/star-normal.svg); 
+}
+
+/*.no-svg span.svg span.rateit-hover {
+  	background: url(../../images/rate/star-normal-fallba.png); 
+}*/
+
+
+
+span.svg span.rateit-selected {
+ 	background: url(../../images/rate/star-normal.svg); 
+}
+
+
+.no-svg span.svg span.rateit-selected {
+ 	 background: url(../../images/rate/star-normal-fallback.png); 
+}
+
+
+
+span.svg span.rateit-preset {
+  	background: url(../../images/rate/star-normal.svg); 
+}
+
+
+
+.no-svg span.svg span.rateit-preset {
+  	background: url(../../images/rate/star-normal-fallback.png); 
+}
+
+
+
+.msie span.svg span.rateit-range,
+.lt+ie10 span.svg span.rateit-range,
+.lt-ie9 span.svg span.rateit-range,
+.win.safari span.svg span.rateit-range{
+	background: url(../../images/rate/star-preset-fallback.png ) !important;
+}
+
+.msie span.svg span.rateit-hover,
+.lt+ie10 span.svg span.rateit-hover,
+.lt-ie9 span.svg span.rateit-hover,
+.win.safari span.svg span.rateit-hover {
+	background: url(../../images/rate/star-normal-fallback.png) !important;
+}
+
+.msie span.svg span.rateit-selected,
+.lt+ie10 span.svg span.rateit-selected,
+.lt-ie9 span.svg span.rateit-selected,
+.win.safari span.svg span.rateit-selected {
+	background: url(../../images/rate/star-normal-fallback.png) !important ; 
+}
+
+.msie span.svg span.rateit-preset,
+.lt+ie10 span.svg span.rateit-preset,
+.lt-ie9 span.svg span.rateit-preset,
+.win.safari span.svg span.rateit-preset {
+	background: url(../../images/rate/star-normal-fallback.png) !important; 
+}
+

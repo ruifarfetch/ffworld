@@ -1,0 +1,39 @@
+/*Color*/
+/*Typography*/
+/*Grid*/
+/*Media Queries*/
+/*line-height*/
+/*Font face*/
+/*Border-radius*/
+/*Box-shadow*/
+/*Buttons*/
+/*Sprite*/
+/*Calculate rems*/
+/*Effects and animations*/
+.sliderDoubleModule {
+  background-color: white;
+  position: relative; }
+
+.sliderDoubleModule.gutter {
+  margin-bottom: 2px; }
+
+.sliderDoubleModule-content-container {
+  text-align: center;
+  padding-top: 14.5%; }
+
+.sliderDoubleModule-content-MainTitle {
+  color: #c2a67d; }
+
+.sliderDoubleModule-image-container {
+  line-height: 0; }
+
+.sliderDoubleModule-image-container img {
+  width: 100%; }
+
+.sliderDoubleModule .arrow_right {
+  right: 49%;
+  top: calc(50% - 8px); }
+
+.sliderDoubleModule .arrow_left {
+  left: 49%;
+  top: calc(50% - 8px); }

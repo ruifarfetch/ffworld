@@ -1,0 +1,93 @@
+/*Color*/
+/*Typography*/
+/*Grid*/
+/*Media Queries*/
+/*line-height*/
+/*Animation time*/
+/*Color*/
+/*Typography*/
+/*Grid*/
+/*Media Queries*/
+/*line-height*/
+/*Animation time*/
+/*Font face*/
+/*Icons Placeholder*/
+/*Border-radius*/
+/*Box-shadow*/
+/*Buttons*/
+/*Sprite*/
+/*Calculate rems*/
+/*Effects and animations*/
+/* ==========================================================================
+   Careers
+   ========================================================================== */
+.input_file {
+  font-size: .8em;
+  color: #aaaaaa;
+  cursor: pointer;
+  border: none;
+  border-color: transparent; }
+
+.careers img {
+  width: 100%; }
+@media (max-width: 767px) {
+  .careers .careers-leftmenu-wrapper {
+    padding-right: 0; } }
+.careers .careers-leftmenu ul {
+  width: 100%; }
+  .careers .careers-leftmenu ul li {
+    padding: 10px 0;
+    cursor: pointer; }
+.careers .careers-leftmenu-active {
+  font-family: "Polaris-Bold", sans-serif; }
+.careers .careers-content .helpContact-field-title {
+  margin: 0 10px; }
+.careers .careers-content .careers-selector-content .icon-phone, .careers .careers-content .careers-selector-content .icon-chat, .careers .careers-content .careers-selector-content .icon-contact {
+  margin: 4px 10px 0 0; }
+@media (max-width: 767px) {
+  .careers .helpContact-title {
+    margin: 30px 0 20px 0; }
+  .careers .accordion-helpContact-item {
+    margin: 0 -10px 0 -10px; }
+  .careers .careers-leftmenu {
+    padding: 10px 40px 0 20px;
+    margin-bottom: 20px;
+    background: white;
+    -webkit-box-shadow: 0px 1px 2px rgba(34, 34, 34, 0.05) ;
+    -moz-box-shadow: 0px 1px 2px rgba(34, 34, 34, 0.05) ;
+    box-shadow: 0px 1px 2px rgba(34, 34, 34, 0.05) ; }
+  .careers .helpContact-contctForm-inputFile {
+    display: none; } }
+
+@media (max-width: 767px) {
+  .office-box-wrapper {
+    margin-top: 10px; } }
+.office-box-wrapper .hero-content {
+  width: 80%; }
+
+.office-box {
+  height: 220px;
+  -webkit-box-shadow: 0px 1px 2px rgba(34, 34, 34, 0.05) ;
+  -moz-box-shadow: 0px 1px 2px rgba(34, 34, 34, 0.05) ;
+  box-shadow: 0px 1px 2px rgba(34, 34, 34, 0.05) ; }
+  @media (max-width: 480px) {
+    .office-box {
+      height: 148px; } }
+  .office-box .office-box-counter {
+    font-family: "Polaris-Condensed-Bold", "Polaris-Bold", sans-serif;
+    color: #aaaaaa;
+    letter-spacing: 0.2em;
+    margin-top: 77px; }
+    @media (max-width: 480px) {
+      .office-box .office-box-counter {
+        text-align: right;
+        margin-top: 14px;
+        padding-right: 10px; } }
+    .office-box .office-box-counter .office-box-counter-number {
+      font-size: 100px; }
+    .office-box .office-box-counter .office-box-counter-alt {
+      font-size: 13px;
+      font-size: 1.3rem;
+      line-height: 2.21rem;
+      text-transform: uppercase;
+      margin-top: 40px; }

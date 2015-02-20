@@ -1,0 +1,168 @@
+@import '_variables';
+@import '_mixins';
+
+/*Fancy Radio and Checkbox*/
+
+/*Adding custom checkbox icons*/
+/*16ps height removed*/
+.fancy-checkbox {
+	position: relative;
+	padding-right: 30px;
+	font-size: 13px;
+	cursor: pointer;
+	width:16px;
+	&:hover:before {
+		@include box-shadow(1px,1px,0px,#ccc,inset);
+	}
+}
+
+.fancy-checkbox:before, .fancy-checkbox:after {
+	@extend %glyphs;
+	line-height:1.2;
+	position: absolute; 
+	top: 0; 
+	left: 0;
+	margin-top:1px;
+}
+
+.fancy-checkbox:before {
+	content: ''; /*unchecked*/
+	background-color:$color-white!important;
+	width:16px;
+	height:16px;
+}
+
+.fancy-checkbox:after {
+	content: '\e61e'; /*checked*/
+	max-width: 0;
+	overflow: hidden;
+	font-size: 1.3em;
+	//@include transition(max-width, .35s, linear);
+}
+
+/*when the user checks the checkbox the checked icon will animate in*/
+input[type="checkbox"]:checked + .fancy-checkbox:after {
+	max-width: 16px; 
+	max-height: 16px;
+	color:$color-black;
+	@include box-shadow(1px,1px,0px,#ccc,inset);
+	opacity: 1;
+}
+
+/*Disabled State*/
+input[type="checkbox"]:disabled + .fancy-checkbox:hover:before {
+	box-shadow:none;
+}
+
+
+@media (max-width:$fablet) {
+	.fancy-checkbox:before {
+		background-color: $color-offWhite!important;
+	}
+}
+
+/*Force Default Styles in IE8*/
+.lt-ie9 input[type="checkbox"] {
+	display: inline-block;
+}
+
+.lt-ie9 .listing-leftFilters-wrapper .dropdown-label-option {
+	padding-left:10px;
+}
+
+.lt-ie9 .fancy-checkbox {
+	width:90%;
+	height:0px;
+	&:after {
+		content:""!important;
+		overflow: visible;
+	}
+}
+
+.lt-ie9 .fancy-checkbox:before {
+	background-color: transparent!important;
+}
+
+/*fancy radio button*/
+.fancy-radio-button  {  
+	display: inline-block;  
+    cursor: pointer;  
+    position: relative;  
+    padding-left: 25px;  
+    margin-right: 15px;  
+    font-size: 13px;  
+    width:16px;
+	height:16px;
+    &:hover:before {
+		@include box-shadow(1px,1px,0px,#ccc,inset);
+	}	
+}
+
+.fancy-radio-button:before, .fancy-radio-button:after {
+	@extend %glyphs;
+	line-height:1.2;
+	position: absolute; 
+	top: 0; 
+	left: 0;
+	margin-top:2px;
+}
+
+.fancy-radio-button:before {  
+   content: "";  
+   display: inline-block;  
+   width: 16px;  
+   height: 16px;  
+   background-color:$color-white;
+   padding-top:2px;
+   @include border-radius(8px);
+}  
+
+input[type=radio]:checked + .fancy-radio-button:before {  
+    content: "\e61f";  
+    color: $color-black;
+  
+    text-align: center;  
+    font-size: 1.3em; 
+    @include box-shadow(inset 1px,1px,0px, #cccccc);
+}  
+
+@media (max-width:$fablet) {
+	.fancy-radio-button:before {
+		background-color: $color-offWhite!important;
+	}
+}
+
+/*Force Default Styles in IE8*/
+.lt-ie9 input[type="radio"] {
+	display: inline-block;
+}
+
+.lt-ie9 .listing-leftFilters-wrapper .dropdown-label-option {
+	padding-left:10px;
+}
+
+.lt-ie9 .fancy-radio-button {
+	width:90%;
+	height:0px;
+	&:after {
+		content:""!important;
+		overflow: visible;
+	}
+	&:before { 
+		display:none;
+	}
+}
+
+.lt-ie9 .fancy-radio-button {
+	background-color: transparent!important;
+}
+.lt-ie9 input[type=radio]:checked + .fancy-radio-button:before  {
+	display:none;
+}
+
+
+/*Fancy Grey*/
+
+.fancy-grey:before  {
+  background-color: whitesmoke !important; 
+  @include box-shadow(1px,1px,0px,#ccc,inset);}

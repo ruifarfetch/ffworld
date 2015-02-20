@@ -1,0 +1,186 @@
+/*Color*/
+/*Typography*/
+/*Grid*/
+/*Media Queries*/
+/*line-height*/
+/*Animation time*/
+/*Color*/
+/*Typography*/
+/*Grid*/
+/*Media Queries*/
+/*line-height*/
+/*Animation time*/
+/*Font face*/
+/*Icons Placeholder*/
+/*Border-radius*/
+/*Box-shadow*/
+/*Buttons*/
+/*Sprite*/
+/*Calculate rems*/
+/*Effects and animations*/
+/* ==========================================================================
+   Checkout forms
+   ========================================================================== */
+.checkout-text-input {
+  font-family: "Polaris-Book", sans-serif;
+  width: 100%;
+  border: 0;
+  display: block;
+  padding: 8px;
+  -webkit-box-shadow: inset 1px 1px 0px rgba(34, 34, 34, 0.1) ;
+  -moz-box-shadow: inset 1px 1px 0px rgba(34, 34, 34, 0.1) ;
+  box-shadow: inset 1px 1px 0px rgba(34, 34, 34, 0.1) ;
+  outline: none;
+  cursor: text; }
+
+input[disabled] {
+  color: #ccc; }
+
+.checkout-postalCode-divider {
+  margin-top: 16px;
+  margin-bottom: 0px;
+  height: 2px; }
+
+@media (min-width: 480px) {
+  .checkout-form-input-left {
+    padding-right: 10px !important; } }
+
+.checkout-form-container .chosen-container_white .chosen-container a {
+  color: #000; }
+
+.icon-box-unchecked {
+  background-color: whitesmoke;
+  -webkit-box-shadow: inset 1px 1px 0px #cccccc ;
+  -moz-box-shadow: inset 1px 1px 0px #cccccc ;
+  box-shadow: inset 1px 1px 0px #cccccc ;
+  /*
+  -webkit-box-shadow: 1px 1px 0px #cccccc inset;
+  -moz-box-shadow: 1px 1px 0px #cccccc inset;
+  box-shadow: 1px 1px 0px #cccccc inset;*/ }
+
+.icon-radio-unchecked {
+  -webkit-box-shadow: inset 1px 1px 0px #cccccc ;
+  -moz-box-shadow: inset 1px 1px 0px #cccccc ;
+  box-shadow: inset 1px 1px 0px #cccccc ;
+  /*
+  -webkit-box-shadow: 1px 1px 0px #cccccc inset;
+  -moz-box-shadow: 1px 1px 0px #cccccc inset;
+  box-shadow: 1px 1px 0px #cccccc inset;
+  */
+  background-color: whitesmoke; }
+
+.no-touch .icon-box-checked:hover, .no-touch .icon-box-unchecked:hover, .no-touch .icon-radio-checked:hover, .no-touch .icon-radio-unchecked:hover {
+  -webkit-box-shadow: inset 1px 1px 0px #cccccc ;
+  -moz-box-shadow: inset 1px 1px 0px #cccccc ;
+  box-shadow: inset 1px 1px 0px #cccccc ;
+  background-color: whitesmoke; }
+
+.icon-box-checked, .icon-radio-checked {
+  -webkit-box-shadow: inset 1px 1px 0px #cccccc ;
+  -moz-box-shadow: inset 1px 1px 0px #cccccc ;
+  box-shadow: inset 1px 1px 0px #cccccc ;
+  background-color: whitesmoke; }
+
+@media (max-width: 767px) {
+  .checkout-sameAsShipping-addressBox-edit p {
+    float: left; } }
+
+.checkout-countrySelect-tooltip {
+  -webkit-box-shadow: 0px 1px 1px 1px rgba(34, 34, 34, 0.1);
+  -moz-box-shadow: 0px 1px 1px 1px rgba(34, 34, 34, 0.1);
+  box-shadow: 0px 1px 1px 1px rgba(34, 34, 34, 0.1);
+  width: 100%; }
+
+.checkout-countrySelect-tooltip .arrow_right {
+  position: absolute;
+  top: -7px;
+  left: 50%;
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -webkit-box-shadow: 2px -1px 2px rgba(34, 34, 34, 0.1) ;
+  -moz-box-shadow: 2px -1px 2px rgba(34, 34, 34, 0.1) ;
+  box-shadow: 2px -1px 2px rgba(34, 34, 34, 0.1) ; }
+
+.checkout-countrySelect-tooltip .button-white-circle {
+  width: 19px;
+  height: 19px; }
+
+/*js related classes*/
+.checkout-paycreditcard-form-notVisibleFirst {
+  display: none; }
+
+.js-checkout-sameAsShipping-addNewAddressBox {
+  display: none; }
+
+.js-checkout-sameAsShipping-continueBtn {
+  display: none; }
+
+.js-checkout-countrySelect-tooltip-russia {
+  display: none; }
+
+.js-checkout-countrySelect-tooltip-usa {
+  display: none; }
+
+.js-checkout-us-state {
+  display: none; }
+
+/*Flex for changing order of modules*/
+@media (max-width: 767px) {
+  .flexBox {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -moz-box-orient: vertical;
+    -webkit-box-orient: vertical;
+    -ms-box-orient: vertical;
+    -webkit-flex-direction: column;
+    flex-direction: column; }
+
+  .checkout-form-finalCTA {
+    -moz-box-ordinal-group: 1;
+    -webkit-box-ordinal-group: 1;
+    -ms-flex-order: 1;
+    -webkit-order: 1;
+    order: 1; }
+
+  .checkout-form-deleteAddress {
+    -moz-box-ordinal-group: 2;
+    -webkit-box-ordinal-group: 2;
+    -ms-flex-order: 2;
+    -webkit-order: 2;
+    order: 2; } }
+/* CVV icon aligment */
+.info-cvv {
+  position: relative;
+  top: 4px;
+  left: 5px; }
+
+.card-type {
+  position: relative;
+  width: 100%;
+  margin-top: -5px; }
+  .card-type li {
+    width: 17% !important;
+    margin-right: 3%;
+    opacity: .4;
+    -webkit-transition: opacity 0.2s ease-in-out;
+    -moz-transition: opacity 0.2s ease-in-out;
+    -o-transition: opacity 0.2s ease-in-out;
+    -ms-transition: opacity 0.2s ease-in-out;
+    transition: opacity 0.2s ease-in-out; }
+    .card-type li.active {
+      opacity: 1;
+      -webkit-transition: opacity 0.2s ease-in-out;
+      -moz-transition: opacity 0.2s ease-in-out;
+      -o-transition: opacity 0.2s ease-in-out;
+      -ms-transition: opacity 0.2s ease-in-out;
+      transition: opacity 0.2s ease-in-out; }
+    .card-type li:last-child {
+      padding-right: 0%; }
+
+.lt-ie9 .card-type li {
+  width: 25% !important;
+  margin-right: 0%; }

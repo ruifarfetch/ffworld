@@ -1,0 +1,36 @@
+/*Color*/
+/*Typography*/
+/*Grid*/
+/*Media Queries*/
+/*line-height*/
+/*Animation time*/
+/*Color*/
+/*Typography*/
+/*Grid*/
+/*Media Queries*/
+/*line-height*/
+/*Animation time*/
+/*Font face*/
+/*Icons Placeholder*/
+/*Border-radius*/
+/*Box-shadow*/
+/*Buttons*/
+/*Sprite*/
+/*Calculate rems*/
+/*Effects and animations*/
+/* ==========================================================================
+   Checkout confirmation slide
+   ========================================================================== */
+.checkout-confirmation-whatHapNext .bx-controls-direction {
+  display: none; }
+
+.checkout-confirmation-contact p .glyphs {
+  position: relative;
+  font-size: 24px;
+  font-size: 2.4rem;
+  line-height: 3.48rem;
+  padding-right: 5px;
+  top: -2px; }
+
+.checkout-listItems-topbar-shippingFrom-title {
+  margin-top: 2px; }

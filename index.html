@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" dir="LTR">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<title>Pages</title>
+	<!--[if lt IE 9]>
+    <link rel="stylesheet" type="text/css" href="/../static/css/bundlecss/ie8.css" />
+    <![endif]-->
+    <link href="static/css/global.css" rel="stylesheet">
+
+    <link href="static/css/homepage.css" rel="stylesheet">
+
+	<style>
+	.green{
+		color:#3eb46e;
+	}
+
+	.red{
+		color:#fd4f57;
+	}
+
+	.grey{
+		color: #aaa;
+	}
+	</style>
+
+	<script>
+	var requireMainFolder = "static/";
+	</script>
+
+	<!-- Include Scripts-->
+	<script data-main="static/js/loads" src="static/js/essentials/ffmodernizr.js"></script>
+
+	<script type="text/javascript">
+	require(['loads'], function() {
+		require(['essentials'], function() {
+			FFAPI.methods.initDynFFAPI("variables", "hasPlurals", false);
+			FFAPI.methods.initDynFFAPI("translations", "wbt_item_1", "item");
+			FFAPI.methods.initDynFFAPI("translations", "wbt_item_2", "items");
+			FFAPI.methods.initDynFFAPI("translations", "wbt_item_3", "items");
+			FFAPI.methods.initDynFFAPI("variables", "enableBlankLinks", false);
+			FFAPI.methods.initDynFFAPI("translations", "genderMen", "Men");
+			FFAPI.methods.initDynFFAPI("translations", "genderWomen", "Women");
+			FFAPI.methods.initDynFFAPI("translations", "requiredErrorMsg", "This field is required.");
+			FFAPI.methods.initDynFFAPI("translations", "remoteErrorMsg", "Please fix this field.");
+			FFAPI.methods.initDynFFAPI("translations", "emailErrorMsg", "Please enter a valid email address.");
+			FFAPI.methods.initDynFFAPI("translations", "urlErrorMsg", "Please enter a valid URL.");
+			FFAPI.methods.initDynFFAPI("translations", "dateErrorMsg", "Please enter a valid date.");
+			FFAPI.methods.initDynFFAPI("translations", "dateISOErrorMsg", "Please enter a valid date (ISO).");
+			FFAPI.methods.initDynFFAPI("translations", "numberErrorMsg", "Please enter a valid number.");
+			FFAPI.methods.initDynFFAPI("translations", "digitsErrorMsg", "Please enter only digits.");
+			FFAPI.methods.initDynFFAPI("translations", "creditcardErrorMsg", "Please enter a valid credit card number.");
+			FFAPI.methods.initDynFFAPI("translations", "equalToErrorMsg", "Please enter the same value again.");
+			FFAPI.methods.initDynFFAPI("translations", "numCharactersErrorMsg", "Please enter no more than {0} characters.");
+			FFAPI.methods.initDynFFAPI("translations", "minlengthErrorMsg", "Please enter at least {0} characters.");
+			FFAPI.methods.initDynFFAPI("translations", "rangelengthErrorMsg", "Please enter a value between {0} and {1} characters long.");
+			FFAPI.methods.initDynFFAPI("translations", "rangeErrorMsg", "Please enter a value between {0} and {1}.");
+			FFAPI.methods.initDynFFAPI("translations", "maxErrorMsg", "Please enter a value less than or equal to {0}.");
+			FFAPI.methods.initDynFFAPI("translations", "minErrorMsg", "Please enter a value greater than or equal to {0}.");
+			FFAPI.methods.initDynFFAPI("translations", "select", "Select");
+			FFAPI.methods.initDynFFAPI("translations", "yourLocation", "Your Location");
+			FFAPI.methods.initDynFFAPI("translations", "noBoutiquesFound", "No boutiques found in '{0}'. The closest boutique to your search is");
+			FFAPI.methods.initDynFFAPI("translations", "noResultsFound", "No results found for '{0}'. Please try searching for another location or boutique.");
+		});
+	});
+	</script>
+
+</head>
+
+<body>
+	<div class="field">
+		<div class="container">
+			<main>
+				<div class="baseline col4 col-md-4 col-sm-12 col-xs-12">
+					<h2 class="pt20 pb10">Page to test</h2>
+					<!--List default-->
+					<ul class="list-type h4">
+						<li><a href="01_login/login.html" target="_blank">Login</a></li>						
+					</ul>
+				</div>
+			</main>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,175 @@
+@import '_variables';
+
+/*Font face*/
+@mixin font-face($font-path, $font-family, $font-filename, $font-weight : normal, $font-style : normal) {
+@font-face {
+font-family: '#{$font-family}';
+src: url('#{$font-path}#{$font-filename}.eot');
+src: url('#{$font-path}#{$font-filename}.eot?#iefix') format('embedded-opentype'),
+url('#{$font-path}#{$font-filename}.woff') format('woff'),
+url('#{$font-path}#{$font-filename}.ttf') format('truetype'),
+url('#{$font-path}#{$font-filename}.svg##{$font-family}') format('svg');
+font-weight: $font-weight;
+font-style: $font-style;
+}
+} 
+
+/*Icons Placeholder*/
+%glyphs {
+  font-family: $font-gliphs;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    vertical-align:middle;
+}
+
+/*Border-radius*/
+@mixin border-radius($radius: 6px) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  -ms-border-radius: $radius;
+  -o-border-radius: $radius;
+  border-radius: $radius;
+}
+
+/*Box-shadow*/
+@mixin box-shadow($left, $top, $blur, $color, $inset:""){
+  -webkit-box-shadow:$left $top $blur $color unquote($inset);
+  -moz-box-shadow:$left $top $blur $color unquote($inset);
+  box-shadow:$left $top $blur $color unquote($inset);
+}
+
+@mixin box-shadow-no(){
+  -moz-box-shadow: none!important;
+  -o-box-shadow: none!important;
+  -webkit-box-shadow: none!important;
+  box-shadow: none!important;
+}
+
+/*Buttons*/
+@mixin button($bg-color, $color, $font, $width, $align, $opacity, $padding: "", $radius: ""){
+  background-color: $bg-color;
+  color: $color;
+  font-family: $font;
+  width: $width;
+  text-align: $align;
+  opacity: $opacity;
+  padding: unquote($padding);
+  @include border-radius($radius);
+  border:0;
+  outline: 0;
+}
+
+@mixin placeholder($color) {
+  &::-webkit-input-placeholder{color:$color;}
+  &:-moz-placeholder{color:$color;}
+  &::-moz-placeholder{color:$color;}
+  &:-ms-input-placeholder{color:$color;}
+  text-overflow: ellipsis;
+}
+
+@mixin button_circle($align, $padding: "", $radius: ""){
+  width: 30px;
+  height: 30px;
+  text-align: $align;
+  padding: unquote($padding);
+  @include border-radius($radius);
+  border:0;
+  outline: 0;
+  line-height: 1;
+}
+
+/*Sprite*/
+@mixin sprite{
+  background-image: url(../images/sprite.png);
+  background-image: rgba(0,0,0,0) url(../images/sprite.svg) no-repeat 0px 0px;
+}
+
+
+/*Calculate rems*/
+@function calculateRem($size) {
+  $remSize: $size / 10;
+  @return #{$remSize}rem;
+}
+
+@function calculateHeight($size){
+  $line-height: 1;
+  @if $size < 16 and $size > 10{
+  $line-height: ($size * 1.7);
+  }
+
+  @else{
+  $line-height: ($size * 1.45);
+  }
+
+  @return #{$line-height/10}rem;
+}
+
+@mixin fontSize($size) {
+  font-size: $size+px; //Fallback in px
+  font-size: calculateRem($size);
+  line-height: calculateHeight($size);
+}
+
+/*Effects and animations*/
+@mixin transform($x,$y){
+  -webkit-transform: translate($x,$y);
+  -moz-transform: translate($x,$y);
+  -o-transform: translate($x,$y);
+  -ms-transform: translate($x,$y);
+  transform: translate($x,$y);
+}
+
+@mixin translateX($x){
+  -webkit-transform: translateX($x);
+  -moz-transform: translateX($x);
+  -o-transform: translateX($x);
+  -ms-transform: translateX($x);
+  transform: translateX($x);
+}
+
+@mixin translate3D($x,$y,$z){
+  -webkit-transform: translate3d($x,$y,$z);
+  -moz-transform: translate3d($x,$y,$z);
+  -o-transform: translate3d($x,$y,$z);
+  -ms-transform: translate3d($x,$y,$z);
+  transform: translate3d($x,$y,$z);
+}
+
+@mixin transition($property: all,$duration: .3s,$ease: ease-in-out){
+  -webkit-transition: $property $duration $ease;
+  -moz-transition: $property $duration $ease;
+  -o-transition: $property $duration $ease;
+  -ms-transition: $property $duration $ease;
+  transition: $property $duration $ease;
+}
+
+@mixin animation($animation-name: fadein, $animation-time: .3s, $delay: 0s, $ease:ease-in-out, $direction:forwards, $animationStyle : normal, $animationState: 1){
+    -moz-animation: $animation-name $animation-time $delay $ease $direction; 
+    -webkit-animation: $animation-name $animation-time $delay $ease $direction; 
+    -o-animation: $animation-name $animation-time $delay $ease $direction; 
+    animation: $animation-name $animation-time $delay $ease $direction;
+
+}
+
+@mixin animationDelay($duration: .3s){
+      -moz-animation-delay: $duration;
+    -webkit-animation-delay: $duration;
+    -o-animation-delay: $duration;
+    animation-delay: $duration;
+}
+
+@mixin opacity($opacity){
+   $opacityPer: ($opacity * 100);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity="+$opacityPer+")";
+  filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity="+$opacityPer+")";
+  opacity: $opacity;
+}
+
+
+
+

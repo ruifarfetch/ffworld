@@ -1,0 +1,438 @@
+/*Color*/
+/*Typography*/
+/*Grid*/
+/*Media Queries*/
+/*line-height*/
+/*Animation time*/
+/*Color*/
+/*Typography*/
+/*Grid*/
+/*Media Queries*/
+/*line-height*/
+/*Animation time*/
+/*Font face*/
+/*Icons Placeholder*/
+/*Border-radius*/
+/*Box-shadow*/
+/*Buttons*/
+/*Sprite*/
+/*Calculate rems*/
+/*Effects and animations*/
+/* select icons */
+.pt5 {
+  padding-top: 5px !important; }
+
+.mt60 {
+  margin-top: 60px !important; }
+
+.mb60 {
+  margin-bottom: 60px !important; }
+
+.listing-pagination-dropdown {
+  width: 62px;
+  margin-top: -4px;
+  margin-right: 10px;
+  margin-left: 8px; }
+
+.listing-pagination-count {
+  margin-top: 1px;
+  display: inline-table; }
+
+.listing-filter-paging .icon-arrowLeft, .listing-filter-paging .icon-thinArrow {
+  cursor: pointer;
+  width: 30px;
+  height: 30px; }
+  .listing-filter-paging .icon-arrowLeft:before, .listing-filter-paging .icon-thinArrow:before {
+    font-size: 1.3em;
+    position: relative;
+    top: 5px;
+    right: -5px; }
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .listing-filter-paging .icon-arrowLeft, .listing-filter-paging .icon-thinArrow {
+    width: 24px; }
+    .listing-filter-paging .icon-arrowLeft:before, .listing-filter-paging .icon-thinArrow:before {
+      right: -6px; } }
+
+@media (max-width: 1280px) {
+  .reviews-count {
+    width: 100% !important; } }
+.top-module {
+  margin-bottom: 1px !important; }
+
+@media (max-width: 480px) {
+  .js-rateit {
+    margin-left: 0;
+    margin-top: 10px; }
+
+  .review-flex-container {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -moz-box-orient: vertical;
+    -webkit-box-orient: vertical;
+    -ms-box-orient: vertical;
+    -webkit-flex-direction: column;
+    flex-direction: column; }
+
+  .review-flex-item-1 {
+    -moz-box-ordinal-group: 2;
+    -webkit-box-ordinal-group: 2;
+    -ms-flex-order: 2;
+    -webkit-order: 2;
+    order: 2; }
+
+  .review-flex-item-2 {
+    -moz-box-ordinal-group: 1;
+    -webkit-box-ordinal-group: 1;
+    -ms-flex-order: 1;
+    -webkit-order: 1;
+    order: 1; } }
+.no-flex {
+  display: block;
+  -webkit-flex: none;
+  flex: none; }
+
+.modal h2 {
+  letter-spacing: 0px;
+  text-transform: none; }
+
+/* Rating */
+.rateit {
+  display: -moz-inline-box;
+  display: inline-block;
+  position: relative;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+  margin-left: 10px; }
+
+.rateit .rateit-range {
+  position: relative;
+  display: -moz-inline-box;
+  display: inline-block;
+  height: 15px;
+  outline: none; }
+
+.rateit .rateit-range * {
+  display: block; }
+
+/* for IE 6 */
+* html .rateit, * html .rateit .rateit-range {
+  display: inline; }
+
+/* for IE 7 */
+* + html .rateit, * + html .rateit .rateit-range {
+  display: inline; }
+
+.rateit .rateit-hover, .rateit .rateit-selected {
+  position: absolute;
+  left: 0px; }
+
+.rateit .rateit-hover-rtl, .rateit .rateit-selected-rtl {
+  left: auto;
+  right: 0px; }
+
+.rateit .rateit-hover-rtl {
+  background-position: right -32px; }
+
+.rateit .rateit-selected-rtl {
+  background-position: right -16px; }
+
+.rateit button.rateit-reset {
+  width: 16px;
+  height: 16px;
+  display: none !important;
+  float: left;
+  outline: none;
+  border: none;
+  padding: 0; }
+
+.rateit button.rateit-reset:hover, .rateit button.rateit-reset:focus {
+  background-position: 0 -16px; }
+
+/*css*/
+.icon-radio-checked ~ p {
+  color: #222 !important; }
+
+.rate-position-number-button {
+  top: -40px;
+  left: 3px; }
+
+.rate-position-number-button-1 {
+  top: -40px;
+  left: -1px; }
+
+.rate-radio-description {
+  margin-top: -30px;
+  width: 528px; }
+
+.rate-radio-description1 {
+  margin-top: -30px; }
+
+.rate-mt50 {
+  margin-top: 50px; }
+
+.rate-mt70 {
+  margin-top: 70px; }
+
+.rate-nickname-descri {
+  font-size: 13; }
+
+.rate-imput-size textarea {
+  resize: none;
+  height: 125px; }
+
+.rate-radio-mr-percent {
+  margin-right: 36px; }
+
+.rate-bullets {
+  width: 100%; }
+
+.rate-bullets-div {
+  width: 528px; }
+
+.rate-img-explained-mr {
+  margin-right: 25px; }
+
+.rate-img-explained-mr1 {
+  margin-right: 30px; }
+
+.rate-img-explained-mb {
+  margin-bottom: 40px; }
+
+.rate-bullets li {
+  width: 15px !important; }
+
+.rate-icon-circular-bg {
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  background-color: white;
+  margin-top: 4px; }
+
+.rate-icon-circular-bg span:before {
+  margin-top: 2px;
+  margin-left: 2.5px;
+  float: left;
+  font-size: 1em; }
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .rate-star-div li span .rateit {
+    float: none; } }
+@media (max-width: 481px) {
+  .rate-question {
+    float: none; }
+
+  .rate-popup-space {
+    top: 5%;
+    padding: 30px;
+    padding-bottom: 80px; }
+
+  .rate-img-explained {
+    float: none;
+    position: relative;
+    top: 50px; }
+
+  .rate-img-explained-mr {
+    margin-right: 14%; }
+
+  .rate-img-explained-mr1 {
+    margin-right: 0px; } }
+.svg span.rateit-range,
+.no-svg span.rateit-range,
+.svg span.rateit-hover,
+.svg span.rateit-selected,
+.no-svg span.rateit-selected,
+.svg span.rateit-preset,
+.no-svg span.rateit-preset {
+  background-repeat: repeat-x; }
+
+@media (max-width: 315px) {
+  .rate-head p,
+  .rate-head .rate-explain-div {
+    float: none; } }
+@media (max-width: 389px) {
+  .rate-img-explained-mr {
+    margin-right: 11%; } }
+/*Shame*/
+.firefox .rate-bullets .rate-radio-mr-percent,
+.msie .rate-bullets .rate-radio-mr-percent,
+.lt + ie10 .rate-bullets .rate-radio-mr-percent {
+  margin-right: 36px; }
+
+.msie span.svg span.rateit-range,
+.msie span.svg span.rateit-preset,
+.lt + ie10 span.svg span.rateit-range,
+.lt + ie10 span.svg span.rateit-preset,
+.lt-ie9 span.svg span.rateit-range,
+.lt-ie9 span.svg span.rateit-preset,
+.win.safari span.svg span.rateit-range,
+.win.safari span.svg span.rateit-preset {
+  width: 156px !important; }
+
+.lt-ie9 .rate-mobile-bullets {
+  display: none; }
+
+.lt-ie9 .rate-radio-description {
+  width: 528px; }
+
+.lt-ie9 .rate-radio-description1 {
+  display: none; }
+
+.svg span.rateit-range {
+  background: url("data:image/svg+xml;charset=US-ASCII,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22UTF-8%22%20standalone%3D%22no%22%3F%3E%0A%3C%21--%20Generator%3A%20Adobe%20Illustrator%2018.1.0%2C%20SVG%20Export%20Plug-In%20.%20SVG%20Version%3A%206.00%20Build%200%29%20%20--%3E%0A%3Csvg%20id%3D%22Layer_1%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20xml%3Aspace%3D%22preserve%22%20version%3D%221.1%22%20y%3D%220px%22%20x%3D%220px%22%20xmlns%3Axlink%3D%22http%3A//www.w3.org/1999/xlink%22%20viewBox%3D%220%200%2035%2015%22%20enable-background%3D%22new%200%200%2035%2015%22%3E%0A%3Cg%20id%3D%22Layer_7_2_%22%3E%0A%09%3Cpath%20d%3D%22m15.6%205.6c0-0.1-0.2-0.2-0.3-0.2h-5.5l-1.7-5.2c0-0.1-0.2-0.2-0.3-0.2-0.2%200-0.3%200.1-0.3%200.2l-1.7%205.2h-5.5c-0.2%200-0.3%200.1-0.3%200.2%200%200.2%200%200.4%200.1%200.5l4.5%203.2-1.7%205.2c0%200.1%200%200.3%200.1%200.4s0.3%200.1%200.4%200l4.5-3.2%204.5%203.2c0.1%200%200.1%200.1%200.2%200.1s0.1%200%200.2-0.1-0.1-0.4-0.1-0.4l-1.7-5.2%204.5-3.2c0.1-0.1%200.1-0.2%200.1-0.5z%22%20fill%3D%22%23AAAAAB%22/%3E%0A%3C/g%3E%0A%3C/svg%3E%0A"); }
+.svg span.rateit-hover {
+  background: url("data:image/svg+xml;charset=US-ASCII,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22UTF-8%22%20standalone%3D%22no%22%3F%3E%0A%3C%21--%20Generator%3A%20Adobe%20Illustrator%2018.1.0%2C%20SVG%20Export%20Plug-In%20.%20SVG%20Version%3A%206.00%20Build%200%29%20%20--%3E%0A%3Csvg%20id%3D%22Layer_1%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20xml%3Aspace%3D%22preserve%22%20viewBox%3D%22-1.5%200%2035%2015%22%20version%3D%221.1%22%20y%3D%220px%22%20x%3D%220px%22%20xmlns%3Axlink%3D%22http%3A//www.w3.org/1999/xlink%22%20enable-background%3D%22new%20-1.5%200%2035%2015%22%3E%0A%3Cg%20id%3D%22Layer_7_2_%22%3E%0A%09%3Cpath%20d%3D%22m14.1%205.6c0-0.1-0.2-0.2-0.3-0.2h-5.5l-1.7-5.2c0-0.1-0.2-0.2-0.3-0.2-0.2%200-0.3%200.1-0.3%200.2l-1.7%205.2h-5.5c-0.2%200-0.3%200.1-0.3%200.2%200%200.2%200%200.4%200.1%200.5l4.5%203.2-1.7%205.2c0%200.1%200%200.3%200.1%200.4s0.3%200.1%200.4%200l4.5-3.2%204.5%203.2c0.1%200%200.1%200.1%200.2%200.1s0.1%200%200.2-0.1-0.1-0.4-0.1-0.4l-1.7-5.2%204.5-3.2c0.1-0.1%200.1-0.2%200.1-0.5z%22%20fill%3D%22%23222%22/%3E%0A%3C/g%3E%0A%3C/svg%3E%0A"); }
+.svg span.rateit-selected {
+  background: url("data:image/svg+xml;charset=US-ASCII,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22UTF-8%22%20standalone%3D%22no%22%3F%3E%0A%3C%21--%20Generator%3A%20Adobe%20Illustrator%2018.1.0%2C%20SVG%20Export%20Plug-In%20.%20SVG%20Version%3A%206.00%20Build%200%29%20%20--%3E%0A%3Csvg%20id%3D%22Layer_1%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20xml%3Aspace%3D%22preserve%22%20viewBox%3D%22-1.5%200%2035%2015%22%20version%3D%221.1%22%20y%3D%220px%22%20x%3D%220px%22%20xmlns%3Axlink%3D%22http%3A//www.w3.org/1999/xlink%22%20enable-background%3D%22new%20-1.5%200%2035%2015%22%3E%0A%3Cg%20id%3D%22Layer_7_2_%22%3E%0A%09%3Cpath%20d%3D%22m14.1%205.6c0-0.1-0.2-0.2-0.3-0.2h-5.5l-1.7-5.2c0-0.1-0.2-0.2-0.3-0.2-0.2%200-0.3%200.1-0.3%200.2l-1.7%205.2h-5.5c-0.2%200-0.3%200.1-0.3%200.2%200%200.2%200%200.4%200.1%200.5l4.5%203.2-1.7%205.2c0%200.1%200%200.3%200.1%200.4s0.3%200.1%200.4%200l4.5-3.2%204.5%203.2c0.1%200%200.1%200.1%200.2%200.1s0.1%200%200.2-0.1-0.1-0.4-0.1-0.4l-1.7-5.2%204.5-3.2c0.1-0.1%200.1-0.2%200.1-0.5z%22%20fill%3D%22%23222%22/%3E%0A%3C/g%3E%0A%3C/svg%3E%0A"); }
+.svg span.rateit-preset {
+  background: url("data:image/svg+xml;charset=US-ASCII,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22UTF-8%22%20standalone%3D%22no%22%3F%3E%0A%3C%21--%20Generator%3A%20Adobe%20Illustrator%2018.1.0%2C%20SVG%20Export%20Plug-In%20.%20SVG%20Version%3A%206.00%20Build%200%29%20%20--%3E%0A%3Csvg%20id%3D%22Layer_1%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20xml%3Aspace%3D%22preserve%22%20viewBox%3D%22-1.5%200%2035%2015%22%20version%3D%221.1%22%20y%3D%220px%22%20x%3D%220px%22%20xmlns%3Axlink%3D%22http%3A//www.w3.org/1999/xlink%22%20enable-background%3D%22new%20-1.5%200%2035%2015%22%3E%0A%3Cg%20id%3D%22Layer_7_2_%22%3E%0A%09%3Cpath%20d%3D%22m14.1%205.6c0-0.1-0.2-0.2-0.3-0.2h-5.5l-1.7-5.2c0-0.1-0.2-0.2-0.3-0.2-0.2%200-0.3%200.1-0.3%200.2l-1.7%205.2h-5.5c-0.2%200-0.3%200.1-0.3%200.2%200%200.2%200%200.4%200.1%200.5l4.5%203.2-1.7%205.2c0%200.1%200%200.3%200.1%200.4s0.3%200.1%200.4%200l4.5-3.2%204.5%203.2c0.1%200%200.1%200.1%200.2%200.1s0.1%200%200.2-0.1-0.1-0.4-0.1-0.4l-1.7-5.2%204.5-3.2c0.1-0.1%200.1-0.2%200.1-0.5z%22%20fill%3D%22%23222%22/%3E%0A%3C/g%3E%0A%3C/svg%3E%0A"); }
+
+.no-svg span.rateit-range {
+  background: url("../../static/images/02_common/fallback/icons/star-preset-plugins.png"); }
+.no-svg span.rateit-selected {
+  background: url("../../static/images/02_common/fallback/icons/star-normal-plugins.png"); }
+.no-svg span.rateit-preset {
+  background: url("../../static/images/02_common/fallback/icons/star-normal-plugins.png"); }
+
+.msie span.svg span.rateit-range,
+.lt-ie10 span.svg span.rateit-range,
+.lt-ie9 span.svg span.rateit-range,
+.win.safari span.svg span.rateit-range {
+  background: url("../../static/images/02_common/fallback/icons/star-preset-plugins.png") !important; }
+
+.msie span.svg span.rateit-hover,
+.lt + ie10 span.svg span.rateit-hover,
+.lt-ie9 span.svg span.rateit-hover,
+.win.safari span.svg span.rateit-hover {
+  background: url("../../static/images/02_common/fallback/icons/star-normal-plugins.png") !important; }
+
+.msie span.svg span.rateit-selected,
+.lt + ie10 span.svg span.rateit-selected,
+.lt-ie9 span.svg span.rateit-selected,
+.win.safari span.svg span.rateit-selected {
+  background: url("../../static/images/02_common/fallback/icons/star-normal-plugins.png") !important; }
+
+.msie span.svg span.rateit-preset,
+.lt + ie10 span.svg span.rateit-preset,
+.lt-ie9 span.svg span.rateit-preset,
+.win.safari span.svg span.rateit-preset {
+  background: url("../../static/images/02_common/fallback/icons/star-normal-plugins.png") !important; }
+
+.svg .rating-static-module span.rateit {
+  background: url("data:image/svg+xml;charset=US-ASCII,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22UTF-8%22%20standalone%3D%22no%22%3F%3E%0A%3C%21--%20Generator%3A%20Adobe%20Illustrator%2018.1.0%2C%20SVG%20Export%20Plug-In%20.%20SVG%20Version%3A%206.00%20Build%200%29%20%20--%3E%0A%3Csvg%20id%3D%22Layer_1%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20xml%3Aspace%3D%22preserve%22%20viewBox%3D%2230.7%20283.4%20286.4%20276.6%22%20version%3D%221.1%22%20y%3D%220px%22%20x%3D%220px%22%20xmlns%3Axlink%3D%22http%3A//www.w3.org/1999/xlink%22%20enable-background%3D%22new%2030.7%20283.4%20286.4%20276.6%22%3E%0A%3Cg%20id%3D%22Layer_7_2_%22%3E%0A%09%3Cpath%20d%3D%22m317.1%20387.3c0-2-3.9-3.9-5.9-3.9h-100l-31.4-96.1c0-2-3.9-3.9-5.9-3.9-3.9%200-5.9%202-5.9%203.9l-31.4%2096.1h-100c-3.9%200-5.9%202-5.9%203.9%200%202%200%205.9%202%207.8l82.3%2058.9-31.4%2096.1c0%202%200%205.9%202%207.8%202%202%205.9%202%207.8%200l82.4-58.8%2082.4%2058.8c2%200%202%202%203.9%202%202%200%202%200%203.9-2-2-2-2-3.9-2-7.8l-31.3-96.1%2082.4-58.8c2-2%202-4%202-7.9z%22%20fill%3D%22%23AAAAAB%22/%3E%0A%3C/g%3E%0A%3C/svg%3E%0A") no-repeat; }
+.svg .rating-static-module span.rateit-selected {
+  background: url("data:image/svg+xml;charset=US-ASCII,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22UTF-8%22%20standalone%3D%22no%22%3F%3E%0A%3C%21--%20Generator%3A%20Adobe%20Illustrator%2018.1.0%2C%20SVG%20Export%20Plug-In%20.%20SVG%20Version%3A%206.00%20Build%200%29%20%20--%3E%0A%3Csvg%20id%3D%22Layer_1%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20xml%3Aspace%3D%22preserve%22%20viewBox%3D%2230.7%20262.2%20288.3%20276.6%22%20version%3D%221.1%22%20y%3D%220px%22%20x%3D%220px%22%20xmlns%3Axlink%3D%22http%3A//www.w3.org/1999/xlink%22%20enable-background%3D%22new%2030.7%20262.2%20288.3%20276.6%22%3E%0A%3Cg%20id%3D%22Layer_7%22%3E%0A%09%3Cpath%20d%3D%22m317.1%20366.2c0-2-3.9-3.9-5.9-3.9h-100l-31.4-96.1c0-2-3.9-3.9-5.9-3.9-3.9%200-5.9%202-5.9%203.9l-31.4%2096.1h-100c-3.9%200-5.9%202-5.9%203.9%200%202%200%205.9%202%207.8l82.4%2058.8-31.5%2096.2c0%202%200%205.9%202%207.8%202%202%205.9%202%207.8%200l82.4-58.8%2082.4%2058.8c2%200%202%202%203.9%202%202%200%202%200%203.9-2%202-2%203.9-5.9%202-7.8l-31.4-96.1%2082.4-58.9c-1.9-1.9-1.9-5.9-1.9-7.8z%22%20fill%3D%22%23222%22/%3E%0A%3C/g%3E%0A%3C/svg%3E%0A") no-repeat; }
+.svg .rating-static-module span.rateit-halfselected {
+  background: url("data:image/svg+xml;charset=US-ASCII,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22utf-8%22%3F%3E%0D%0A%3C%21--%20Generator%3A%20Adobe%20Illustrator%2018.1.0%2C%20SVG%20Export%20Plug-In%20.%20SVG%20Version%3A%206.00%20Build%200%29%20%20--%3E%0D%0A%3Csvg%20version%3D%221.1%22%20id%3D%22Layer_1%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20xmlns%3Axlink%3D%22http%3A//www.w3.org/1999/xlink%22%20x%3D%220px%22%20y%3D%220px%22%0D%0A%09%20viewBox%3D%22142.4%200%20157.6%20150%22%20enable-background%3D%22new%20142.4%200%20157.6%20150%22%20xml%3Aspace%3D%22preserve%22%3E%0D%0A%3Cg%20id%3D%22Layer_7%22%3E%0D%0A%09%3Cpath%20fill%3D%22%23222222%22%20d%3D%22M221.2%2C0c-1.6%2C0-3.1%2C1-3.6%2C2.6l-16.8%2C51.7h-54.6c-1.6%2C0-3.1%2C1-3.6%2C2.6s0%2C3.1%2C1.3%2C4.1l44.2%2C32.1l-16.8%2C51.7%0D%0A%09%09c-0.5%2C1.6%2C0%2C3.1%2C1.3%2C4.1s3.1%2C1%2C4.4%2C0l44.2-32.1l15.8-38L221.2%2C0z%22/%3E%0D%0A%3C/g%3E%0D%0A%3Cg%20id%3D%22Layer_7_1_%22%3E%0D%0A%09%3Cpath%20fill%3D%22%23ABABAB%22%20d%3D%22M221.2%2C116.9l44.2%2C32.3c1.3%2C1%2C3.1%2C1%2C4.4%2C0c1.3-1%2C1.8-2.6%2C1.3-4.1l-16.8-51.7l44.2-32.1%0D%0A%09%09c1.3-1%2C1.8-2.6%2C1.3-4.1c-0.5-1.6-1.8-2.6-3.6-2.6h-54.6L224.8%2C2.8C224.3%2C1.3%2C223%2C0%2C221.2%2C0%22/%3E%0D%0A%3C/g%3E%0D%0A%3C/svg%3E%0D%0A") no-repeat; }
+.svg .rating-static-module span.rateit-big {
+  background: url("data:image/svg+xml;charset=US-ASCII,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22UTF-8%22%20standalone%3D%22no%22%3F%3E%0A%3C%21--%20Generator%3A%20Adobe%20Illustrator%2018.1.0%2C%20SVG%20Export%20Plug-In%20.%20SVG%20Version%3A%206.00%20Build%200%29%20%20--%3E%0A%3Csvg%20id%3D%22Layer_1%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20xml%3Aspace%3D%22preserve%22%20viewBox%3D%2230.7%20283.4%20286.4%20276.6%22%20version%3D%221.1%22%20y%3D%220px%22%20x%3D%220px%22%20xmlns%3Axlink%3D%22http%3A//www.w3.org/1999/xlink%22%20enable-background%3D%22new%2030.7%20283.4%20286.4%20276.6%22%3E%0A%3Cg%20id%3D%22Layer_7_2_%22%3E%0A%09%3Cpath%20d%3D%22m317.1%20387.3c0-2-3.9-3.9-5.9-3.9h-100l-31.4-96.1c0-2-3.9-3.9-5.9-3.9-3.9%200-5.9%202-5.9%203.9l-31.4%2096.1h-100c-3.9%200-5.9%202-5.9%203.9%200%202%200%205.9%202%207.8l82.3%2058.9-31.4%2096.1c0%202%200%205.9%202%207.8%202%202%205.9%202%207.8%200l82.4-58.8%2082.4%2058.8c2%200%202%202%203.9%202%202%200%202%200%203.9-2-2-2-2-3.9-2-7.8l-31.3-96.1%2082.4-58.8c2-2%202-4%202-7.9z%22%20fill%3D%22%23AAAAAB%22/%3E%0A%3C/g%3E%0A%3C/svg%3E%0A") no-repeat; }
+.svg .rating-static-module span.rateit-big-selected {
+  background: url("data:image/svg+xml;charset=US-ASCII,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22UTF-8%22%20standalone%3D%22no%22%3F%3E%0A%3C%21--%20Generator%3A%20Adobe%20Illustrator%2018.1.0%2C%20SVG%20Export%20Plug-In%20.%20SVG%20Version%3A%206.00%20Build%200%29%20%20--%3E%0A%3Csvg%20id%3D%22Layer_1%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20xml%3Aspace%3D%22preserve%22%20viewBox%3D%2230.7%20262.2%20288.3%20276.6%22%20version%3D%221.1%22%20y%3D%220px%22%20x%3D%220px%22%20xmlns%3Axlink%3D%22http%3A//www.w3.org/1999/xlink%22%20enable-background%3D%22new%2030.7%20262.2%20288.3%20276.6%22%3E%0A%3Cg%20id%3D%22Layer_7%22%3E%0A%09%3Cpath%20d%3D%22m317.1%20366.2c0-2-3.9-3.9-5.9-3.9h-100l-31.4-96.1c0-2-3.9-3.9-5.9-3.9-3.9%200-5.9%202-5.9%203.9l-31.4%2096.1h-100c-3.9%200-5.9%202-5.9%203.9%200%202%200%205.9%202%207.8l82.4%2058.8-31.5%2096.2c0%202%200%205.9%202%207.8%202%202%205.9%202%207.8%200l82.4-58.8%2082.4%2058.8c2%200%202%202%203.9%202%202%200%202%200%203.9-2%202-2%203.9-5.9%202-7.8l-31.4-96.1%2082.4-58.9c-1.9-1.9-1.9-5.9-1.9-7.8z%22%20fill%3D%22%23222%22/%3E%0A%3C/g%3E%0A%3C/svg%3E%0A") no-repeat; }
+.svg .rating-static-module span.rateit-big-halfselected {
+  background: url("data:image/svg+xml;charset=US-ASCII,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22utf-8%22%3F%3E%0D%0A%3C%21--%20Generator%3A%20Adobe%20Illustrator%2018.1.0%2C%20SVG%20Export%20Plug-In%20.%20SVG%20Version%3A%206.00%20Build%200%29%20%20--%3E%0D%0A%3Csvg%20version%3D%221.1%22%20id%3D%22Layer_1%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20xmlns%3Axlink%3D%22http%3A//www.w3.org/1999/xlink%22%20x%3D%220px%22%20y%3D%220px%22%0D%0A%09%20viewBox%3D%22142.4%200%20157.6%20150%22%20enable-background%3D%22new%20142.4%200%20157.6%20150%22%20xml%3Aspace%3D%22preserve%22%3E%0D%0A%3Cg%20id%3D%22Layer_7%22%3E%0D%0A%09%3Cpath%20fill%3D%22%23222222%22%20d%3D%22M221.2%2C0c-1.6%2C0-3.1%2C1-3.6%2C2.6l-16.8%2C51.7h-54.6c-1.6%2C0-3.1%2C1-3.6%2C2.6s0%2C3.1%2C1.3%2C4.1l44.2%2C32.1l-16.8%2C51.7%0D%0A%09%09c-0.5%2C1.6%2C0%2C3.1%2C1.3%2C4.1s3.1%2C1%2C4.4%2C0l44.2-32.1l15.8-38L221.2%2C0z%22/%3E%0D%0A%3C/g%3E%0D%0A%3Cg%20id%3D%22Layer_7_1_%22%3E%0D%0A%09%3Cpath%20fill%3D%22%23ABABAB%22%20d%3D%22M221.2%2C116.9l44.2%2C32.3c1.3%2C1%2C3.1%2C1%2C4.4%2C0c1.3-1%2C1.8-2.6%2C1.3-4.1l-16.8-51.7l44.2-32.1%0D%0A%09%09c1.3-1%2C1.8-2.6%2C1.3-4.1c-0.5-1.6-1.8-2.6-3.6-2.6h-54.6L224.8%2C2.8C224.3%2C1.3%2C223%2C0%2C221.2%2C0%22/%3E%0D%0A%3C/g%3E%0D%0A%3C/svg%3E%0D%0A") no-repeat; }
+
+.no-svg .rating-static-module span.rateit {
+  background: url("../../static/images/02_common/fallback/icons/star-preset.png") no-repeat; }
+.no-svg .rating-static-module span.rateit-selected {
+  background: url("../../static/images/02_common/fallback/icons/star-normal.png") no-repeat; }
+.no-svg .rating-static-module span.rateit-halfselected {
+  background: url("../../static/images/02_common/fallback/icons/half-star-preset.png") no-repeat; }
+.no-svg .rating-static-module span.rateit-big {
+  background: url("../../static/images/02_common/fallback/icons/star-preset-big.png") no-repeat; }
+.no-svg .rating-static-module span.rateit-big-selected {
+  background: url("../../static/images/02_common/fallback/icons/star-normal-big.png") no-repeat; }
+.no-svg .rating-static-module span.rateit-big-halfselected {
+  background: url("../../static/images/02_common/fallback/icons/half-star-normal-big.png") no-repeat; }
+
+.rating-static-module {
+  margin-top: 15px; }
+  .rating-static-module .rateit,
+  .rating-static-module .rateit-halfselected,
+  .rating-static-module .rateit-selected {
+    margin: 0 17px 0 0; }
+  .rating-static-module .rateit:last-child {
+    margin: 0; }
+  .rating-static-module .rateit-big,
+  .rating-static-module .rateit-big-halfselected,
+  .rating-static-module .rateit-big-selected {
+    margin: 0 15px 0 0; }
+  @media (max-width: 315px) {
+    .rating-static-module .rate-head p,
+    .rating-static-module .rate-head .rate-explain-div {
+      float: none; } }
+  @media (max-width: 389px) {
+    .rating-static-module .rate-img-explained-mr {
+      margin-right: 11%; } }
+
+.lt-ie9 .rating-static-module {
+  margin-right: -17px; }
+
+.svg .rating-static-module span.rateit {
+  background-size: 15px;
+  height: 15px;
+  width: 15px; }
+.svg .rating-static-module span.rateit-selected {
+  background-size: 15px;
+  height: 15px;
+  width: 15px; }
+.svg .rating-static-module span.rateit-halfselected {
+  background-size: 15px;
+  height: 15px;
+  width: 15px; }
+.svg .rating-static-module span.rateit-big {
+  background-size: 36px;
+  height: 36px;
+  width: 36px; }
+.svg .rating-static-module span.rateit-big-selected {
+  background-size: 36px;
+  height: 36px;
+  width: 36px; }
+.svg .rating-static-module span.rateit-big-halfselected {
+  background-size: 36px;
+  height: 36px;
+  width: 36px; }
+
+.no-svg .rating-static-module span.rateit {
+  background-size: 15px;
+  width: 15px;
+  height: 15px; }
+.no-svg .rating-static-module span.rateit-selected {
+  background-size: 15px;
+  width: 15px;
+  height: 15px; }
+.no-svg .rating-static-module span.rateit-halfselected {
+  background-size: 15px;
+  width: 15px;
+  height: 15px; }
+.no-svg .rating-static-module span.rateit-big {
+  height: 36px;
+  width: 36px; }
+.no-svg .rating-static-module span.rateit-big-selected {
+  height: 36px;
+  width: 36px; }
+.no-svg .rating-static-module span.rateit-big-halfselected {
+  height: 36px;
+  width: 36px; }
+
+.rate-img-explained {
+  margin: 0;
+  padding: 0; }
+  .rate-img-explained li {
+    float: left; }
+
+.modal .rating-static-module {
+  margin-top: 3px;
+  margin-right: 25px; }
+  @media (max-width: 480px) {
+    .modal .rating-static-module {
+      width: 100%;
+      margin-right: 0;
+      margin-bottom: 5px; } }

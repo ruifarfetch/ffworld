@@ -1,0 +1,201 @@
+@import '_variables';
+@import '_mixins';
+
+/* ==========================================================================
+   Responsice Accordion - Structure Control
+   ========================================================================== */
+
+.accordion {
+
+	.accordion-item{
+		float: left;
+		width: 100%;
+
+	}
+	.active .accordion-title{
+		border-bottom:1px solid $color-mediumGrey;
+	}
+
+	.accordion-title {
+	    border-bottom: 1px solid #ccc;
+
+	}
+
+	.accordion-title .icon-more {
+		float: right;
+		position: relative;
+	}
+
+	.accordion-content {
+		width: 100%;
+		float: left;
+    	display: none;
+	}
+
+	.accordion-item.active .icon-more:before {
+  		content: "\e613";
+	}
+
+	.accordion-item.active .accordion-content {
+		display: inline-block;
+	}
+}
+
+.lt-ie9 .accordion {
+	.accordion-title {
+		cursor: pointer;
+	}
+}
+
+.accordion-md,
+.accordion-sm,
+.accordion-xs {
+	.accordion-title {
+	    border-bottom: none;
+	}
+
+	.accordion-title .icon-more {
+		display: none;
+	}
+
+	.accordion-content {
+    	display: inline-block;
+	}
+
+	.accordion-content.pa10 {
+    	padding-top: 0;
+	}
+}
+
+@media (min-width: $tablet + 1) {
+	.accordion-xl {
+		.accordion-title {
+			cursor: pointer;
+		}
+
+		.accordion-title .icon-more {
+			display: inherit;
+		}
+
+		.accordion-content {
+	    	display: none;
+		}
+
+		.accordion-content.pa10 {
+	    	padding-top: 10px;
+		}
+	}
+}
+
+@media (max-width: $tablet) {
+	.accordion-xl,
+	.accordion-md {
+		.accordion-title {
+			cursor: pointer;
+			border-bottom: 1px solid #ccc;
+		}
+
+		.accordion-title .icon-more {
+			display: inherit;
+		}
+
+		.accordion-content {
+	    	display: none;
+		}
+
+		.accordion-content.pa10 {
+	    	padding-top: 10px;
+		}
+	}
+}
+
+@media (max-width: $fablet) {
+	.accordion-xl,
+	.accordion-md,
+	.accordion-sm {
+		.accordion-title {
+			cursor: pointer;
+			border-bottom: 1px solid #ccc;
+		}
+
+		.accordion-title .icon-more {
+			display: inherit;
+		}
+
+		.accordion-content {
+	    	display: none;
+		}
+
+		.accordion-content.pa10 {
+	    	padding-top: 10px;
+		}
+	}
+}
+
+@media (max-width: $mobile) {
+	.accordion-xl,
+	.accordion-md,
+	.accordion-sm,
+	.accordion-xs {
+		.accordion-title {
+			cursor: pointer;
+			border-bottom: 1px solid #ccc;
+		}
+
+		.accordion-title .icon-more {
+			display: inherit;
+		}
+
+		.accordion-content {
+	    	display: none;
+		}
+
+		.accordion-content.pa10 {
+	    	padding-top: 10px;
+		}
+	}
+}
+
+/* ==========================================================================
+   Accordion White
+   ========================================================================== */
+.accordion-white {
+	.accordion-item {
+		display: inline-block;
+		margin-bottom: 2px;
+	}
+
+	.accordion-title, .active .accordion-title {
+		border-bottom: none;
+		background-color: $color-white;
+		@include box-shadow(1px,1px,1px,rgba($color-black,.1));
+	}
+
+	.accordion-content {
+		padding: 20px;
+		background-color: $color-white;
+		@include box-shadow(1px,1px,1px,rgba($color-black,.1));
+	}
+
+	.accordion-item.active {
+		margin-bottom: 10px;
+	}
+}
+
+/* ==========================================================================
+   Accordion Regular
+   ========================================================================== */
+.accordion.accordion-regular,
+.accordion .accordion-regular {
+	.accordion-title {
+		width: 100%;
+		display: table;
+		border-bottom: none;
+	}
+
+	.accordion-title .col1 {
+		display: table-cell;
+		vertical-align: middle;
+		float: none;
+	}
+}

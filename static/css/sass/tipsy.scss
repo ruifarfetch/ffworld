@@ -1,0 +1,161 @@
+@import '_variables';
+@import '_mixins';
+
+$arrow-size: 12px;
+
+.tipsy
+{
+  position:absolute;
+  z-index:100000;
+}
+
+.tipsy-inner
+{
+  background-color:$color-offWhite;
+  @include box-shadow(0px, 0px, 3px, #ddd);
+  max-width:200px;
+  text-align:left;
+  padding:10px;
+  font-weight: normal;
+}
+
+.tipsy-arrow
+{
+  position:absolute;
+  width:0;
+  height:0;
+  line-height:0;
+  vertical-align: middle;
+  border-style: dashed;
+  border-color: transparent;
+  border-width: $arrow-size;
+}
+
+/*Arrow Styling*/
+.tipsy-arrow-n
+{
+  border-bottom-style: solid;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -$arrow-size;
+  border-bottom-color:$color-offWhite;
+}
+
+.tipsy-arrow-s
+{
+  border-top-style: solid;
+  top: 100%;
+  left: 50%;
+  margin-left: -$arrow-size;
+  border-top-color:$color-offWhite;
+}
+
+.tipsy-arrow-e
+{
+  border-left-style: solid;
+  left: 100%;
+  top: 50%;
+  margin-top: -$arrow-size;
+  border-left-color:$color-offWhite;
+}
+
+.tipsy-arrow-w
+{
+  border-right-style: solid;
+  right: 100%;
+  top: 50%;
+  margin-top: -$arrow-size;
+  border-right-color:$color-offWhite;
+}
+/*
+.tipsy-n .tipsy-arrow
+{
+  border-bottom-width: 1em;
+  bottom: 0.25em;
+}
+
+.tipsy-nw .tipsy-arrow
+{
+  top:0;
+  left:10px;
+  border-bottom-style:solid;
+  border-top:none;
+  border-left-color:transparent;
+  border-right-color:transparent;
+}
+
+.tipsy-ne .tipsy-arrow
+{
+  top:0;
+  right:10px;
+  border-bottom-style:solid;
+  border-top:none;
+  border-left-color:transparent;
+  border-right-color:transparent;
+}
+
+.tipsy-s .tipsy-arrow
+{
+  border-top-width: 1em;
+  top: 0.25em;
+}
+
+.tipsy-sw .tipsy-arrow
+{
+  bottom:0;
+  left:10px;
+  border-top-style:solid;
+  border-bottom:none;
+  border-left-color:transparent;
+  border-right-color:transparent;
+}
+
+.tipsy-se .tipsy-arrow
+{
+  bottom:0;
+  right:10px;
+  border-top-style:solid;
+  border-bottom:none;
+  border-left-color:transparent;
+  border-right-color:transparent;
+}
+
+.tipsy-e .tipsy-arrow
+{
+  border-left-width: 1em;
+  left: 0.25em;
+}
+
+.tipsy-w .tipsy-arrow
+{
+  border-right-width: 1em;
+  right: 0.25em;
+}
+*/
+/*Darker Tooltip*/
+.darker .tipsy-inner{  background-color:$color-black;}
+
+.darker .tipsy-arrow{
+  border:5px dashed $color-black;
+}
+
+.darker .tipsy-arrow-n{
+  border-bottom-color:$color-black;
+}
+
+.darker .tipsy-arrow-s{
+  border-top-color:$color-black;
+}
+
+.darker .tipsy-arrow-e{
+  border-left-color:$color-black;
+}
+
+.darker .tipsy-arrow-w{
+  border-right-color:$color-black;
+}
+
+/**/
+.glyphs.clickTooltips {
+    vertical-align: baseline;
+}

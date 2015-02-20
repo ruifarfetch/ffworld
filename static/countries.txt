@@ -1,0 +1,38 @@
+﻿{
+    "suggestions": [
+        { "value": "Maison Du Posh", "data": "", "category": "Women" },
+        { "value": "Maison Martin Margiela", "data": "", "category": "Women" },
+        { "value": "Maison Michel", "data": "", "category": "Women" },
+        { "value": "Maison Passage", "data": "", "category": "Women" },
+        { "value": "Maison Rabih Kayrouz", "data": "", "category": "Women" },
+        { "value": "Maison Scotch", "data": "", "category": "Women" },
+        { "value": "Maison Takuya", "data": "", "category": "Women" },
+        { "value": "Maison Ullens", "data": "", "category": "Women" },
+        { "value": "Maiyet", "data": "", "category": "Women" },
+        { "value": "Majestic", "data": "", "category": "Women" },
+        
+        { "value": "Maison Du Posh", "data": "", "category": "Men" },
+        { "value": "Maison Martin Margiela", "data": "", "category": "Men" },
+        { "value": "Maison Michel", "data": "", "category": "Men" },
+        { "value": "Maison Passage", "data": "", "category": "Men" },
+        { "value": "Maison Rabih Kayrouz", "data": "", "category": "Men" },
+        { "value": "Maison Scotch", "data": "", "category": "Men" },
+        { "value": "Maison Takuya", "data": "", "category": "Men" },
+        { "value": "Maison Ullens", "data": "", "category": "Men" },
+        { "value": "Maiyet", "data": "", "category": "Men" },
+        { "value": "Majestic", "data": "", "category": "Men" },
+
+        { "value": "Maison Du Posh", "data": "", "category": "Home" },
+        { "value": "Maison Martin Margiela", "data": "", "category": "Home" },
+        { "value": "Maison Michel", "data": "", "category": "Home" },
+        { "value": "Maison Passage", "data": "", "category": "Home" },
+        { "value": "Maison Rabih Kayrouz", "data": "", "category": "Home" },
+        { "value": "Maison Scotch", "data": "", "category": "Home" },
+        { "value": "Maison Takuya", "data": "", "category": "Home" },
+        { "value": "Maison Ullens", "data": "", "category": "Home" },
+        { "value": "Maiyet", "data": "", "category": "Home" },
+        { "value": "Majestic", "data": "", "category": "Home" }
+    ]
+    
+
+}

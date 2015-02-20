@@ -1,0 +1,250 @@
+@import '_variables';
+@import '_mixins';
+@import '_svgIcons';
+
+/* ==========================================================================
+   Checkout summaryBox
+   ========================================================================== */
+.checkout-summaryBox-total button{
+  clear:both;
+}
+
+hr{
+  height: 1px;
+  font-size: 0;
+  border: 0;
+}
+
+.checkout-summaryBox-container{
+  padding-left: 6px;
+	z-index:3;
+  @media (max-width:$tablet){
+    padding-left: 0px;
+  }
+}
+
+.checkout-summaryBox-container-main{
+	@include box-shadow(1px,1px,1px,rgba($color-black,.1));
+}
+
+.checkout-summaryBox-container-main dl {
+  margin: 0px; }
+
+.checkout-summaryBox-container-main dd {
+white-space: nowrap;
+}
+
+.checkout-summaryBox-container-secondary-promo{
+  border-top: 1px solid $color-platinum;
+  border-bottom: 1px solid $color-platinum;
+}
+
+.checkout-summaryBox-container-secondary-promo-action{
+  cursor:pointer;
+}
+
+.checkout-summaryBox-container-secondary-promo-insert{
+  display:none;
+}
+
+.checkout-summaryBox-container-secondary-promo-insert label{ 
+  white-space: nowrap;
+}
+.checkout-summaryBox-container-secondary-promo-insert_visible{
+  display:block;
+}
+
+.checkout-summaryBox-container-secondary-promo .icon-less{
+  display:none;
+}
+
+.checkout-summaryBox-total dt{
+  font-family: $font-bold;
+}
+
+/*capped shipping*/
+.checkout-summaryBox-shipping-info {
+  cursor: pointer;
+  .glyphs {
+    margin-top:2px;
+  }
+}
+
+.checkout-summaryBox-capped-shipping dd{
+  padding-right: 38px;
+  margin-left: 0px;
+  @media(max-width:$tablet){
+    padding-right: 28px;
+  }
+}
+
+.checkout-summaryBox-shipping-detailed-info {
+  margin-top:-10px;
+}
+
+/*fixto ie fix*/
+.msie .fixto-clone {width:auto!important;}
+
+
+.checkout-summary-brInstalments-container .chosen-container .chosen-results{
+   max-height: 140px;
+}
+
+.svg .checkout-summaryBox-secure{
+  background-image: $norton-data-svg;
+}
+.no-svg .checkout-summaryBox-secure{
+  background-image: $norton-file-png;
+}
+.checkout-summaryBox-secure{
+  background-size:115px 45px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100%;
+  height: 120px;
+  margin-top: -10px;
+}
+
+
+// logos
+
+
+.svg {
+  .checkout-summaryBox-container-main {
+     .norton {
+      background-image: $norton-data-svg;
+    }
+    .paypal {
+      background-image: $paypal-data-svg;
+    }
+    .boleto {
+      background-image: $boleto-data-svg;
+    }
+    .ebit {
+      background-image: url('https://a248.e.akamai.net/f/248/52872/0s/img.ebit.com.br/ebitBR/selo/img_19465.png');  
+    }
+    .reclame {
+      background-image: url('http://cdn-static.farfetch.com/content/br/images/footer/selo_reclameaqui.png');
+    }
+    .site-blindado {
+      background-image: url('http://cdn.siteblindado.com/seals_aw/farfetch.com br/siteblindado.gif');
+    }
+  }
+}
+.no-svg {
+  .checkout-summaryBox-container-main {
+     .norton {
+      background-image: $norton-file-png;
+    }
+    .paypal {
+      background-image: $paypal-file-png;
+    }
+    .boleto {
+      background-image: $boleto-file-png;
+    }
+    .ebit {
+      background-image: url('../../static/images/02_common/icons/ebit.png');  
+    }
+    .reclame {
+      background-image: url('../../static/images/02_common/icons/selo_reclameaqui.png');  
+    }
+    .site-blindado {
+      background-image: url('../../static/images/02_common/icons/siteblindado.gif');
+    }
+  }
+}
+ 
+.norton {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 78px 30px; 
+  height: 51px;
+}
+.paypal {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 90px 22px; 
+  height: 51px;
+}
+.boleto {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 67px 30px; 
+  height: 51px;
+}
+.ebit {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 45px 47px;
+  height: 51px; 
+}
+.reclame {
+  background-repeat: no-repeat;
+  background-position: center;  
+  background-size: 95px 30px;
+  height: 51px;
+}
+.site-blindado {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 95px 26px; 
+  height: 51px;
+}
+
+
+.safari4.android .checkout-summaryBox-container-main {
+  .norton {
+    width: 78px;
+    height: 30px;
+    margin-right: 15px;
+  }
+  .paypal {
+    width: 78px;
+    height: 30px;
+    margin-right: 15px;
+  }
+  .boleto {
+    width: 67px;
+    height: 30px;
+    margin-right: 15px;
+  }
+  .ebit {
+    background-size: 29px 30px;
+    width: 29px;
+    height: 30px;
+    margin-right: 15px;
+  }
+  .reclame {
+    width: 95px;
+    height: 30px;
+    margin-right: 15px;
+  }
+  .site-blindado {
+    width: 95px;
+    height: 30px;
+    margin-right: 15px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*russia message*/
+.checkout-shoppingBag-RussiaAcceptance {
+  & .modal-content {
+    max-height: 518px;
+    overflow-y: scroll;
+  }
+}

@@ -1,0 +1,42 @@
+/*Color*/
+/*Typography*/
+/*Grid*/
+/*Media Queries*/
+/*line-height*/
+/*Animation time*/
+/*Color*/
+/*Typography*/
+/*Grid*/
+/*Media Queries*/
+/*line-height*/
+/*Animation time*/
+/*Font face*/
+/*Icons Placeholder*/
+.breadcrumbs-regular span {
+  font-family: "iconGliphs";
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  vertical-align: middle; }
+
+/*Border-radius*/
+/*Box-shadow*/
+/*Buttons*/
+/*Sprite*/
+/*Calculate rems*/
+/*Effects and animations*/
+/* ==========================================================================
+   Breacrumbs
+   ========================================================================== */
+.breadcrumbs-regular {
+  color: #aaa; }
+  .breadcrumbs-regular a {
+    color: #aaa; }
+  .breadcrumbs-regular span:before {
+    content: "\e605";
+    position: relative;
+    padding: 0px 2px; }
