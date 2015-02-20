@@ -1713,7 +1713,8 @@ figcaption{
 	position: fixed;
 	left: 0;
 	right: 0;
-	bottom: 0;
+	top: 100%;
+	margin-top:-50px;
 	background-color: #bfbfbf;
 	height: 50px;
 	z-index: 0
