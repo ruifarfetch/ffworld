@@ -35,16 +35,10 @@ require.config({
         api_header: jsSubFolderBundles + 'header' + jsMinified,
         plu_domReady: jsSubFolderBundles + 'domReady' + jsMinified,
         plu_fastclick: jsSubFolderBundles + "fastclick" + jsMinified,
-        //Listing.js
-        plu_multipleSelect: jsSubFolderBundles + "jquery.multiple" + jsMinified,
         ///Checkout_detail_listing_sizehelp
         plu_resTables: jsSubFolderBundles + "responsive-tables" + jsMinified,
         ///designersDirectory.js / helpContact.js /countrySelector.js /checkout.js /careers
         plu_fixto: jsSubFolderBundles + "fixto" + jsMinified,
-        ///boutiqueDirectory.js / designersDirectory.js / listing.js
-        plu_waypoints: jsSubFolderBundles + "waypoints" + jsMinified,
-        plu_waypointsSticky: jsSubFolderBundles + "waypoints-sticky" + jsMinified,
-        plu_scrollReveal: jsSubFolderBundles + 'scrollReveal' + jsMinified,
         ///checkout.js
         plu_politespace: jsSubFolderBundles + "politespace" + jsMinified,
         ///Editorial
@@ -64,31 +58,12 @@ require.config({
         pag_landing: jsSubFolderBundles + "landing" + jsMinified,
         pag_listing: jsSubFolderBundles + "listing" + jsMinified,
         pag_detail: jsSubFolderBundles + "detail" + jsMinified,
-        pag_designers: jsSubFolderBundles + "designers" + jsMinified,
-        pag_designersDirectory: jsSubFolderBundles + "designersDirectory" + jsMinified,
         pag_unfollow: jsSubFolderBundles + "unfollow" + jsMinified,
-        pag_checkout: jsSubFolderBundles + "checkout" + jsMinified,
-        pag_checkoutBasket: jsSubFolderBundles + "checkoutBasket" + jsMinified,
-        pag_checkoutAddress: jsSubFolderBundles + "checkoutAddress" + jsMinified,
-        pag_checkoutPayment: jsSubFolderBundles + "checkoutPayment" + jsMinified,
-        pag_checkoutReview: jsSubFolderBundles + "checkoutReview" + jsMinified,
-        pag_checkoutConfirmation: jsSubFolderBundles + "checkoutConfirmation" + jsMinified,
         pag_editorial: jsSubFolderBundles + "editorial" + jsMinified,
         pag_post: jsSubFolderBundles + "post" + jsMinified,
-        pag_boutiqueDirectory: jsSubFolderBundles + "boutiqueDirectory" + jsMinified,
-        pag_countrySelector: jsSubFolderBundles + "countrySelector" + jsMinified,
-        pag_rating: jsSubFolderBundles + "rating" + jsMinified,
-        pag_helpContact: jsSubFolderBundles + "helpContact" + jsMinified,
-        pag_aboutUs: jsSubFolderBundles + "aboutUs" + jsMinified,
-        pag_account: jsSubFolderBundles + "account" + jsMinified,
-        pag_returns: jsSubFolderBundles + "returns" + jsMinified,
-        pag_careers: jsSubFolderBundles + "careers" + jsMinified,
-        pag_marketing_br: jsSubFolderBundles + "marketing_br" + jsMinified,
-        pag_affiliates: jsSubFolderBundles + "affiliates" + jsMinified,
         pag_ambassadors: jsSubFolderBundles + "ambassadors" + jsMinified,
         pag_login: jsSubFolderBundles + "login" + jsMinified,
         api_main: jsSubFolderApi + 'main-2.0.0',
-        plu_dropdown: jsSubFolderPlugins + 'jquery.dropdown-1.0.1' + jsMinified,
         pag_reviews: jsSubFolderBundles + "reviews" + jsMinified,
         pag_unfollow: jsSubFolderBundles + "unfollow" + jsMinified
     },
